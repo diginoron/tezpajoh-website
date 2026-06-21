@@ -1,0 +1,60 @@
+.footer {
+  background: var(--secondary);
+  padding-top: 60px;
+  margin-top: 80px;
+  border-top: 1px solid var(--glass-border);
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.brandInfo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.brandInfo p {
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.links h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: var(--text-main);
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  margin-bottom: 12px;
+}
+
+.links a {
+  color: var(--text-muted);
+}
+
+.links a:hover {
+  color: var(--primary);
+  padding-right: 5px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+  }
+}
