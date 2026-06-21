@@ -30,6 +30,11 @@
   padding: 40px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--glass-border);
+  transition: all 0.4s ease;
+}
+
+.mainContent:hover {
+  box-shadow: 0 15px 40px rgba(0,0,0,0.04);
 }
 
 .mainContent h2 {
@@ -59,11 +64,17 @@
 
 /* Content Boxes */
 .infoBox {
-  background-color: rgba(52, 152, 219, 0.1);
+  background-color: rgba(52, 152, 219, 0.05);
   border-right: 4px solid #3498db;
   padding: 20px;
   border-radius: var(--radius-sm);
   margin: 25px 0;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.infoBox:hover {
+  transform: translateX(-5px);
 }
 
 .infoBox h3 {
@@ -74,11 +85,17 @@
 }
 
 .warningBox {
-  background-color: rgba(243, 156, 18, 0.1);
+  background-color: rgba(243, 156, 18, 0.05);
   border-right: 4px solid #f39c12;
   padding: 20px;
   border-radius: var(--radius-sm);
   margin: 25px 0;
+  box-shadow: 0 4px 15px rgba(243, 156, 18, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.warningBox:hover {
+  transform: translateX(-5px);
 }
 
 .warningBox h3 {
@@ -89,11 +106,17 @@
 }
 
 .successBox {
-  background-color: rgba(46, 204, 113, 0.1);
+  background-color: rgba(46, 204, 113, 0.05);
   border-right: 4px solid #2ecc71;
   padding: 20px;
   border-radius: var(--radius-sm);
   margin: 25px 0;
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.successBox:hover {
+  transform: translateX(-5px);
 }
 
 .successBox h3 {
@@ -109,7 +132,12 @@
   padding: 25px;
   border-radius: var(--radius-md);
   margin: 30px 0;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  transition: all 0.3s ease;
+}
+
+.featureBox:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
 }
 
 .sidebar {
