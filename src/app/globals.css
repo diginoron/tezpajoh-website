@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap');
 
 :root {
-  --bg-color: #050a15;
-  --text-main: #f8f9fa;
-  --text-muted: #a0aab2;
-  --primary: #d4af37; /* Gold */
-  --primary-hover: #f1c40f;
-  --secondary: #1a2332; /* Lighter navy */
-  --glass-bg: rgba(26, 35, 50, 0.6);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --bg-color: #f8f9fa; /* Light gray/white background */
+  --text-main: #111827; /* Dark text */
+  --text-muted: #4b5563; /* Gray text */
+  --primary: #b58d22; /* Darker gold for better contrast on white */
+  --primary-hover: #d4af37;
+  --secondary: #ffffff; /* White surfaces */
+  --glass-bg: rgba(255, 255, 255, 0.85); /* Light glass */
+  --glass-border: rgba(0, 0, 0, 0.1); /* Darker border for light glass */
   --radius-lg: 16px;
   --radius-md: 12px;
   --radius-sm: 8px;
@@ -74,7 +74,7 @@ h1, h2, h3, h4 {
 
 .btn-primary {
   background: linear-gradient(135deg, var(--primary) 0%, #b58d22 100%);
-  color: #050a15;
+  color: #ffffff;
   padding: 12px 28px;
   border-radius: var(--radius-sm);
   font-weight: 700;
@@ -85,12 +85,12 @@ h1, h2, h3, h4 {
   justify-content: center;
   gap: 8px;
   transition: var(--transition);
-  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 15px rgba(181, 141, 34, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+  box-shadow: 0 6px 20px rgba(181, 141, 34, 0.4);
 }
 
 .btn-outline {
@@ -109,6 +109,6 @@ h1, h2, h3, h4 {
 }
 
 .btn-outline:hover {
-  background: rgba(212, 175, 55, 0.1);
+  background: rgba(181, 141, 34, 0.1);
   transform: translateY(-2px);
 }

@@ -15,7 +15,7 @@
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(circle at 70% 50%, rgba(212, 175, 55, 0.15) 0%, transparent 50%);
+  background: radial-gradient(circle at 70% 50%, rgba(181, 141, 34, 0.1) 0%, transparent 50%);
   z-index: -1;
 }
 
@@ -88,23 +88,77 @@
 }
 
 .premiumCard {
-  background: linear-gradient(145deg, rgba(26, 35, 50, 0.8), rgba(212, 175, 55, 0.05));
-  border-color: rgba(212, 175, 55, 0.3);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 1), rgba(181, 141, 34, 0.05));
+  border-color: rgba(181, 141, 34, 0.3);
 }
 
 .pillarCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 .cardLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+  margin-top: auto;
+  font-weight: bold;
   color: var(--primary);
-  font-weight: 700;
-  margin-top: 20px;
+  display: inline-block;
+  padding-top: 15px;
 }
+
+/* Fields Grid (رشته‌های تحصیلی) */
+.fieldsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.fieldCard {
+  background: var(--secondary);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
+  padding: 25px 20px;
+  text-align: center;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+
+.fieldCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), transparent);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.fieldCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-color: rgba(181, 141, 34, 0.3);
+}
+
+.fieldCard:hover::before {
+  opacity: 1;
+}
+
+.fieldCard h3 {
+  color: var(--text-main);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.fieldCard p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
 
 /* Services */
 .services {

@@ -20,6 +20,64 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Fields / Majors Section */}
+      <section className="container" style={{ padding: '40px 0' }}>
+        <div className={styles.sectionHeader}>
+          <h2>رشته‌های تخصصی تحت پوشش</h2>
+          <p>تیم اساتید تز پژوه، انجام پروژه‌های پایانی در طیف وسیعی از رشته‌های دانشگاهی را با بالاترین کیفیت تضمین می‌کند.</p>
+        </div>
+        <div className={styles.fieldsGrid}>
+          <div className={styles.fieldCard}>
+            <h3>مدیریت</h3>
+            <p>تمامی گرایش‌ها (بازرگانی، دولتی، مالی، صنعتی، MBA و ...)</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>مهندسی صنایع</h3>
+            <p>بهینه‌سازی، سیستم‌های کلان، زنجیره تامین، لجستیک و مدیریت مهندسی</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>حسابداری و مالی</h3>
+            <p>حسابداری مدیریت، حسابرسی، مهندسی مالی و اقتصاد</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>روانشناسی و علوم تربیتی</h3>
+            <p>بالینی، عمومی، سازمانی، مشاوره و برنامه‌ریزی درسی</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>مهندسی کامپیوتر و IT</h3>
+            <p>هوش مصنوعی، نرم‌افزار، شبکه‌های کامپیوتری و تجارت الکترونیک</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>حقوق</h3>
+            <p>حقوق جزا و جرم‌شناسی، حقوق خصوصی، عمومی و بین‌الملل</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>علوم پایه و زیستی</h3>
+            <p>شیمی، فیزیک، زیست‌شناسی، ژنتیک و بیوتکنولوژی</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>زبان و ادبیات</h3>
+            <p>آموزش زبان انگلیسی، مترجمی، زبان‌شناسی و ادبیات فارسی</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>مهندسی برق</h3>
+            <p>قدرت، الکترونیک، مخابرات، کنترل و مهندسی پزشکی</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>مهندسی عمران</h3>
+            <p>سازه، زلزله، ژئوتکنیک، راه و ترابری و مدیریت ساخت</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>جغرافیا و برنامه‌ریزی</h3>
+            <p>برنامه‌ریزی شهری، گردشگری، اقلیم‌شناسی و ژئومورفولوژی</p>
+          </div>
+          <div className={styles.fieldCard}>
+            <h3>علوم اقتصادی</h3>
+            <p>توسعه اقتصادی، اقتصاد نظری، انرژی و اقتصاد بین‌الملل</p>
+          </div>
+        </div>
+      </section>
+
       {/* Main Pillars */}
       <section className={`container ${styles.pillars}`}>
         <div className={styles.sectionHeader}>
