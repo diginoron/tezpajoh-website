@@ -32,6 +32,10 @@ export default function ServicesPage() {
           <h2>آموزش و مشاوره دفاع</h2>
           <p>شبیه‌سازی جلسه دفاع، آموزش نرم‌افزارها و آماده‌سازی کامل دانشجو.</p>
         </Link>
+        <Link href="/services/management-thesis" className={`glass ${styles.serviceItem}`}>
+          <h2>انجام پایان نامه مدیریت</h2>
+          <p>مشاوره تخصصی رساله ارشد و دکتری مدیریت با متدهای ۲۰۲۶.</p>
+        </Link>
       </div>
     </div>
   );

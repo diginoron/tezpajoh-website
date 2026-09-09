@@ -16,10 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/topic-selection',
     '/services/training-consulting',
     '/services/management-thesis',
-    '/blog',
-    '/blog/modern-thesis-approaches-2026',
-    '/blog/phd-defense-criteria',
-    '/blog/thesis-checklist-1405'
+    '/blog'
   ];
 
   return routes.map((route) => ({
