@@ -10,7 +10,14 @@ export const metadata: Metadata = {
 const ITEMS_PER_PAGE = 9;
 
 // دیتابیس آزمایشی مقالات
-const allArticles: any[] = [];
+const allArticles = [
+  {
+    id: 1,
+    title: "شاخص‌های کلیدی یک پایان نامه حرفه‌ای و موفق در سال ۱۴۰۵",
+    desc: "بررسی تخصصی مهم‌ترین شاخص‌ها و معیارهای تدوین یک رساله قابل قبول در مقاطع تحصیلات تکمیلی با تمرکز بر کاربردپذیری و هوش مصنوعی.",
+    link: "/blog/professional-thesis-1405"
+  }
+];
 
 export default async function BlogIndex({
   searchParams,
