@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import GlobalCTA from "@/components/shared/GlobalCTA";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tezpajoh.ir"),
@@ -31,6 +32,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "KgLbLQwfNg9_7e7w9_vO5YSUrT0UB_xnoeidGPhj7D8",
+  },
 };
 
 export default function RootLayout({
@@ -40,11 +44,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
+      <head>
+        <meta name="google-site-verification" content="KgLbLQwfNg9_7e7w9_vO5YSUrT0UB_xnoeidGPhj7D8" />
+      </head>
       <body>
         <Header />
         <main style={{ minHeight: 'calc(100vh - 200px)' }}>
           {children}
         </main>
+        <GlobalCTA />
         <Footer />
       </body>
     </html>

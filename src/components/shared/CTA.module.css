@@ -1,0 +1,51 @@
+.ctaSection {
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.9), rgba(212, 175, 55, 0.1));
+  padding: 60px 0;
+  margin: 40px 0;
+  border-radius: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  text-align: center;
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.ctaContent h2 {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.ctaContent p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaActions {
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .ctaContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+  }
+
+  .ctaContent p {
+    margin: 0;
+  }
+  
+  .ctaActions {
+    margin-top: 0;
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

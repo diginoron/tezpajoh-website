@@ -17,16 +17,32 @@ export default function ContactPage() {
       <div className={styles.content} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto' }}>
         <div className={styles.mainContent} style={{ textAlign: 'center', padding: '60px 40px' }}>
           <h2 style={{ fontSize: '2.5rem', marginBottom: '30px' }}>شماره تماس مستقیم</h2>
-          <a href="tel:09055611316" style={{ 
-            fontSize: '3rem', 
-            fontWeight: '900', 
-            color: 'var(--primary)',
-            display: 'block',
-            marginBottom: '30px',
-            textShadow: '0 4px 15px rgba(212, 175, 55, 0.3)'
-          }}>
-            09055611316
-          </a>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '30px', marginBottom: '30px' }}>
+            <div>
+              <h3 style={{ fontSize: '1.5rem', marginBottom: '10px', color: 'var(--text)' }}>شماره موبایل (مشاوره و پیام‌رسان‌ها)</h3>
+              <a href="tel:09055611316" style={{ 
+                fontSize: '2.5rem', 
+                fontWeight: '900', 
+                color: 'var(--primary)',
+                display: 'block',
+                textShadow: '0 4px 15px rgba(212, 175, 55, 0.3)'
+              }}>
+                09055611316
+              </a>
+            </div>
+            <div>
+              <h3 style={{ fontSize: '1.5rem', marginBottom: '10px', color: 'var(--text)' }}>شماره ثابت</h3>
+              <a href="tel:02133503799" style={{ 
+                fontSize: '2.5rem', 
+                fontWeight: '900', 
+                color: 'var(--primary)',
+                display: 'block',
+                textShadow: '0 4px 15px rgba(212, 175, 55, 0.3)'
+              }}>
+                02133503799
+              </a>
+            </div>
+          </div>
           <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)' }}>
             می‌توانید جهت دریافت مشاوره رایگان، استعلام قیمت، درخواست موضوع و ارتباط با کارشناسان، از طریق تماس تلفنی یا پیام‌رسان‌ها (تلگرام، واتس‌اپ، ایتا) با این شماره در ارتباط باشید.
           </p>

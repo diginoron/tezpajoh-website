@@ -27,10 +27,10 @@ export default function Home() {
           <p>تیم اساتید تز پژوه، انجام پروژه‌های پایانی در طیف وسیعی از رشته‌های دانشگاهی را با بالاترین کیفیت تضمین می‌کند.</p>
         </div>
         <div className={styles.fieldsGrid}>
-          <div className={styles.fieldCard}>
+          <Link href="/services/management-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>مدیریت</h3>
             <p>تمامی گرایش‌ها (بازرگانی، دولتی، مالی، صنعتی، MBA و ...)</p>
-          </div>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>مهندسی صنایع</h3>
             <p>بهینه‌سازی، سیستم‌های کلان، زنجیره تامین، لجستیک و مدیریت مهندسی</p>
