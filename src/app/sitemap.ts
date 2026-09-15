@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/topic-selection',
     '/services/training-consulting',
     '/services/management-thesis',
+    '/services/accounting-thesis',
     '/blog',
     '/blog/professional-thesis-1405'
   ];

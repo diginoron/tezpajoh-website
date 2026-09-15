@@ -35,10 +35,10 @@ export default function Home() {
             <h3>مهندسی صنایع</h3>
             <p>بهینه‌سازی، سیستم‌های کلان، زنجیره تامین، لجستیک و مدیریت مهندسی</p>
           </div>
-          <div className={styles.fieldCard}>
+          <Link href="/services/accounting-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>حسابداری و مالی</h3>
             <p>حسابداری مدیریت، حسابرسی، مهندسی مالی و اقتصاد</p>
-          </div>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>روانشناسی و علوم تربیتی</h3>
             <p>بالینی، عمومی، سازمانی، مشاوره و برنامه‌ریزی درسی</p>
