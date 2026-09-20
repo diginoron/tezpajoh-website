@@ -37,7 +37,11 @@ export default function Home() {
           </div>
           <Link href="/services/accounting-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>حسابداری و مالی</h3>
-            <p>حسابداری مدیریت، حسابرسی، مهندسی مالی و اقتصاد</p>
+            <p>حسابداری مدیریت، حسابرسی، مدیریت مالی و مهندسی مالی</p>
+          </Link>
+          <Link href="/services/economics-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+            <h3>علوم اقتصادی</h3>
+            <p>اقتصادسنجی، اقتصاد کلان، توسعه، انرژی و اقتصاد مالی</p>
           </Link>
           <div className={styles.fieldCard}>
             <h3>روانشناسی و علوم تربیتی</h3>

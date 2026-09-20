@@ -40,6 +40,10 @@ export default function ServicesPage() {
           <h2>انجام پایان نامه حسابداری</h2>
           <p>مشاوره تخصصی رساله ارشد و دکتری حسابداری با متدهای ۲۰۲۶.</p>
         </Link>
+        <Link href="/services/economics-thesis" className={`glass ${styles.serviceItem}`}>
+          <h2>انجام پایان نامه اقتصاد</h2>
+          <p>مشاوره تخصصی رساله ارشد و دکتری علوم اقتصادی با متدهای ۲۰۲۶.</p>
+        </Link>
       </div>
     </div>
   );
