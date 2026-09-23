@@ -63,10 +63,10 @@ export default function Home() {
             <h3>زبان و ادبیات</h3>
             <p>آموزش زبان انگلیسی، مترجمی، زبان‌شناسی و ادبیات فارسی</p>
           </div>
-          <div className={styles.fieldCard}>
+          <Link href="/services/electrical-engineering-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>مهندسی برق</h3>
             <p>قدرت، الکترونیک، مخابرات، کنترل و مهندسی پزشکی</p>
-          </div>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>مهندسی عمران</h3>
             <p>سازه، زلزله، ژئوتکنیک، راه و ترابری و مدیریت ساخت</p>
