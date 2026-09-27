@@ -48,6 +48,10 @@ export default function ServicesPage() {
           <h2>انجام پایان نامه برق</h2>
           <p>مشاوره تخصصی و شبیه‌سازی رساله ارشد و دکتری مهندسی برق (قدرت، کنترل، مخابرات، الکترونیک).</p>
         </Link>
+        <Link href="/services/industrial-engineering-thesis" className={`glass ${styles.serviceItem}`}>
+          <h2>انجام پایان نامه مهندسی صنایع</h2>
+          <p>مشاوره تخصصی پایان‌نامه و رساله صنایع؛ بهینه‌سازی، شبیه‌سازی، زنجیره تامین و تحلیل آماری با متدهای روز.</p>
+        </Link>
       </div>
     </div>
   );

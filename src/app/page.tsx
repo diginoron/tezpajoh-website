@@ -31,10 +31,10 @@ export default function Home() {
             <h3>مدیریت</h3>
             <p>تمامی گرایش‌ها (بازرگانی، دولتی، مالی، صنعتی، MBA و ...)</p>
           </Link>
-          <div className={styles.fieldCard}>
+          <Link href="/services/industrial-engineering-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>مهندسی صنایع</h3>
             <p>بهینه‌سازی، سیستم‌های کلان، زنجیره تامین، لجستیک و مدیریت مهندسی</p>
-          </div>
+          </Link>
           <Link href="/services/accounting-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>حسابداری و مالی</h3>
             <p>حسابداری مدیریت، حسابرسی، مدیریت مالی و مهندسی مالی</p>
