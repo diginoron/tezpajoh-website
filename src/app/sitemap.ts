@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/economics-thesis',
     '/services/electrical-engineering-thesis',
     '/services/industrial-engineering-thesis',
+    '/services/law-thesis',
     '/blog',
     '/blog/professional-thesis-1405'
   ];

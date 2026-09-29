@@ -51,10 +51,10 @@ export default function Home() {
             <h3>مهندسی کامپیوتر و IT</h3>
             <p>هوش مصنوعی، نرم‌افزار، شبکه‌های کامپیوتری و تجارت الکترونیک</p>
           </div>
-          <div className={styles.fieldCard}>
+          <Link href="/services/law-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>حقوق</h3>
             <p>حقوق جزا و جرم‌شناسی، حقوق خصوصی، عمومی و بین‌الملل</p>
-          </div>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>علوم پایه و زیستی</h3>
             <p>شیمی، فیزیک، زیست‌شناسی، ژنتیک و بیوتکنولوژی</p>
