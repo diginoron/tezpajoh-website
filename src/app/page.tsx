@@ -124,6 +124,10 @@ export default function Home() {
             <h4>آموزش و مشاوره</h4>
             <p>برگزاری جلسات آموزشی جهت تسلط کامل دانشجو برای روز دفاع.</p>
           </Link>
+          <Link href="/services/article-writing-acceptance" className={`glass ${styles.serviceItem}`}>
+            <h4>نگارش و اکسپت مقاله</h4>
+            <p>نگارش و اکسپت مقاله کنفرانسی، علمی پژوهشی و ISI همراه با پاسخ به داوران.</p>
+          </Link>
         </div>
       </section>
 

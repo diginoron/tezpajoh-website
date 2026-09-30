@@ -32,7 +32,13 @@
 
 .nav {
   display: flex;
-  gap: 25px;
+  gap: 16px;
+}
+
+/* منوی بلند «نگارش و اکسپت مقاله ...» برای جای‌گیری در یک ردیف هدر */
+.navWideItem {
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 .nav a {

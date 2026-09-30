@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/electrical-engineering-thesis',
     '/services/industrial-engineering-thesis',
     '/services/law-thesis',
+    '/services/article-writing-acceptance',
     '/blog',
     '/blog/professional-thesis-1405'
   ];

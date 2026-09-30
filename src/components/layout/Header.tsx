@@ -15,6 +15,7 @@ export default function Header() {
           <Link href="/services">خدمات</Link>
           <Link href="/masters-thesis">ارشد</Link>
           <Link href="/phd-thesis">دکتری</Link>
+          <Link href="/services/article-writing-acceptance" className={styles.navWideItem}>نگارش و اکسپت مقاله کنفرانسی و علمی پژوهشی و ISI</Link>
           <Link href="/blog">وبلاگ</Link>
           <Link href="/about">درباره ما</Link>
         </nav>

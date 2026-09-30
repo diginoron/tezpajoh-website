@@ -56,6 +56,10 @@ export default function ServicesPage() {
           <h2>انجام پایان نامه حقوق</h2>
           <p>مشاوره تخصصی پایان‌نامه و رساله حقوق؛ جزا و جرم‌شناسی، خصوصی، عمومی و بین‌الملل با روش پژوهش معتبر و منابع به‌روز.</p>
         </Link>
+        <Link href="/services/article-writing-acceptance" className={`glass ${styles.serviceItem}`}>
+          <h2>نگارش و اکسپت مقاله</h2>
+          <p>نگارش و اکسپت مقاله کنفرانسی، علمی پژوهشی و ISI؛ از استخراج نوآوری از پایان‌نامه تا پاسخ به داوران و پذیرش نهایی.</p>
+        </Link>
       </div>
     </div>
   );

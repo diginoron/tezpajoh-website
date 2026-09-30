@@ -21,6 +21,7 @@ export default function Footer() {
             <li><Link href="/services/electrical-engineering-thesis">پایان‌نامه برق</Link></li>
             <li><Link href="/services/industrial-engineering-thesis">پایان‌نامه مهندسی صنایع</Link></li>
             <li><Link href="/services/law-thesis">پایان‌نامه حقوق</Link></li>
+            <li><Link href="/services/article-writing-acceptance">نگارش و اکسپت مقاله</Link></li>
             <li><Link href="/services/training-consulting">آموزش و مشاوره</Link></li>
           </ul>
         </div>
