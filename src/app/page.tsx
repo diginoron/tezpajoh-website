@@ -128,6 +128,10 @@ export default function Home() {
             <h4>نگارش و اکسپت مقاله</h4>
             <p>نگارش و اکسپت مقاله کنفرانسی، علمی پژوهشی و ISI همراه با پاسخ به داوران.</p>
           </Link>
+          <Link href="/services/international-university-thesis" className={`glass ${styles.serviceItem}`}>
+            <h4>انجام پایان نامه دانشگاه خارجی</h4>
+            <p>اجرایی‌سازی پایان‌نامه دانشگاه‌های خارجی به هر زبانی مطابق آیین‌نامه دانشگاه مقصد.</p>
+          </Link>
         </div>
       </section>
 
