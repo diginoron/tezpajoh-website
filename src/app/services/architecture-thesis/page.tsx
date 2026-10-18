@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 import Link from 'next/link';
 
 export async function generateMetadata() {
@@ -120,9 +119,8 @@ export default function ArchitectureThesisPage() {
 
   return (
     <>
-      <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaGraph) }} />
-      </Head>
+      {/* اسکیمای JSON-LD مستقیم در JSX (next/head در App Router رندر نمی‌شود) */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaGraph) }} />
 
       {/* کانتینر Breadcrumb */}
       <div className="breadcrumb" style={{ paddingTop: "6rem", paddingBottom: "1rem", backgroundColor: "#fbfbfb", borderBottom: "1px solid #eee" }}>
