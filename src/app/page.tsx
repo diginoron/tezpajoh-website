@@ -71,6 +71,10 @@ export default function Home() {
             <h3>مهندسی عمران</h3>
             <p>سازه، زلزله، ژئوتکنیک، راه و ترابری و مدیریت ساخت</p>
           </Link>
+          <Link href="/services/architecture-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+            <h3>معماری</h3>
+            <p>طراحی نهایی، بازآفرینی شهری، معماری پایدار، مسکن و معماری اسلامی-ایرانی</p>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>جغرافیا و برنامه‌ریزی</h3>
             <p>برنامه‌ریزی شهری، گردشگری، اقلیم‌شناسی و ژئومورفولوژی</p>

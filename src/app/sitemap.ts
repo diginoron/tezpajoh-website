@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/law-thesis',
     '/services/article-writing-acceptance',
     '/services/international-university-thesis',
+    '/services/architecture-thesis',
     '/blog',
     '/blog/professional-thesis-1405'
   ];
