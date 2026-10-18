@@ -1,0 +1,129 @@
+# Quality Gate CI - blocks every PR and push to main.
+# Adapted from the project-quality-gate skill template for this static content
+# site: api-tests / e2e-tests / perf-smoke are omitted (no API routes, no
+# Playwright setup, no k6-relevant backend). Re-add them from the skill
+# template when those capabilities exist.
+
+name: Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: quality-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  CI: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+
+  typecheck:
+    needs: lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+
+  schema-smoke:
+    needs: typecheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Build first: the schema smoke test reads the prerendered HTML output
+      # and fails if any page ships without application/ld+json (next/head
+      # inside App Router renders nothing - caught 2026-10-18).
+      - run: npm run build
+      - run: npm run test
+
+  security-scan:
+    needs: schema-smoke
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so secret scanning covers past commits
+      - name: Secrets scan (full git history)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: SAST (semgrep)
+        run: docker run --rm -v "${{ github.workspace }}:/src" semgrep/semgrep semgrep scan --config auto --error
+
+  dependency-audit:
+    needs: security-scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm audit --audit-level=high
+      # Informational: upgrade candidates (does not fail the build)
+      - run: npm outdated --ansi || true
+
+  production-build:
+    needs: dependency-audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Fail if secrets leaked into the build output
+        run: |
+          if grep -rInE 'sk-[A-Za-z0-9]{16,}|AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{30,}|xox[baprs]-[A-Za-z0-9-]{10,}' .next/ 2>/dev/null; then
+            echo '::error::Secret-like strings found in build output'; exit 1
+          fi
+
+  quality-gate:
+    name: quality-gate
+    needs: [lint, typecheck, schema-smoke, security-scan, dependency-audit, production-build]
+    if: always() && !cancelled()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify every step succeeded
+        run: |
+          echo "lint=${{ needs.lint.result }} typecheck=${{ needs.typecheck.result }} smoke=${{ needs.schema-smoke.result }} security=${{ needs.security-scan.result }} deps=${{ needs.dependency-audit.result }} build=${{ needs.production-build.result }}"
+          if [ "${{ needs.lint.result }}" != "success" ] || [ "${{ needs.typecheck.result }}" != "success" ] || [ "${{ needs.schema-smoke.result }}" != "success" ] || [ "${{ needs.security-scan.result }}" != "success" ] || [ "${{ needs.dependency-audit.result }}" != "success" ] || [ "${{ needs.production-build.result }}" != "success" ]; then
+            echo '::error::Quality gate failed - see the individual jobs above.'; exit 1
+          fi
+          echo 'QUALITY GATE: PASS'
