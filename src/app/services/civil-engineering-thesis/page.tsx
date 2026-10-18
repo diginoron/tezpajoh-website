@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 import Link from 'next/link';
 
 export async function generateMetadata() {
@@ -112,9 +111,7 @@ export default function CivilEngineeringThesisPage() {
 
   return (
     <>
-      <Head>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaGraph) }} />
-      </Head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaGraph) }} />
 
       {/* کانتینر Breadcrumb */}
       <div className="breadcrumb" style={{ paddingTop: "6rem", paddingBottom: "1rem", backgroundColor: "#fbfbfb", borderBottom: "1px solid #eee" }}>
