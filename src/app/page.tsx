@@ -43,10 +43,10 @@ export default function Home() {
             <h3>علوم اقتصادی</h3>
             <p>اقتصادسنجی، اقتصاد کلان، توسعه، انرژی و اقتصاد مالی</p>
           </Link>
-          <div className={styles.fieldCard}>
+          <Link href="/services/psychology-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>روانشناسی و علوم تربیتی</h3>
             <p>بالینی، عمومی، سازمانی، مشاوره و برنامه‌ریزی درسی</p>
-          </div>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>مهندسی کامپیوتر و IT</h3>
             <p>هوش مصنوعی، نرم‌افزار، شبکه‌های کامپیوتری و تجارت الکترونیک</p>
