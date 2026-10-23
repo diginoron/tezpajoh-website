@@ -25,6 +25,7 @@ const EXPECTED_PAGES = [
   'services/management-thesis.html',
   'services/psychology-thesis.html',
   'blog/professional-thesis-1405.html',
+  'blog/ai-thesis-methods.html',
 ];
 
 const SCHEMA_MARKER = 'application/ld+json';

@@ -27,7 +27,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/architecture-thesis',
     '/services/psychology-thesis',
     '/blog',
-    '/blog/professional-thesis-1405'
+    '/blog/professional-thesis-1405',
+    '/blog/ai-thesis-methods'
   ];
 
   return routes.map((route) => ({
