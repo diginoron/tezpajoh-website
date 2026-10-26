@@ -47,6 +47,10 @@ export default function Home() {
             <h3>روانشناسی و علوم تربیتی</h3>
             <p>بالینی، عمومی، سازمانی، مشاوره و برنامه‌ریزی درسی</p>
           </Link>
+          <Link href="/services/sociology-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+            <h3>جامعه شناسی</h3>
+            <p>نظریه‌های اجتماعی، مسائل اجتماعی ایران، روستایی، شهری، سیاسی و توسعه</p>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>مهندسی کامپیوتر و IT</h3>
             <p>هوش مصنوعی، نرم‌افزار، شبکه‌های کامپیوتری و تجارت الکترونیک</p>
