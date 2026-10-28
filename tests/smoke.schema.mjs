@@ -17,6 +17,7 @@ const EXPECTED_PAGES = [
   'services/architecture-thesis.html',
   'services/article-writing-acceptance.html',
   'services/civil-engineering-thesis.html',
+  'services/computer-engineering-ai-thesis.html',
   'services/economics-thesis.html',
   'services/electrical-engineering-thesis.html',
   'services/industrial-engineering-thesis.html',
@@ -56,4 +57,6 @@ for (const rel of EXPECTED_PAGES) {
 }
 
 console.log(`\n${EXPECTED_PAGES.length - failures}/${EXPECTED_PAGES.length} pages passed, ${totalSchemas} schemas total`);
+process.exit(failures > 0 ? 1 : 0);
+
 process.exit(failures > 0 ? 1 : 0);

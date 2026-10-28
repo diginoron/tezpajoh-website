@@ -51,10 +51,10 @@ export default function Home() {
             <h3>جامعه شناسی</h3>
             <p>نظریه‌های اجتماعی، مسائل اجتماعی ایران، روستایی، شهری، سیاسی و توسعه</p>
           </Link>
-          <div className={styles.fieldCard}>
-            <h3>مهندسی کامپیوتر و IT</h3>
-            <p>هوش مصنوعی، نرم‌افزار، شبکه‌های کامپیوتری و تجارت الکترونیک</p>
-          </div>
+          <Link href="/services/computer-engineering-ai-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+            <h3>مهندسی کامپیوتر و هوش مصنوعی</h3>
+            <p>هوش مصنوعی، یادگیری عمیق، نرم‌افزار، شبکه‌های کامپیوتری و امنیت سایبری</p>
+          </Link>
           <Link href="/services/law-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>حقوق</h3>
             <p>حقوق جزا و جرم‌شناسی، حقوق خصوصی، عمومی و بین‌الملل</p>
