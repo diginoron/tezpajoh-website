@@ -26,6 +26,7 @@ const EXPECTED_PAGES = [
   'services/management-thesis.html',
   'services/psychology-thesis.html',
   'services/sociology-thesis.html',
+  'services/art-research-thesis.html',
   'blog/professional-thesis-1405.html',
   'blog/ai-thesis-methods.html',
 ];

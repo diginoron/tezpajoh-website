@@ -79,13 +79,13 @@ export default function Home() {
             <h3>معماری</h3>
             <p>طراحی نهایی، بازآفرینی شهری، معماری پایدار، مسکن و معماری اسلامی-ایرانی</p>
           </Link>
+          <Link href="/services/art-research-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+            <h3>پژوهش هنر</h3>
+            <p>هنرهای تجسمی، سینما، هنرهای سنتی، نشانه‌شناسی، فلسفه و تاریخ هنر</p>
+          </Link>
           <div className={styles.fieldCard}>
             <h3>جغرافیا و برنامه‌ریزی</h3>
             <p>برنامه‌ریزی شهری، گردشگری، اقلیم‌شناسی و ژئومورفولوژی</p>
-          </div>
-          <div className={styles.fieldCard}>
-            <h3>علوم اقتصادی</h3>
-            <p>توسعه اقتصادی، اقتصاد نظری، انرژی و اقتصاد بین‌الملل</p>
           </div>
         </div>
       </section>
