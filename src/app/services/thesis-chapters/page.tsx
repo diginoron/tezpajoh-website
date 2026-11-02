@@ -5,6 +5,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "تدوین و نگارش فصول پایان نامه کارشناسی ارشد و دکتری",
   description: "انجام صفر تا صد نگارش فصل‌های پایان‌نامه و رساله دکتری. شامل مرور ادبیات، روش تحقیق، تحلیل آماری و مدل‌سازی نرم‌افزاری و نتیجه‌گیری.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/services/thesis-chapters",
+  },
 };
 
 export default function ThesisChaptersPage() {

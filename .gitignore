@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local tooling logs / gate wrappers (never commit)
+/commit-log.txt
+/dod-log.txt
+/dod-run.ps1
+/dod-wrapper.ps1
+/git-log.txt
+/git-log2.txt
+/git-status.txt
+/push-log.txt
+/verify-log.txt
+/verify-log2.txt
+/find-rules.txt
+

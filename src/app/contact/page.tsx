@@ -4,6 +4,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "تماس با ما | تز پژوه",
   description: "اطلاعات تماس گروه تخصصی تز پژوه برای دریافت مشاوره رایگان.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/contact",
+  },
 };
 
 export default function ContactPage() {

@@ -5,6 +5,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "انجام رساله دکتری (PhD Thesis) بصورت تخصصی و تضمینی",
   description: "خدمات فوق تخصصی انجام صفر تا صد رساله دکتری، نگارش مقالات ISI، مدل‌سازی‌های پیشرفته و آمادگی کامل جهت دفاع از رساله.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/phd-thesis",
+  },
 };
 
 export default function PhdThesisPillar() {

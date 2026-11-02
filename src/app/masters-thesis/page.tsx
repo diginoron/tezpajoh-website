@@ -5,6 +5,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "انجام پایان نامه کارشناسی ارشد تضمینی",
   description: "راهنمای جامع، مشاوره و انجام صفر تا صد پایان نامه کارشناسی ارشد. گروه تخصصی تز پژوه در تمامی مراحل پروپوزال، فصول و دفاع همراه شماست.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/masters-thesis",
+  },
 };
 
 export default function MastersThesisPillar() {

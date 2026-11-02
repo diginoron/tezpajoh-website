@@ -5,6 +5,9 @@ import styles from '@/app/page.module.css';
 export const metadata: Metadata = {
   title: "خدمات تز پژوه",
   description: "لیست خدمات تخصصی گروه تز پژوه شامل ارائه موضوع، پروپوزال، فصول پایان نامه و آموزش.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/services",
+  },
 };
 
 export default function ServicesPage() {
@@ -87,6 +90,10 @@ export default function ServicesPage() {
         <Link href="/services/art-research-thesis" className={`glass ${styles.serviceItem}`}>
           <h2>انجام پایان نامه پژوهش هنر</h2>
           <p>مشاوره تخصصی رساله و پایان‌نامه پژوهش هنر؛ هنرهای تجسمی، سینما، هنرهای سنتی، نشانه‌شناسی، فلسفه هنر و تاریخ هنر با رویکردهای تحلیلی نوین.</p>
+        </Link>
+        <Link href="/services/geography-urban-planning-thesis" className={`glass ${styles.serviceItem}`}>
+          <h2>انجام پایان نامه جغرافیا و برنامه‌ریزی شهری</h2>
+          <p>مشاوره تخصصی پایان‌نامه و رساله جغرافیا و برنامه‌ریزی شهری؛ برنامه‌ریزی شهری و منطقه‌ای، گردشگری، اقلیم‌شناسی، ژئومورفولوژی، بازآفرینی شهری و تحلیل مکانی با GIS و سنجش از دور.</p>
         </Link>
       </div>
     </div>

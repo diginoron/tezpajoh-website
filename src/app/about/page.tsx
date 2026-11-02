@@ -5,6 +5,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "درباره گروه تز پژوه",
   description: "معرفی گروه تخصصی تز پژوه با ۱۵ سال سابقه درخشان در زمینه خدمات پایان‌نامه ارشد و رساله دکتری.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/about",
+  },
 };
 
 export default function AboutPage() {

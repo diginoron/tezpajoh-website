@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 import styles from './page.module.css';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.tezpajoh.ir",
+  },
+};
 
 export default function Home() {
   return (
@@ -83,10 +90,10 @@ export default function Home() {
             <h3>پژوهش هنر</h3>
             <p>هنرهای تجسمی، سینما، هنرهای سنتی، نشانه‌شناسی، فلسفه و تاریخ هنر</p>
           </Link>
-          <div className={styles.fieldCard}>
+          <Link href="/services/geography-urban-planning-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>جغرافیا و برنامه‌ریزی</h3>
             <p>برنامه‌ریزی شهری، گردشگری، اقلیم‌شناسی و ژئومورفولوژی</p>
-          </div>
+          </Link>
         </div>
       </section>
 

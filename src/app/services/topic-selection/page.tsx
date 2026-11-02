@@ -5,6 +5,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "خدمات ارائه موضوع پایان نامه کارشناسی ارشد و رساله دکتری",
   description: "خدمات حرفه ای ارائه موضوع پایان‌نامه با استناد به مقالات ISI معتبر سال. ارائه چندین موضوع بکر و غیرتکراری برای تصویب تضمینی در گروه.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/services/topic-selection",
+  },
 };
 
 export default function TopicSelectionPage() {

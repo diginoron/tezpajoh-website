@@ -5,6 +5,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "انجام پروپوزال کارشناسی ارشد و دکتری با کیفیت تضمینی",
   description: "خدمات تخصصی و تضمینی نگارش پروپوزال پایان‌نامه با رعایت دقیق متدولوژی تحقیق، ادبیات نظری و ساختار دانشگاهی. تضمین تصویب در کمیته تخصصی.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/services/proposal",
+  },
 };
 
 export default function ProposalServicePage() {

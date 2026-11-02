@@ -5,6 +5,9 @@ import styles from '@/components/shared/pillar.module.css';
 export const metadata: Metadata = {
   title: "آموزش و مشاوره تخصصی برای دفاع از پایان نامه",
   description: "خدمات جامع مشاوره پایان‌نامه، آموزش نرم‌افزارها، شبیه‌سازی جلسه دفاع دکتری و ارشد و ساخت پاورپوینت حرفه‌ای جهت کسب بالاترین نمره.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/services/training-consulting",
+  },
 };
 
 export default function TrainingConsultingPage() {
