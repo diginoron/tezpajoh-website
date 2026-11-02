@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test": "node tests/smoke.schema.mjs"
+    "test": "node tests/smoke.schema.mjs && node tests/smoke.runtime.mjs"
   },
   "dependencies": {
     "next": "16.2.9",

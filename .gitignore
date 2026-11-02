@@ -48,8 +48,12 @@ next-env.d.ts
 /git-log.txt
 /git-log2.txt
 /git-status.txt
+/git-status2.txt
 /push-log.txt
 /verify-log.txt
 /verify-log2.txt
 /find-rules.txt
+/runtime-test.txt
+/title-check.txt
+/blog-files.txt
 

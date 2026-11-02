@@ -5,6 +5,9 @@ import styles from '@/app/page.module.css';
 export const metadata: Metadata = {
   title: { absolute: "موسسه انجام پایان نامه ارشد و دکتری تز پژوه" },
   description: "مقالات تخصصی و آموزشی در زمینه انجام رساله دکتری و پایان‌نامه ارشد.",
+  alternates: {
+    canonical: "https://www.tezpajoh.ir/blog",
+  },
 };
 
 const ITEMS_PER_PAGE = 9;
