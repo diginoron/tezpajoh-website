@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import styles from '@/app/page.module.css';
 
 export const metadata: Metadata = {
-  title: "وبلاگ تخصصی تز پژوه",
+  title: { absolute: "موسسه انجام پایان نامه ارشد و دکتری تز پژوه" },
   description: "مقالات تخصصی و آموزشی در زمینه انجام رساله دکتری و پایان‌نامه ارشد.",
 };
 
@@ -41,7 +41,7 @@ export default async function BlogIndex({
   return (
     <div className={`container`} style={{ padding: '60px 0', minHeight: '80vh' }}>
       <div className={styles.sectionHeader}>
-        <h1 className="text-gradient">وبلاگ تخصصی تز پژوه</h1>
+        <h1 className="text-gradient">موسسه انجام پایان نامه ارشد و دکتری تز پژوه</h1>
         <p>آخرین مقالات، راهنماها و نکات طلایی برای موفقیت در پژوهش.</p>
       </div>
 
