@@ -31,6 +31,7 @@ const EXPECTED_PAGES = [
   'services/sociology-thesis.html',
   'services/art-research-thesis.html',
   'services/geography-urban-planning-thesis.html',
+  'services/persian-literature-thesis.html',
   'blog/professional-thesis-1405.html',
   'blog/ai-thesis-methods.html',
 ];

@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/computer-engineering-ai-thesis',
     '/services/art-research-thesis',
     '/services/geography-urban-planning-thesis',
+    '/services/persian-literature-thesis',
     '/blog',
     '/blog/professional-thesis-1405',
     '/blog/ai-thesis-methods'

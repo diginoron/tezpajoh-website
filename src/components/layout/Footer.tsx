@@ -30,6 +30,7 @@ export default function Footer() {
             <li><Link href="/services/computer-engineering-ai-thesis">پایان‌نامه کامپیوتر و هوش مصنوعی</Link></li>
             <li><Link href="/services/art-research-thesis">پایان‌نامه پژوهش هنر</Link></li>
             <li><Link href="/services/geography-urban-planning-thesis">پایان‌نامه جغرافیا و برنامه‌ریزی شهری</Link></li>
+            <li><Link href="/services/persian-literature-thesis">پایان‌نامه زبان و ادبیات فارسی</Link></li>
             <li><Link href="/services/training-consulting">آموزش و مشاوره</Link></li>
           </ul>
         </div>

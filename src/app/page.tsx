@@ -70,10 +70,10 @@ export default function Home() {
             <h3>علوم پایه و زیستی</h3>
             <p>شیمی، فیزیک، زیست‌شناسی، ژنتیک و بیوتکنولوژی</p>
           </div>
-          <div className={styles.fieldCard}>
+          <Link href="/services/persian-literature-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>زبان و ادبیات</h3>
             <p>آموزش زبان انگلیسی، مترجمی، زبان‌شناسی و ادبیات فارسی</p>
-          </div>
+          </Link>
           <Link href="/services/electrical-engineering-thesis" className={styles.fieldCard} style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
             <h3>مهندسی برق</h3>
             <p>قدرت، الکترونیک، مخابرات، کنترل و مهندسی پزشکی</p>
