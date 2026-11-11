@@ -33,7 +33,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/persian-literature-thesis',
     '/blog',
     '/blog/professional-thesis-1405',
-    '/blog/ai-thesis-methods'
+    '/blog/ai-thesis-methods',
+    '/blog/ai-phd-thesis'
   ];
 
   return routes.map((route) => ({
