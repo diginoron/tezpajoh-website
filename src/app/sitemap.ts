@@ -34,7 +34,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog',
     '/blog/professional-thesis-1405',
     '/blog/ai-thesis-methods',
-    '/blog/ai-phd-thesis'
+    '/blog/ai-phd-thesis',
+    '/blog/best-phd-thesis-institute'
   ];
 
   return routes.map((route) => ({

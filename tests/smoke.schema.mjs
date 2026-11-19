@@ -35,6 +35,7 @@ const EXPECTED_PAGES = [
   'blog/professional-thesis-1405.html',
   'blog/ai-thesis-methods.html',
   'blog/ai-phd-thesis.html',
+  'blog/best-phd-thesis-institute.html',
 ];
 
 const SCHEMA_MARKER = 'application/ld+json';
