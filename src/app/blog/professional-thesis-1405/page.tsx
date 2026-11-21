@@ -64,7 +64,7 @@ export default function ProfessionalThesisPage() {
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>
         کارشناسان مجرب تز پژوه آماده‌اند تا شما را در رساندن پژوهشتان به بالاترین استانداردهای آکادمیک سال ۱۴۰۵ یاری کنند.
       </p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         دریافت مشاوره رایگان
       </a>
     </div>
@@ -82,7 +82,7 @@ export default function ProfessionalThesisPage() {
       </div>
 
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           شاخص‌های کلیدی یک پایان نامه حرفه‌ای و موفق در سال ۱۴۰۵
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -95,13 +95,13 @@ export default function ProfessionalThesisPage() {
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         
         <p>
-          با گذر زمان و پیشرفت سریع تکنولوژی، معیارهای ارزیابی پژوهش‌های دانشگاهی نیز دستخوش تغییرات بنیادین شده‌اند. در سال ۱۴۰۵ (معادل ۲۰۲۶ میلادی)، دیگر نمی‌توان با رویکردهای سنتی دهه‌های گذشته، داوران و اساتید دانشگاهی را متقاعد کرد. موفقیت در مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> نیازمند درک عمیقی از شاخص‌های نوین ارزیابی، تسلط بر ابزارهای پیشرفته تحلیل داده و توانایی اثبات کاربردپذیری نتایج تحقیق است. در این مقاله تخصصی که توسط پژوهشگران ارشد <strong>تز پژوه</strong> تدوین شده است، به بررسی مهم‌ترین ویژگی‌های یک رساله استاندارد و حرفه‌ای در مقاطع کارشناسی ارشد و دکتری می‌پردازیم.
+          با گذر زمان و پیشرفت سریع تکنولوژی، معیارهای ارزیابی پژوهش‌های دانشگاهی نیز دستخوش تغییرات بنیادین شده‌اند. در سال ۱۴۰۵ (معادل ۲۰۲۶ میلادی)، دیگر نمی‌توان با رویکردهای سنتی دهه‌های گذشته، داوران و اساتید دانشگاهی را متقاعد کرد. موفقیت در مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> نیازمند درک عمیقی از شاخص‌های نوین ارزیابی، تسلط بر ابزارهای پیشرفته تحلیل داده و توانایی اثبات کاربردپذیری نتایج تحقیق است. در این مقاله تخصصی که توسط پژوهشگران ارشد <strong>تز پژوه</strong> تدوین شده است، به بررسی مهم‌ترین ویژگی‌های یک رساله استاندارد و حرفه‌ای در مقاطع کارشناسی ارشد و دکتری می‌پردازیم.
         </p>
 
         {renderCTA()}
 
         <h2>۱. انتخاب موضوع بر اساس شکاف تحقیقاتی واقعی (Research Gap)</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایان‌نامه‌های حرفه‌ای به جای تکرار موضوعات قدیمی، مستقیماً به سراغ محدودیت‌ها و پیشنهادات (Future Research) مقالات Q1 چاپ شده در یکی دو سال اخیر می‌روند.
         </p>
         <p>
@@ -109,7 +109,7 @@ export default function ProfessionalThesisPage() {
         </p>
 
         <h2>۲. رویکرد میان‌رشته‌ای (Interdisciplinary Approach)</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ترکیب مفاهیم دو یا چند رشته مختلف (مثلاً هوش مصنوعی و مدیریت منابع انسانی) یکی از بزرگترین شاخص‌های نوآوری در رساله‌های مدرن است.
         </p>
         <p>
@@ -117,7 +117,7 @@ export default function ProfessionalThesisPage() {
         </p>
 
         <h2>۳. استفاده اخلاق‌مدارانه و هوشمندانه از هوش مصنوعی (AI)</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> یک پایان‌نامه حرفه‌ای، هوش مصنوعی را به عنوان یک کاتالیزور برای پردازش سریع متون و کدگذاری داده‌ها به کار می‌گیرد، اما هرگز تفکر انتقادی را به الگوریتم‌ها واگذار نمی‌کند.
         </p>
         <p>
@@ -136,7 +136,7 @@ export default function ProfessionalThesisPage() {
         </ul>
 
         <h2>۵. استانداردهای بالای بصری و نگارشی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ساختار ظاهری پایان‌نامه، شامل فرمت‌بندی دقیق، جداول استاندارد APA، و گراف‌های با کیفیت، تاثیر روانی مستقیمی بر هیئت داوران دارد.
         </p>
         <p>
@@ -149,8 +149,8 @@ export default function ProfessionalThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: تیم تحقیق و توسعه تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: تیم تحقیق و توسعه تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله با بررسی آخرین دستورالعمل‌های پژوهشی دانشگاه‌های برتر و تحلیل روندهای داوری رساله‌های تحصیلات تکمیلی تدوین شده است. گروه تخصصی تز پژوه با سال‌ها تجربه درخشان در زمینه ارائه موضوع، پروپوزال، آموزش روش تحقیق و شبیه‌سازی جلسات دفاع، راهنمای مطمئن شما در مسیر پرفراز و نشیب پژوهش‌های دانشگاهی است.
           </p>

@@ -114,7 +114,7 @@ export default function EconomicsThesisPage() {
       <a 
         href="https://www.tezpajoh.ir/contact" 
         className="btn btn-primary btn-lg" 
-        style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", display: "inline-block", textDecoration: "none", backgroundColor: "#0066cc", color: "#ffffff", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 4px 12px rgba(0,102,204,0.25)" }}
+        style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", display: "inline-block", textDecoration: "none", backgroundColor: "var(--primary)", color: "#ffffff", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 4px 12px rgba(22, 104, 199, 0.25)" }}
       >
         {buttonText}
       </a>
@@ -135,7 +135,7 @@ export default function EconomicsThesisPage() {
           <span>/</span>
           <Link href="/services" style={{ color: "#64748b", textDecoration: "none" }}>خدمات</Link>
           <span>/</span>
-          <span style={{ color: "#0066cc", fontWeight: "bold" }}>انجام پایان نامه اقتصاد</span>
+          <span style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه اقتصاد</span>
         </div>
       </nav>
 
@@ -163,7 +163,7 @@ export default function EconomicsThesisPage() {
         </div>
 
         <p>
-          دانش علوم اقتصادی شالوده سیاست‌گذاری‌های کلان، انباشت ثروت ملی و تخصیص بهینه منابع در جوامع بشری است. در دورانی که بازارهای مالی، شوک‌های ژئوپلیتیک، بحران‌های ناترازی انرژی و تورم‌های پایدار ساختار جوامع را دستخوش دگرگونی ساخته‌اند، پژوهش‌های دانشگاهی این رشته اهمیتی دوچندان یافته‌اند. دستیابی به شایستگی علمی در مقاطع کارشناسی ارشد و دکتری نیازمند این است که <a href="https://www.tezpajoh.ir/" style={{ color: "#0066cc", fontWeight: "bold" }}>انجام پایان نامه</a> صرفاً به عنوان یک واحد درسی تشریفاتی نگریسته نشود، بلکه گامی بنیادین در حل معضلات تجربی نظام‌های تولیدی و پولی باشد. امروزه یک دانشجو برای دستیابی به موفقیت در <strong>انجام پایان نامه اقتصاد</strong> باید بر پایه‌های نظریه خرد و کلان مسلط بوده و قدرت حل و فصل چالش‌های تکنیکی در مدلسازی داده‌های تجربی را داشته باشد.
+          دانش علوم اقتصادی شالوده سیاست‌گذاری‌های کلان، انباشت ثروت ملی و تخصیص بهینه منابع در جوامع بشری است. در دورانی که بازارهای مالی، شوک‌های ژئوپلیتیک، بحران‌های ناترازی انرژی و تورم‌های پایدار ساختار جوامع را دستخوش دگرگونی ساخته‌اند، پژوهش‌های دانشگاهی این رشته اهمیتی دوچندان یافته‌اند. دستیابی به شایستگی علمی در مقاطع کارشناسی ارشد و دکتری نیازمند این است که <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه</a> صرفاً به عنوان یک واحد درسی تشریفاتی نگریسته نشود، بلکه گامی بنیادین در حل معضلات تجربی نظام‌های تولیدی و پولی باشد. امروزه یک دانشجو برای دستیابی به موفقیت در <strong>انجام پایان نامه اقتصاد</strong> باید بر پایه‌های نظریه خرد و کلان مسلط بوده و قدرت حل و فصل چالش‌های تکنیکی در مدلسازی داده‌های تجربی را داشته باشد.
         </p>
 
         <p>
@@ -175,7 +175,7 @@ export default function EconomicsThesisPage() {
 
         {/* H2: 1 */}
         <h2>مبانی و جایگاه استراتژیک انجام پایان نامه اقتصاد در نظام تصمیم‌گیری کلان</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> انجام پایان نامه اقتصاد بستر ارزیابی تجربی نظریه‌های اقتصادی و آزمون سناریوهای پولی، مالی و بازرگانی از طریق پردازش سری‌های زمانی و داده‌های تابلویی است که اثرات سیاستی را پیش از اجرا برای سیاست‌گذاران شفاف می‌سازد.
           </p>
@@ -184,12 +184,12 @@ export default function EconomicsThesisPage() {
           چرا انجام یک رساله قدرتمند اقتصادی فراتر از محاسبات آماری انتزاعی ارزیابی می‌شود؟ بر مبنای منطق اقتصاد تجربی، هر فرضیه‌ای تا زمانی که با شواهد داده‌های میدانی و تکنیک‌های سنجش اقتصادسنجی راستی‌آزمایی نشود، فاقد کارایی عملیاتی در سیاست‌گذاری عمومی است. هنگامی که یک محقق مراحل <strong>انجام پایان نامه اقتصاد</strong> را آغاز می‌کند، در واقع متغیرهایی همچون نقدینگی، نرخ بهره، تحریم‌های تجاری، دستمزد حقیقی، کشش‌های قیمتی و بهره‌وری کل عوامل تولید (TFP) را وارد بوته آزمون قرار می‌دهد.
         </p>
         <p>
-          شواهد تجربی در اقتصاد ایران و کشورهای در حال توسعه حاکی از آن است که سیاست‌گذاران اقتصادی برای مهار تورم، اصلاح ساختار یارانه‌ها و تعیین رژیم بهینه ارزی به پژوهش‌های مستند دانشگاهی تکیه می‌کنند. از این رو، رعایت ساختار اصیل پژوهش موجب می‌شود خروجی تلاش دانشجو نه تنها در جلسات دفاع بالاترین نمره را کسب نماید، بلکه قابلیت استخراج مقالات معتبر در ژورنال‌های نمایه‌شده در پایگاه‌های بین‌المللی همچون <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0066cc", fontWeight: "bold" }}>ScienceDirect</a> را دارا باشد.
+          شواهد تجربی در اقتصاد ایران و کشورهای در حال توسعه حاکی از آن است که سیاست‌گذاران اقتصادی برای مهار تورم، اصلاح ساختار یارانه‌ها و تعیین رژیم بهینه ارزی به پژوهش‌های مستند دانشگاهی تکیه می‌کنند. از این رو، رعایت ساختار اصیل پژوهش موجب می‌شود خروجی تلاش دانشجو نه تنها در جلسات دفاع بالاترین نمره را کسب نماید، بلکه قابلیت استخراج مقالات معتبر در ژورنال‌های نمایه‌شده در پایگاه‌های بین‌المللی همچون <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: "bold" }}>ScienceDirect</a> را دارا باشد.
         </p>
 
         {/* H2: 2 */}
         <h2>مراحل گام‌به‌گام انجام پایان نامه اقتصاد از تدوین فرضیه تا دفاع نهایی</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> این فرآیند از ۷ گام متوالی تشکیل یافته است: تدوین شکاف علمی، طراحی فرمول‌بندی نظری، گردآوری داده‌های پالایش‌شده، آزمون‌های ایستایی، تعیین وقفه و برازش الگو، ارزیابی نقدهای تشخیصی و نهایتاً استنتاج سیاستی و تدوین فصول پایانی.
           </p>
@@ -200,7 +200,7 @@ export default function EconomicsThesisPage() {
 
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
           <li style={{ marginBottom: "16px" }}>
-            <strong>شناسایی شکاف پژوهشی و تبیین مسئله:</strong> مطالعه نظام‌مند مقالات منتشر شده در ژورنال‌های برتر اقتصادسنجی و اقتصاد کلان در سه سال اخیر و استخراج پدیده‌های بازاری که شواهد متناقض دارند. پژوهشگران در این مرحله می‌توانند از خدمات تخصصی نگارش <Link href="/services/proposal" style={{ color: "#0066cc", fontWeight: "bold" }}>پروپوزال اقتصاد</Link> در مجموعه ما بهره‌مند گردند.
+            <strong>شناسایی شکاف پژوهشی و تبیین مسئله:</strong> مطالعه نظام‌مند مقالات منتشر شده در ژورنال‌های برتر اقتصادسنجی و اقتصاد کلان در سه سال اخیر و استخراج پدیده‌های بازاری که شواهد متناقض دارند. پژوهشگران در این مرحله می‌توانند از خدمات تخصصی نگارش <Link href="/services/proposal" style={{ color: "var(--primary)", fontWeight: "bold" }}>پروپوزال اقتصاد</Link> در مجموعه ما بهره‌مند گردند.
           </li>
           <li style={{ marginBottom: "16px" }}>
             <strong>تدوین مبانی نظری و بسط مدل ریاضی:</strong> تدوین فرمول‌های بهینه‌سازی رفتار مصرف‌کننده، تابع تولید بنگاه یا توابع عکس‌العمل بانک مرکزی که مبنای ساخت معادله رگرسیونی قرار می‌گیرند.
@@ -224,7 +224,7 @@ export default function EconomicsThesisPage() {
 
         {/* H3: Voice Search 1 */}
         <h3>چطور با هوش مصنوعی موضوعات بدیع برای انجام پایان نامه اقتصاد بیابیم؟</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> با تغذیه مقالات کلیدی سال‌های اخیر به بسترهای هوش مصنوعی تخصصی و دستوردهی بر تحلیل تقاطع بخش «محدودیت‌ها و پژوهش‌های آتی» با ساختار متغیرهای بومی کشور، می‌توان در زمانی کوتاه به ایده‌های بدون تکرار دست یافت.
           </p>
@@ -235,7 +235,7 @@ export default function EconomicsThesisPage() {
 
         <ol style={{ paddingRight: "25px", marginBottom: "25px" }}>
           <li style={{ marginBottom: "12px" }}>
-            <strong>گردآوری اسناد مادر:</strong> استخراج ۳ مقاله نوآورانه از انتشارات معتبر دفتر ملی تحقیقات اقتصادی آمریکا (<a href="https://www.nber.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0066cc", fontWeight: "bold" }}>NBER</a>) که جدیدترین پارادایم‌های اقتصادی را به چالش کشیده‌اند.
+            <strong>گردآوری اسناد مادر:</strong> استخراج ۳ مقاله نوآورانه از انتشارات معتبر دفتر ملی تحقیقات اقتصادی آمریکا (<a href="https://www.nber.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: "bold" }}>NBER</a>) که جدیدترین پارادایم‌های اقتصادی را به چالش کشیده‌اند.
           </li>
           <li style={{ marginBottom: "12px" }}>
             <strong>استخراج ماتریس متقاطع متغیرها:</strong> بازخوانی ماشینی داده‌ها و ترکیب شوک‌های بین‌المللی با شاخص‌های اقتصاد کلان داخلی (نظیر تلفیق بازدهی رمزارزها با تقاضای سفته‌بازی پول).
@@ -250,7 +250,7 @@ export default function EconomicsThesisPage() {
 
         {/* H3: Voice Search 2 */}
         <h3>چطور با هوش مصنوعی فرضیه و مدل مفهومی انجام پایان نامه اقتصاد را تدوین کنیم؟</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> با تعریف دقیق مبانی نظری (نظیر مکتب کلاسیک، کینزی یا پول‌گرایان) در متن ورودی، سامانه‌های هوشمند قادرند جهت‌گیری تاثیر متغیر مستقل بر وابسته را با منطق برهان خلف فرمول‌بندی و تدوین کنند.
           </p>
@@ -261,7 +261,7 @@ export default function EconomicsThesisPage() {
 
         {/* H3: Voice Search 3 */}
         <h3>چگونه معضل درون‌زایی و ناهمسانی واریانس را در پایان نامه اقتصاد برطرف کنیم؟</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> رفع درون‌زایی با متغیرهای ابزاری و روش حداقل مربعات دومرحله‌ای (2SLS) یا GMM سیستم امکان‌پذیر است، و ناهمسانی واریانس با استفاده از خطاهای استاندارد مقاوم وایت یا نیوی-وست اصلاح می‌گردد.
           </p>
@@ -272,7 +272,7 @@ export default function EconomicsThesisPage() {
 
         {/* H2: 3 - Comparison Table */}
         <h2>مقایسه جامع بسترهای محاسباتی و نرم‌افزاری در انجام پایان نامه اقتصاد</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> ایویوز بهترین بستر برای الگوهای سری زمانی و رگرسیون‌های هم‌جمعی است؛ استاتا برای داده‌های تابلویی خرد و کلان برتری دارد؛ متلب و داینار جهت شبیه‌سازی مدل‌های تعادل عمومی به کار می‌روند و پایتون در اقتصاد محاسباتی پیشتاز است.
           </p>
@@ -337,7 +337,7 @@ export default function EconomicsThesisPage() {
 
         {/* H2: 4 - Common Pitfalls */}
         <h2>اشتباهات رایج دانشجویان در فرآیند انجام پایان نامه اقتصاد و راهکارهای پیشگیری</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> نادیده گرفتن ایستایی متغیرها، اتکای نادرست به ضریب تعیین بالا در داده‌های نامانا، غفلت از شکست‌های ساختاری در داده‌های سری زمانی و عدم کنترل درون‌زایی، اساسی‌ترین اشتباهات پژوهشگران در این حوزه هستند.
           </p>
@@ -346,23 +346,23 @@ export default function EconomicsThesisPage() {
           یکی از بزرگ‌ترین خطاهای فاحش که منجر به رد شدن رساله در جلسات پیش‌دفاع می‌گردد، وقوع پدیده رگرسیون کاذب (Spurious Regression) است. پژوهشگر به دلیل دیدن ضریب تعیین بالای ۹۰ درصد و آماره‌های تی به ظاهر معنادار شادمان می‌شود، غافل از آنکه با متغیرهای نامانای بدون هم‌انباشتگی مواجه است و رابطه مشاهده شده صرفاً ناشی از وجود روندهای مشترک تصادفی است.
         </p>
         <p>
-          علاوه بر این، در داده‌های اقتصاد ایران، وقوع شوک‌های ارزی و تغییر سیاست‌های یارانه‌ای در سال‌های مختلف موجب شکست ساختاری در شیب و عرض از مبدا معادلات می‌گردد. بی‌توجهی به این شکست‌ها و عدم استفاده از آزمون‌های گرگوری-هنسن یا پرون، برآوردهای مدل را از درجه اعتبار ساقط می‌نماید. برای دوری از این چالش‌ها، همراهی با تیمی مجرب در نگارش <Link href="/masters-thesis" style={{ color: "#0066cc", fontWeight: "bold" }}>پایان نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0066cc", fontWeight: "bold" }}>رساله دکتری</Link> بهترین تدبیر آکادمیک است.
+          علاوه بر این، در داده‌های اقتصاد ایران، وقوع شوک‌های ارزی و تغییر سیاست‌های یارانه‌ای در سال‌های مختلف موجب شکست ساختاری در شیب و عرض از مبدا معادلات می‌گردد. بی‌توجهی به این شکست‌ها و عدم استفاده از آزمون‌های گرگوری-هنسن یا پرون، برآوردهای مدل را از درجه اعتبار ساقط می‌نماید. برای دوری از این چالش‌ها، همراهی با تیمی مجرب در نگارش <Link href="/masters-thesis" style={{ color: "var(--primary)", fontWeight: "bold" }}>پایان نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)", fontWeight: "bold" }}>رساله دکتری</Link> بهترین تدبیر آکادمیک است.
         </p>
 
         {/* H2: 5 - Sub-branches */}
         <h2>گرایش‌های تخصصی و افق‌های نوین پژوهش در علوم اقتصادی</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> علوم اقتصادی شامل گرایش‌های توسعه، علوم اقتصادی، اقتصاد انرژی، اقتصاد مالی و اقتصاد اسلامی است که هر کدام نیازمند متدولوژی ویژه، بانک داده‌های منحصر به فرد و چارچوب نظری اختصاصی هستند.
           </p>
         </div>
         <p>
-          دانشجویان متناسب با علایق و مهارت‌های تحلیلی خود در یکی از شاخه‌های تخصصی زیر به فعالیت علمی می‌پردازند. شایان ذکر است تلفیق مسائل اقتصادی با علوم مدیریتی و حسابداری می‌تواند از طریق بررسی راهنماهای <Link href="/services/management-thesis" style={{ color: "#0066cc", fontWeight: "bold" }}>انجام پایان نامه مدیریت</Link> و همچنین <Link href="/services/accounting-thesis" style={{ color: "#0066cc", fontWeight: "bold" }}>انجام پایان نامه حسابداری</Link> چشم‌اندازی کاربردی‌تر پدید آورد:
+          دانشجویان متناسب با علایق و مهارت‌های تحلیلی خود در یکی از شاخه‌های تخصصی زیر به فعالیت علمی می‌پردازند. شایان ذکر است تلفیق مسائل اقتصادی با علوم مدیریتی و حسابداری می‌تواند از طریق بررسی راهنماهای <Link href="/services/management-thesis" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه مدیریت</Link> و همچنین <Link href="/services/accounting-thesis" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه حسابداری</Link> چشم‌اندازی کاربردی‌تر پدید آورد:
         </p>
 
         {/* H3: 1 */}
         <h3>انجام پایان نامه اقتصاد در گرایش اقتصاد کلان و پولی</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> در این شاخه، اثرات کانال‌های سرایت سیاست‌های پولی، استقلال بانک مرکزی، انتظارات تورمی عقلایی و مدلسازی منحنی فیلیپس در کانون تحلیل‌ها قرار دارند.
           </p>
@@ -373,7 +373,7 @@ export default function EconomicsThesisPage() {
 
         {/* H4: 1 */}
         <h4>مدلسازی اثرات متقابل متغیرهای پولی با روش‌های برداری</h4>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> روش‌های خودرگرسیون برداری ساختاری (SVAR) و الگوهای با پارامترهای متغیر در زمان (TVP-VAR) پویایی واکنش متغیرها را به شوک‌های برون‌زا با توابع عکس‌العمل ضربه ترسیم می‌کنند.
           </p>
@@ -384,7 +384,7 @@ export default function EconomicsThesisPage() {
 
         {/* H3: 2 */}
         <h3>انجام پایان نامه اقتصاد در گرایش اقتصاد انرژی و محیط‌زیست</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> این گرایش به سنجش کشش‌های تقاضای سوخت، قیمت‌گذاری حامل‌های انرژی، تحلیل منحنی کوزنتس زیست‌محیطی (EKC) و مدل‌های مصرف پایدار اختصاص دارد.
           </p>
@@ -395,7 +395,7 @@ export default function EconomicsThesisPage() {
 
         {/* H4: 2 */}
         <h4>تحلیل همبستگی ناترازی انرژی و رشد بخش‌های صنعتی</h4>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> با بهره‌گیری از جدول داده-ستانده (Input-Output) و ماتریس حسابداری اجتماعی (SAM)، پیوندهای پسین و پیشین مصرف انرژی در ساختار ارزش افزوده صنایع ارزیابی می‌گردد.
           </p>
@@ -406,7 +406,7 @@ export default function EconomicsThesisPage() {
 
         {/* H3: 3 */}
         <h3>انجام پایان نامه اقتصاد در گرایش اقتصاد مالی و اقتصادسنجی کاربردی</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> کانون این گرایش بر کشف قیمت در بورس، پیش‌بینی نوسانات بازدهی دارایی‌ها با خانواده الگوهای GARCH، قیمت‌گذاری اختیارات معامله و سنجش حباب‌های قیمتی استوار است.
           </p>
@@ -417,7 +417,7 @@ export default function EconomicsThesisPage() {
 
         {/* H5: Research Topic Innovations */}
         <h5 style={{ fontSize: "1.15rem", fontWeight: "800", color: "#0f172a", marginTop: "25px" }}>متغیرهای میان‌رشته‌ای نوین در افق سال ۲۰۲۶</h5>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> شاخص‌های عدم اطمینان سیاست اقتصادی (EPU)، امتیازات تحول دیجیتال بانکی، تاب‌آوری زنجیره تامین و شاخص‌های اقتصاد رفتاری از جدیدترین متغیرهای رساله‌های امسال هستند.
           </p>
@@ -428,7 +428,7 @@ export default function EconomicsThesisPage() {
 
         {/* H2: 6 - Preparation for defense & publishing */}
         <h2>اصول ارائه موفق در جلسه دفاع و چاپ مقالات علمی از رساله اقتصاد</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> موفقیت در دفاع مستلزم تسلط بر استدلال‌های اقتصادی معناداری آماره‌ها، شفافیت آزمون‌های اعتبار الگو و پاسخگویی مستند به چرایی گزینش متغیرهای توضیحی در چارچوب مکاتب تئوریک است.
           </p>
@@ -439,7 +439,7 @@ export default function EconomicsThesisPage() {
 
         {/* H2: 7 - FAQs */}
         <h2>پرسش‌های متداول دانشجویان درباره انجام پایان نامه اقتصاد</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> در این قسمت به ۵ دغدغه مهم پژوهشگران درباره انتخاب موضوع، نرم‌افزارهای تحلیلی، جمع‌آوری داده‌ها، آزمون‌های آماری و تعهدات گروه مشاوره‌ای پاسخ داده شده است.
           </p>
@@ -484,7 +484,7 @@ export default function EconomicsThesisPage() {
 
         {/* H2: 8 - Conclusion */}
         <h2>نتیجه‌گیری و گام بعدی برای آغاز پژوهش اقتصادی</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> اتمام مقتدرانه رساله علوم اقتصادی با تلفیق شایستگی‌های نظری، مهارت‌های نرم‌افزاری و برنامه‌ریزی هدفمند میسر می‌گردد و اعتباری پایدار برای ورود به بازار کار تخصصی به ارمغان می‌آورد.
           </p>
@@ -497,7 +497,7 @@ export default function EconomicsThesisPage() {
         {renderCTA("همین امروز با ثبت درخواست، مشاوره رایگان تدوین پایان‌نامه اقتصاد خود را آغاز کنید", "دریافت مشاوره تخصصی و سفارش")}
 
         {/* Author Profile Box (E-E-A-T) */}
-        <div style={{ marginTop: "50px", padding: "28px", backgroundColor: "#f8fafc", borderTop: "3px solid #0066cc", borderRadius: "10px", boxShadow: "0 2px 12px rgba(0,0,0,0.03)", display: "flex", flexDirection: "column", gap: "14px" }}>
+        <div style={{ marginTop: "50px", padding: "28px", backgroundColor: "#f8fafc", borderTop: "3px solid var(--primary)", borderRadius: "10px", boxShadow: "0 2px 12px rgba(0,0,0,0.03)", display: "flex", flexDirection: "column", gap: "14px" }}>
           <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#0f172a", fontWeight: "800" }}>درباره مرجع تخصصی: دپارتمان اقتصاد گروه تز پژوه</h4>
           <p style={{ margin: "0", color: "#475569", fontSize: "1.05rem", lineHeight: "1.8" }}>
             این مستند علمی توسط دپارتمان تخصصی علوم اقتصادی گروه تز پژوه تهیه شده است. این مجموعه با بیش از ۱۶ سال سابقه درخشان و بهره‌گیری از نخبگان دانشگاه‌های دولتی، ارائه‌دهنده خدمات تخصصی مشاوره، تدوین پروپوزال، گردآوری بانک‌های آماری و مدلسازی اقتصادسنجی در مقاطع کارشناسی ارشد و دکتری است. رسالت ما توانمندسازی محققان برای ارائه پژوهش‌های تراز اول و انتشار دستاوردهای علمی در بالاترین سطح کیفی است.

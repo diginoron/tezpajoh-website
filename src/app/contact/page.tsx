@@ -13,7 +13,7 @@ export default function ContactPage() {
   return (
     <div className={`container ${styles.pillarPage}`}>
       <div className={styles.hero}>
-        <h1 className="text-gradient">تماس با تز پژوه</h1>
+        <h1>تماس با تز پژوه</h1>
         <p>کارشناسان ما همه‌روزه آماده پاسخگویی و ارائه مشاوره تخصصی به شما دانشجویان عزیز هستند.</p>
       </div>
 
@@ -28,7 +28,7 @@ export default function ContactPage() {
                 fontWeight: '900', 
                 color: 'var(--primary)',
                 display: 'block',
-                textShadow: '0 4px 15px rgba(212, 175, 55, 0.3)'
+                textShadow: '0 4px 15px rgba(22, 104, 199, 0.3)'
               }}>
                 09055611316
               </a>
@@ -40,7 +40,7 @@ export default function ContactPage() {
                 fontWeight: '900', 
                 color: 'var(--primary)',
                 display: 'block',
-                textShadow: '0 4px 15px rgba(212, 175, 55, 0.3)'
+                textShadow: '0 4px 15px rgba(22, 104, 199, 0.3)'
               }}>
                 02133503799
               </a>

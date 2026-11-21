@@ -1,20 +1,26 @@
 .pillarPage {
-  padding: 60px 0;
+  padding: 40px 0 60px;
 }
 
 .hero {
   text-align: center;
   margin-bottom: 60px;
+  background: linear-gradient(135deg, var(--navy-800) 0%, var(--navy-700) 60%, #1b4a8a 100%);
+  border-radius: 20px;
+  padding: 56px 32px;
+  box-shadow: var(--shadow-md);
 }
 
 .hero h1 {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   margin-bottom: 20px;
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  color: var(--text-muted);
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.78);
   max-width: 800px;
   margin: 0 auto;
 }
@@ -26,15 +32,16 @@
 }
 
 .mainContent {
-  background: var(--glass-bg);
+  background: var(--card-bg, #ffffff);
   padding: 40px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-sm);
   transition: all 0.4s ease;
 }
 
 .mainContent:hover {
-  box-shadow: 0 15px 40px rgba(0,0,0,0.04);
+  box-shadow: var(--shadow-md);
 }
 
 .mainContent h2 {
@@ -64,12 +71,12 @@
 
 /* Content Boxes */
 .infoBox {
-  background-color: rgba(52, 152, 219, 0.05);
-  border-right: 4px solid #3498db;
+  background-color: rgba(22, 104, 199, 0.05);
+  border-right: 4px solid var(--primary);
   padding: 20px;
   border-radius: var(--radius-sm);
   margin: 25px 0;
-  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.05);
+  box-shadow: 0 4px 15px rgba(22, 104, 199, 0.05);
   transition: transform 0.3s ease;
 }
 
@@ -132,12 +139,12 @@
   padding: 25px;
   border-radius: var(--radius-md);
   margin: 30px 0;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  box-shadow: var(--shadow-sm);
   transition: all 0.3s ease;
 }
 
 .featureBox:hover {
-  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  box-shadow: var(--shadow-md);
 }
 
 .sidebar {
@@ -147,11 +154,12 @@
 }
 
 .ctaCard {
-  background: linear-gradient(145deg, rgba(181, 141, 34, 0.1), rgba(255, 255, 255, 1));
+  background: linear-gradient(145deg, rgba(22, 104, 199, 0.1), rgba(255, 255, 255, 1));
   padding: 30px;
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(181, 141, 34, 0.3);
+  border: 1px solid rgba(22, 104, 199, 0.3);
   text-align: center;
+  box-shadow: var(--shadow-sm);
 }
 
 .ctaCard h3 {
@@ -165,10 +173,11 @@
 }
 
 .relatedLinks {
-  background: var(--glass-bg);
+  background: var(--card-bg, #ffffff);
   padding: 30px;
   border-radius: var(--radius-lg);
   border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-sm);
 }
 
 .relatedLinks h3 {

@@ -114,7 +114,7 @@ export default function ElectricalEngineeringThesisPage() {
       <a 
         href="https://www.tezpajoh.ir/contact" 
         className="btn btn-primary btn-lg" 
-        style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", display: "inline-block", textDecoration: "none", backgroundColor: "#0066cc", color: "#ffffff", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 4px 12px rgba(0,102,204,0.25)" }}
+        style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", display: "inline-block", textDecoration: "none", backgroundColor: "var(--primary)", color: "#ffffff", borderRadius: "8px", fontWeight: "bold", boxShadow: "0 4px 12px rgba(22, 104, 199, 0.25)" }}
       >
         {buttonText}
       </a>
@@ -135,7 +135,7 @@ export default function ElectricalEngineeringThesisPage() {
           <span>/</span>
           <Link href="/services" style={{ color: "#64748b", textDecoration: "none" }}>خدمات</Link>
           <span>/</span>
-          <span style={{ color: "#0066cc", fontWeight: "bold" }}>انجام پایان نامه برق</span>
+          <span style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه برق</span>
         </div>
       </nav>
 
@@ -163,7 +163,7 @@ export default function ElectricalEngineeringThesisPage() {
         </div>
 
         <p>
-          مهندسی برق به عنوان پیشران فناوری‌های تحول‌آفرین جهان، از شبکه‌های هوشمند انرژی تجدیدپذیر و سیستم‌های هدایت خودکار گرفته تا پردازش سیگنال‌های زیستی و مدارهای مجتمع فرکانس بالا، نقشی بنیادین در پیشرفت جوامع ایفا می‌کند. ورود به مقاطع کارشناسی ارشد و دکتری در این رشته، مستلزم تعهد به استانداردهای سخت‌گیرانه محاسباتی است؛ جایی که <a href="https://www.tezpajoh.ir/" style={{ color: "#0066cc", fontWeight: "bold" }}>انجام پایان نامه</a> نباید صرفاً بازتولید روابط کتابخانه‌ای تلقی گردد، بلکه باید پاسخی شفاف به گلوگاه‌های مهندسی معاصر ارائه دهد. دانشجویان در جریان پیاده‌سازی و <strong>انجام پایان نامه برق</strong> نیازمند مواجهه با سیستم‌های غیرخطی، کنترل نویز، بهینه‌سازی مصرف انرژی و تحلیل دینامیکی پدیده‌ها هستند.
+          مهندسی برق به عنوان پیشران فناوری‌های تحول‌آفرین جهان، از شبکه‌های هوشمند انرژی تجدیدپذیر و سیستم‌های هدایت خودکار گرفته تا پردازش سیگنال‌های زیستی و مدارهای مجتمع فرکانس بالا، نقشی بنیادین در پیشرفت جوامع ایفا می‌کند. ورود به مقاطع کارشناسی ارشد و دکتری در این رشته، مستلزم تعهد به استانداردهای سخت‌گیرانه محاسباتی است؛ جایی که <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه</a> نباید صرفاً بازتولید روابط کتابخانه‌ای تلقی گردد، بلکه باید پاسخی شفاف به گلوگاه‌های مهندسی معاصر ارائه دهد. دانشجویان در جریان پیاده‌سازی و <strong>انجام پایان نامه برق</strong> نیازمند مواجهه با سیستم‌های غیرخطی، کنترل نویز، بهینه‌سازی مصرف انرژی و تحلیل دینامیکی پدیده‌ها هستند.
         </p>
 
         <p>
@@ -175,7 +175,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H2: 1 */}
         <h2>ضرورت و زیربنای علمی در انجام پایان نامه برق چیست؟</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> انجام پایان نامه برق بستری بنیادین برای اعتبارسنجی تئوری‌های الکترومغناطیس، کنترل و پردازش انرژی از طریق معادلات دیفرانسیل حاکم و تحلیل رفتار گذرا است که زمینه انتقال دانش از مدل ریاضی به طراحی سامانه‌های صنعتی کارآمد را فراهم می‌سازد.
           </p>
@@ -184,12 +184,12 @@ export default function ElectricalEngineeringThesisPage() {
           چرا انجام یک پایان‌نامه منسجم در مهندسی برق نیازمند دقت مضاعف نسبت به سایر حوزه‌های مهندسی است؟ در این رشته، هر فرضیه و طراحی تا زمانی که پایداری لیاپانوف آن اثبات نگردد، پاسخ فرکانسی آن در نمودارهای بود و نایکوئیست ارزیابی نشود و تلفات توان آن به حداقل نرسد، فاقد ارزش کارکردی است. در فرآیند <strong>انجام پایان نامه برق</strong>، دانشجویان گرایش‌های گوناگون اعم از سیستم‌های قدرت، کنترل، مخابرات میدان و سیستم، الکترونیک قدرت و بیوالکتریک، با متغیرهای پیوسته و گسسته‌ای سر و کار دارند که خطای ناچیز در مدل‌سازی آن‌ها به ناپایداری کل سامانه می‌انجامد.
         </p>
         <p>
-          آمارها نشان می‌دهند بیش از ۷۰ درصد دستاوردهای ثبت‌شده در مخازن جهانی نظیر پایگاه علمی <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0066cc", fontWeight: "bold" }}>IEEE Xplore</a> ریشه در شبیه‌سازی‌های عددی و اعتبارسنجی دقیق دارند. از این رو، استخراج معادلات دیفرانسیل حاکم، توجه به قیود فیزیکی قطعات و اعمال شرایط نامساعد آب‌وهوایی یا نویز محیطی، تفاوت میان یک پایان‌نامه متوسط با یک اثر شاخص و قابل استناد در همایش‌های تراز اول جهانی را رقم می‌زند.
+          آمارها نشان می‌دهند بیش از ۷۰ درصد دستاوردهای ثبت‌شده در مخازن جهانی نظیر پایگاه علمی <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: "bold" }}>IEEE Xplore</a> ریشه در شبیه‌سازی‌های عددی و اعتبارسنجی دقیق دارند. از این رو، استخراج معادلات دیفرانسیل حاکم، توجه به قیود فیزیکی قطعات و اعمال شرایط نامساعد آب‌وهوایی یا نویز محیطی، تفاوت میان یک پایان‌نامه متوسط با یک اثر شاخص و قابل استناد در همایش‌های تراز اول جهانی را رقم می‌زند.
         </p>
 
         {/* H2: 2 */}
         <h2>مراحل گام‌به‌گام شبیه‌سازی و انجام پایان نامه برق از ایده تا نتیجه</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> این فرآیند سازمان‌یافته شامل استخراج شکاف پژوهشی، مدل‌سازی تحلیلی در فضای حالت، پیاده‌سازی بلوک‌های شبیه‌سازی، اعمال شرایط کاری حدی، تحلیل پاسخ سیستم و در نهایت اعتبارسنجی آماری و تدوین گزارش علمی منطبق با آیین‌نامه دانشگاه است.
           </p>
@@ -200,7 +200,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
           <li style={{ marginBottom: "16px" }}>
-            <strong>استخراج مسئله و تدوین شکاف علمی:</strong> مرور مقالات ۳ سال گذشته، استخراج قیود فنی برآورده‌نشده نظیر اعوجاج هارمونیکی کل (THD)، پاسخ به اغتشاشات گذرا، یا تاخیر محاسباتی و تبدیل آن‌ها به فرضیات مشخص در قالب <Link href="/services/proposal" style={{ color: "#0066cc", fontWeight: "bold" }}>پروپوزال مهندسی برق</Link>.
+            <strong>استخراج مسئله و تدوین شکاف علمی:</strong> مرور مقالات ۳ سال گذشته، استخراج قیود فنی برآورده‌نشده نظیر اعوجاج هارمونیکی کل (THD)، پاسخ به اغتشاشات گذرا، یا تاخیر محاسباتی و تبدیل آن‌ها به فرضیات مشخص در قالب <Link href="/services/proposal" style={{ color: "var(--primary)", fontWeight: "bold" }}>پروپوزال مهندسی برق</Link>.
           </li>
           <li style={{ marginBottom: "16px" }}>
             <strong>فرمول‌بندی ریاضی و مدل‌سازی فضای حالت:</strong> استخراج معادلات دیفرانسیل درجه اول، ماتریس‌های تبدیل لاپلاس یا معادلات موج ماکسول بر حسب نوع گرایش جهت تدوین بستر تئوریک سیستم.
@@ -224,7 +224,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H2: 3 */}
         <h2>گرایش‌های تخصصی در انجام پایان نامه برق و رویکردهای مدل‌سازی</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> هر گرایش مهندسی برق نیازمند چارچوب نظری و ابزار تحلیل مجزاست؛ قدرت بر پایداری ولتاژ و بازار برق، کنترل بر جبران‌سازی و هدایت، مخابرات بر بازدهی طیفی و امواج، و الکترونیک بر راندمان سوئیچینگ و ساخت تراشه‌ها متمرکز است.
           </p>
@@ -235,7 +235,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H3: 1 */}
         <h3>انجام پایان نامه برق گرایش سیستم‌های قدرت و شبکه‌های هوشمند</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> پژوهش در این حوزه حول محور ادغام منابع تجدیدپذیر بادی و فتوولتائیک، بهره‌برداری بهینه از ریزشبکه‌ها، جایابی ادوات فکتس (FACTS)، هماهنگی حفاظتی رله‌ها و مطالعات پخش بار بهینه در شبکه‌های توزیع و انتقال صورت می‌پذیرد.
           </p>
@@ -246,7 +246,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H3: 2 */}
         <h3>انجام پایان نامه برق گرایش کنترل و دینامیک سیستم‌ها</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> گرایش کنترل به توسعه کنترل‌کننده‌های پیش‌بین مدل (MPC)، تکنیک‌های کنترل مد لغزشی مرتبه کسری، کنترل تطبیقی سامانه، فیلتر کالمن گسترش‌یافته و هدایت سیستم‌های روباتیک، بازوهای مکانیکی و شناورهای خودران اختصاص دارد.
           </p>
@@ -257,7 +257,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H3: 3 */}
         <h3>انجام پایان نامه برق گرایش مخابرات سیستم، میدان و موج</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> این حوزه بر طراحی آنتن‌های مایکرواستریپ و متاسطوح، شبکه‌های مایمو انبوه (Massive MIMO)، بهینه‌سازی نسبت سیگنال به نویز، تخصیص منابع در شبکه‌های نسل جدید و پردازش سیگنال‌های راداری تکیه دارد.
           </p>
@@ -268,7 +268,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H3: 4 */}
         <h3>انجام پایان نامه برق گرایش الکترونیک و مدارهای مجتمع</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> طراحی مبدل‌های رزونانسی با سوئیچینگ نرم، طراحی مدارهای مجتمع آنالوگ کم‌توان با تکنولوژی‌های نانومتری CMOS، بهینه‌سازی درایورهای موتور و فیلترهای فعال الکترونیک قدرت در کانون توجه این شاخه قرار دارند.
           </p>
@@ -279,7 +279,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* Comparison Table */}
         <h2>مقایسه جامع نرم‌افزارهای استاندارد در شبیه‌سازی پایان نامه برق</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> انتخاب محیط شبیه‌سازی بر اساس مقیاس فرکانسی، حجم شبکه و ساختار فیزیکی المان‌ها انجام می‌گیرد؛ جدول زیر نقاط قوت، بسترهای کاربردی و گرایش‌های هدف هر ابزار را مقایسه می‌نماید.
           </p>
@@ -298,7 +298,7 @@ export default function ElectricalEngineeringThesisPage() {
             <tbody>
               <tr style={{ backgroundColor: "#ffffff" }}>
                 <td style={{ padding: "14px 16px", border: "1px solid #e2e8f0", fontWeight: "bold" }}>
-                  <a href="https://www.mathworks.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0066cc", textDecoration: "none" }}>MATLAB / Simulink</a>
+                  <a href="https://www.mathworks.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", textDecoration: "none" }}>MATLAB / Simulink</a>
                 </td>
                 <td style={{ padding: "14px 16px", border: "1px solid #e2e8f0" }}>کنترل، قدرت، مخابرات، پردازش سیگنال</td>
                 <td style={{ padding: "14px 16px", border: "1px solid #e2e8f0" }}>تولباکس‌های جامع، کتابخانه‌های ریاضی غنی، ارتباط با سخت‌افزار</td>
@@ -337,7 +337,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H2: 4 */}
         <h2>چگونه بهترین نرم‌افزار شبیه‌سازی را برای پایان نامه برق انتخاب کنیم؟</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> انتخاب نرم‌افزار مستلزم بررسی ماهیت سیگنال‌ها (پیوسته زمانی یا گسسته)، حوزه تحلیل (زمان، فرکانس یا المان محدود) و هماهنگی با مقالات پایه منتشرشده در نشریات معتبر دانشگاهی است.
           </p>
@@ -348,7 +348,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H2: 5 */}
         <h2>اشتباهات رایج در شبیه‌سازی و تدوین پایان نامه برق و راه‌های پیشگیری</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> عدم تنظیم مناسب گام زمانی حل‌کننده، نادیده گرفتن تلفات پراکندگی، فرض خطی بودن تمامی المان‌ها و مقایسه نکردن نتایج با شیوه‌های استاندارد بین‌المللی، مهم‌ترین عوامل رد پروژه‌ها در کمیته‌های داوری به شمار می‌روند.
           </p>
@@ -373,7 +373,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H4: Technical Standard Guidance */}
         <h4 style={{ fontSize: "1.2rem", fontWeight: "800", color: "#0f172a", marginTop: "25px" }}>انطباق با استانداردهای مرجع بین‌المللی</h4>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0066cc", borderRadius: "6px", margin: "15px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> پایان‌نامه‌های معتبر باید نتایج خود را با استانداردهایی همچون IEEE 519 در کنترل هارمونیک، IEEE 1547 در اتصال منابع پراکنده و آیین‌نامه‌های کمیسیون بین‌المللی الکتروتکنیک (IEC) تطبیق دهند.
           </p>
@@ -384,18 +384,18 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H2: 6 */}
         <h2>چالش‌های اصلی داوری در دفاع از رساله دکتری برق کدامند؟</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> هیئت داوران در مقطع دکتری بر اثبات ریاضی نوآوری، برتری راندمان نسبت به آخرین روش‌های سال ۲۰۲۶، توجیه‌پذیری هزینه محاسباتی در پردازنده‌های بیدرنگ و توانایی پیاده‌سازی نیمه‌سخت‌افزاری تمرکز دارند.
           </p>
         </div>
         <p>
-          در جلسات دفاع دکتری مهندسی برق، پرسش‌ها به بررسی گراف‌های ساده محدود نمی‌شود؛ داوران با پرسیدن سوالاتی مانند «چرا فلان تابع لیاپانوف برای اثبات پایداری مجانبی سراسری انتخاب شد؟»، «آیا پیچیدگی مرتبه محاسباتی روش پیشنهادی بر روی میکروکنترلرهای سری STM32 یا بردهای DSP قابل اجراست؟» و «چگونه عدم قطعیت سنسورها لحاظ شده است؟»، عمق تسلط محقق را می‌سنجند. تدوین <Link href="/services/thesis-chapters" style={{ color: "#0066cc", fontWeight: "bold" }}>فصول پایان‌نامه</Link> با استدلال‌های ریاضی صلب و آماده‌سازی ماتریس پاسخ به شبهات احتمالی، رمز دریافت بالاترین درجه کیفی در جلسه دفاع است.
+          در جلسات دفاع دکتری مهندسی برق، پرسش‌ها به بررسی گراف‌های ساده محدود نمی‌شود؛ داوران با پرسیدن سوالاتی مانند «چرا فلان تابع لیاپانوف برای اثبات پایداری مجانبی سراسری انتخاب شد؟»، «آیا پیچیدگی مرتبه محاسباتی روش پیشنهادی بر روی میکروکنترلرهای سری STM32 یا بردهای DSP قابل اجراست؟» و «چگونه عدم قطعیت سنسورها لحاظ شده است؟»، عمق تسلط محقق را می‌سنجند. تدوین <Link href="/services/thesis-chapters" style={{ color: "var(--primary)", fontWeight: "bold" }}>فصول پایان‌نامه</Link> با استدلال‌های ریاضی صلب و آماده‌سازی ماتریس پاسخ به شبهات احتمالی، رمز دریافت بالاترین درجه کیفی در جلسه دفاع است.
         </p>
 
         {/* H2: 7 - FAQs */}
         <h2>پرسش‌های متداول دانشجویان درباره انجام پایان نامه برق</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> پاسخ به پرتکرارترین پرسش‌های دانشگاهی پیرامون هزینه‌ها، روند پیاده‌سازی شبیه‌سازی، نرم‌افزارهای مورد تایید اساتید و نحوه استخراج مقاله معتبر در بخش زیر گردآوری شده است.
           </p>
@@ -440,7 +440,7 @@ export default function ElectricalEngineeringThesisPage() {
 
         {/* H2: 8 - Conclusion */}
         <h2>نتیجه‌گیری و اقدامات عملی برای شروع موفق پایان نامه برق</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0066cc", borderRadius: "8px", margin: "20px 0" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "8px", margin: "20px 0" }}>
           <p style={{ margin: "0", fontWeight: "600", color: "#0f172a" }}>
             <strong>پاسخ مستقیم و کوتاه:</strong> به پایان رساندن موفقیت‌آمیز پایان‌نامه مهندسی برق نیازمند تلفیق بینش ریاضی، شبیه‌سازی حرفه‌ای و نگارش مستندات مستدل است که موقعیت آکادمیک و شغلی پژوهشگر را تثبیت می‌نماید.
           </p>
@@ -453,7 +453,7 @@ export default function ElectricalEngineeringThesisPage() {
         {renderCTA("همین امروز جهت دریافت مشاوره تخصصی شبیه‌سازی و تدوین پایان‌نامه برق اقدام فرمایید", "دریافت مشاوره تخصصی و سفارش")}
 
         {/* Author Profile Box */}
-        <div style={{ marginTop: "50px", padding: "28px", backgroundColor: "#f8fafc", borderTop: "3px solid #0066cc", borderRadius: "10px", boxShadow: "0 2px 12px rgba(0,0,0,0.03)", display: "flex", flexDirection: "column", gap: "14px" }}>
+        <div style={{ marginTop: "50px", padding: "28px", backgroundColor: "#f8fafc", borderTop: "3px solid var(--primary)", borderRadius: "10px", boxShadow: "0 2px 12px rgba(0,0,0,0.03)", display: "flex", flexDirection: "column", gap: "14px" }}>
           <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#0f172a", fontWeight: "800" }}>درباره مرجع تخصصی: دپارتمان مهندسی برق گروه تز پژوه</h4>
           <p style={{ margin: "0", color: "#475569", fontSize: "1.05rem", lineHeight: "1.8" }}>
             این مقاله توسط دپارتمان تخصصی مهندسی برق گروه پژوهشی تز پژوه تالیف شده است. گروه تخصصی تز پژوه با بیش از ۱۰ سال سابقه پروژه‌های دانشگاهی و همراهی جمعی از فارغ‌التحصیلان دانشگاه‌های برتر صنعتی کشور، ارائه دهنده خدمات مشاوره، استخراج موضوعات روز، شبیه‌سازی در نرم‌افزارهای متلب، پی‌اس‌کد، اچ‌اف‌اس‌اس و تدوین پروپوزال و رساله در کلیه مقاطع دانشگاهی است. هدف بنیادین ما، ارتقای استاندارد تولیدات علمی و تسهیل مسیر فارغ‌التحصیلی پژوهشگران با بالاترین شایستگی آکادمیک است.

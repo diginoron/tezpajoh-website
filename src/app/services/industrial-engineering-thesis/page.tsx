@@ -103,7 +103,7 @@ export default function IndustrialEngineeringThesisPage() {
     <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
       <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         دریافت مشاوره تخصصی و سفارش
       </a>
     </div>
@@ -122,7 +122,7 @@ export default function IndustrialEngineeringThesisPage() {
 
       {/* کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه مهندسی صنایع؛ راهنمای جامع از انتخاب موضوع تا دفاع
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -135,10 +135,10 @@ export default function IndustrialEngineeringThesisPage() {
       {/* کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          مهندسی صنایع، حلقه اتصال دانش فنی، مدیریت و داده است و به همین دلیل یکی از پرتقاضاترین رشته‌ها برای تحصیلات تکمیلی محسوب می‌شود؛ اما همین تنوع موضوعی و ابزاری، مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در این رشته را پیچیده‌تر از رشته‌های صرفاً کتاب‌محور می‌کند. تجربه تیم تز پژوه در ده‌ها پروژه ارشد و دکتری این رشته نشان می‌دهد بیش از نیمی از تأخیرها، نه از ضعف علمی دانشجو، بلکه از انتخاب موضوع نامناسب، مسیر حل اشتباه و شروع دیرهنگام نگارش ناشی می‌شود. در این مقاله کل مسیر از انتخاب موضوع تا روز دفاع را گام‌به‌گام، با معرفی ابزارهای درست و اشتباهات رایج مرور می‌کنیم.
+          مهندسی صنایع، حلقه اتصال دانش فنی، مدیریت و داده است و به همین دلیل یکی از پرتقاضاترین رشته‌ها برای تحصیلات تکمیلی محسوب می‌شود؛ اما همین تنوع موضوعی و ابزاری، مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در این رشته را پیچیده‌تر از رشته‌های صرفاً کتاب‌محور می‌کند. تجربه تیم تز پژوه در ده‌ها پروژه ارشد و دکتری این رشته نشان می‌دهد بیش از نیمی از تأخیرها، نه از ضعف علمی دانشجو، بلکه از انتخاب موضوع نامناسب، مسیر حل اشتباه و شروع دیرهنگام نگارش ناشی می‌شود. در این مقاله کل مسیر از انتخاب موضوع تا روز دفاع را گام‌به‌گام، با معرفی ابزارهای درست و اشتباهات رایج مرور می‌کنیم.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه مهندسی صنایع فرآیندی پنج‌مرحله‌ای است: انتخاب موضوعی بکر مبتنی بر شکاف تحقیقاتی مقالات معتبر، تدوین پروپوزال، مدل‌سازی و حل مسئله (با روش دقیق یا فراابتکاری)، اعتبارسنجی و تحلیل حساسیت، و در نهایت نگارش فصول و دفاع. موفقیت در این مسیر به سه عامل بستگی دارد: انتخاب ابزار درست، دسترسی به داده واقعی و زمان‌بندی دقیق.
         </p>
 
@@ -148,7 +148,7 @@ export default function IndustrialEngineeringThesisPage() {
         )}
 
         <h2>انجام پایان نامه مهندسی صنایع چه تفاوتی با سایر رشته‌ها دارد؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایان‌نامه مهندسی صنایع ذاتاً «مدل‌محور» و «مسئله‌محور» است؛ یعنی به جای صرفاً توصیف یک پدیده، باید یک مدل ریاضی یا شبیه‌سازی ارائه دهید، آن را با داده واقعی یا مسائل مرجع اعتبارسنجی کنید و کیفیت جواب را به‌طور کمّی اثبات نمایید.
         </p>
         <p>
@@ -183,12 +183,12 @@ export default function IndustrialEngineeringThesisPage() {
 
         <h3>گام اول: انتخاب موضوع و کشف شکاف تحقیقاتی</h3>
         <p>
-          بهترین موضوعات، محل تلاقی یک تکنیک نو با یک صنعت بومی است؛ مثلاً «زمان‌بندی پرستاران بیمارستان با در نظر گرفتن فرسودگی شغلی» یا «طراحی شبکه توزیع پایدار برای محصولات فاسدشدنی». برای یافتن شکاف تحقیقاتی، فقط بخش «پیشنهادات پژوهش‌های آینده» مقالات معتبر دو سال اخیر را در پایگاه‌هایی مانند <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>ScienceDirect</a> و <a href="https://www.informs.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>INFORMS</a> بررسی کنید و نتیجه را با امکانات و داده‌های در دسترس خود بسنجید. موضوع پیشنهادی باید از فیلترهای «تکراری نبودن»، «دسترسی به داده» و «تناسب با مهارت شما» عبور کند. برای شروع می‌توانید از <Link href="/services/topic-selection" style={{ color: "#0d6efd" }}>خدمات ارائه موضوع پایان‌نامه</Link> تز پژوه استفاده کنید.
+          بهترین موضوعات، محل تلاقی یک تکنیک نو با یک صنعت بومی است؛ مثلاً «زمان‌بندی پرستاران بیمارستان با در نظر گرفتن فرسودگی شغلی» یا «طراحی شبکه توزیع پایدار برای محصولات فاسدشدنی». برای یافتن شکاف تحقیقاتی، فقط بخش «پیشنهادات پژوهش‌های آینده» مقالات معتبر دو سال اخیر را در پایگاه‌هایی مانند <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>ScienceDirect</a> و <a href="https://www.informs.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>INFORMS</a> بررسی کنید و نتیجه را با امکانات و داده‌های در دسترس خود بسنجید. موضوع پیشنهادی باید از فیلترهای «تکراری نبودن»، «دسترسی به داده» و «تناسب با مهارت شما» عبور کند. برای شروع می‌توانید از <Link href="/services/topic-selection" style={{ color: "var(--primary)" }}>خدمات ارائه موضوع پایان‌نامه</Link> تز پژوه استفاده کنید.
         </p>
 
         <h3>گام دوم: نگارش پروپوزال و طرح تحقیق</h3>
         <p>
-          پروپوزال صنایع، قرارداد فنی شما با کمیته است. بیان مسئله باید با اعداد و آمار واقعی صنعت مستند شود، اهداف و سوالات دقیقاً با تابع هدف و قیود مدل هم‌راستا باشند و روش‌شناسی به‌قدری شفاف باشد که داور بداند در فصل سوم دقیقاً چه اتفاقی می‌افتد. ساختار استاندارد نگارش و نکات تضمین تصویب را در <Link href="/services/proposal" style={{ color: "#0d6efd" }}>خدمات انجام پروپوزال</Link> مطالعه کنید.
+          پروپوزال صنایع، قرارداد فنی شما با کمیته است. بیان مسئله باید با اعداد و آمار واقعی صنعت مستند شود، اهداف و سوالات دقیقاً با تابع هدف و قیود مدل هم‌راستا باشند و روش‌شناسی به‌قدری شفاف باشد که داور بداند در فصل سوم دقیقاً چه اتفاقی می‌افتد. ساختار استاندارد نگارش و نکات تضمین تصویب را در <Link href="/services/proposal" style={{ color: "var(--primary)" }}>خدمات انجام پروپوزال</Link> مطالعه کنید.
         </p>
 
         <h3>گام سوم: مدل‌سازی و حل مسئله</h3>
@@ -203,7 +203,7 @@ export default function IndustrialEngineeringThesisPage() {
 
         <h3>گام پنجم: نگارش فصول و آمادگی دفاع</h3>
         <p>
-          نگارش را از فصل دوم (ادبیات پژوهش) موازی با مدل‌سازی شروع کنید، نه بعد از تمام شدن کد. تدوین فصل‌به‌فصل با استانداردهای نگارشی و تحلیل‌های آماری دقیق، بخشی از <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>خدمات تدوین فصول پایان‌نامه</Link> ماست. برای درک توقعات هر مقطع، راهنمای <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>رساله دکتری</Link> را از دست ندهید.
+          نگارش را از فصل دوم (ادبیات پژوهش) موازی با مدل‌سازی شروع کنید، نه بعد از تمام شدن کد. تدوین فصل‌به‌فصل با استانداردهای نگارشی و تحلیل‌های آماری دقیق، بخشی از <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>خدمات تدوین فصول پایان‌نامه</Link> ماست. برای درک توقعات هر مقطع، راهنمای <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>رساله دکتری</Link> را از دست ندهید.
         </p>
 
         <h2>مقایسه ابزارها و روش‌های رایج در پروژه‌های مهندسی صنایع</h2>
@@ -214,7 +214,7 @@ export default function IndustrialEngineeringThesisPage() {
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "right" }}>
             <thead>
-              <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>ابزار / روش</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>حوزه کاربرد اصلی</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>مناسب برای</th>
@@ -262,7 +262,7 @@ export default function IndustrialEngineeringThesisPage() {
         )}
 
         <h2>اشتباهات رایج در انجام پایان نامه مهندسی صنایع و راه حل آن‌ها</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پنج اشتباه پرتکرار عبارتند از: انتخاب موضوع بیش از حد وسیع، مدل‌سازی بدون داده قابل استناد، اعتبارسنجی نکردن جواب‌ها، غفلت از زمان اجرای روش حل، و شروع نگارش در آخرین ماه‌ها. هر پنج مورد با یک تصمیم درست در هفته‌های اول پروژه قابل پیشگیری است.
         </p>
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
@@ -276,7 +276,7 @@ export default function IndustrialEngineeringThesisPage() {
         <h2>پاسخ به پرسش‌های رایج دانشجویان مهندسی صنایع</h2>
 
         <h3>بهترین موضوع برای پایان نامه مهندسی صنایع کدام است؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بهترین موضوع، موضوعی است که در نقطه تلاقی شکاف تحقیقاتی مقالات دو سال اخیر، داده یا دسترسی میدانی شما و مهارت نرم‌افزاری‌تان قرار گیرد؛ روندهای پرطرفدار مانند پایداری، تاب‌آوری زنجیره تامین و یادگیری ماشین فرصت‌های خوبی می‌سازند، اما بدون تناسب با شرایط شما ارزشی ندارند.
         </p>
         <p>
@@ -284,15 +284,15 @@ export default function IndustrialEngineeringThesisPage() {
         </p>
 
         <h3>انجام پایان نامه مهندسی صنایع چقدر زمان می‌برد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> با برنامه‌ریزی دقیق و پیشرفت موازی مراحل، پایان‌نامه ارشد معمولاً بین ۶ تا ۹ ماه و رساله دکتری بین ۱۲ تا ۱۸ ماه زمان می‌برد؛ اصلی‌ترین عامل افزایش این زمان، انتظار برای تصویب مرحله‌ای و شروع دیرهنگام نگارش است.
         </p>
         <p>
-          یک خط زمانی واقع‌بینانه برای ارشد شامل حدود یک ماه موضوع و پروپوزال، دو تا سه ماه مدل‌سازی و حل، دو ماه اعتبارسنجی و تحلیل، و دو ماه نگارش و آماده‌سازی دفاع است. مسیرهای <Link href="/blog/thesis-checklist-1405" style={{ color: "#0d6efd" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> در وبلاگ ما این زمان‌بندی را به تفصیل پوشش می‌دهد.
+          یک خط زمانی واقع‌بینانه برای ارشد شامل حدود یک ماه موضوع و پروپوزال، دو تا سه ماه مدل‌سازی و حل، دو ماه اعتبارسنجی و تحلیل، و دو ماه نگارش و آماده‌سازی دفاع است. مسیرهای <Link href="/blog/thesis-checklist-1405" style={{ color: "var(--primary)" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> در وبلاگ ما این زمان‌بندی را به تفصیل پوشش می‌دهد.
         </p>
 
         <h3>آیا می‌توان پایان نامه صنایع را بدون کدنویسی انجام داد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بله؛ در حوزه‌های کیفیت، آمار صنعتی و شبیه‌سازی نرم‌افزارمحور (مانند Minitab، SPSS یا Arena) می‌توان بدون کدنویسی گسترده به نتیجه رسید؛ اما در گرایش‌های بهینه‌سازی و مسائل بزرگ، آشنایی با متلب یا پایتون عملاً اجتناب‌ناپذیر است.
         </p>
         <p>
@@ -342,8 +342,8 @@ export default function IndustrialEngineeringThesisPage() {
         )}
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع مقاطع ارشد و دکتری بوده است.
           </p>

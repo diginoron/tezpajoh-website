@@ -103,7 +103,7 @@ export default function ArticleWritingAcceptancePage() {
     <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
       <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         دریافت مشاوره تخصصی و سفارش
       </a>
     </div>
@@ -122,7 +122,7 @@ export default function ArticleWritingAcceptancePage() {
 
       {/* کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           نگارش و اکسپت مقاله کنفرانسی و علمی پژوهشی و ISI؛ راهنمای جامع ۱۴۰۵
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -135,10 +135,10 @@ export default function ArticleWritingAcceptancePage() {
       {/* کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          پذیرش مقاله، نقطه‌ای است که ماه‌ها زحمت پژوهشی شما به یک سند رسمی و قابل استناد تبدیل می‌شود؛ سندی که در فارغ‌التحصیلی، پذیرش دکتری، جذب هیئت علمی و رزومه پژوهشی شما حرف اول را می‌زند. اما مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>نگارش و اکسپت مقاله</a> پس از <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a>، پر از تصمیم‌های دوقطبی است: کدام کنفرانس معتبر است؟ چکیده را چگونه بنویسیم که داور را قانع کند؟ و چگونه از نشریات جعلی و کاغذی فرار کنیم؟ در این راهنما، تجربه سال‌های مشاوره تیم تز پژوه را در قالب یک نقشه راه پنج‌مرحله‌ای، جدول مقایسه انواع مقالات و فهرست اشتباهات رایج به اشتراک می‌گذاریم.
+          پذیرش مقاله، نقطه‌ای است که ماه‌ها زحمت پژوهشی شما به یک سند رسمی و قابل استناد تبدیل می‌شود؛ سندی که در فارغ‌التحصیلی، پذیرش دکتری، جذب هیئت علمی و رزومه پژوهشی شما حرف اول را می‌زند. اما مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>نگارش و اکسپت مقاله</a> پس از <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a>، پر از تصمیم‌های دوقطبی است: کدام کنفرانس معتبر است؟ چکیده را چگونه بنویسیم که داور را قانع کند؟ و چگونه از نشریات جعلی و کاغذی فرار کنیم؟ در این راهنما، تجربه سال‌های مشاوره تیم تز پژوه را در قالب یک نقشه راه پنج‌مرحله‌ای، جدول مقایسه انواع مقالات و فهرست اشتباهات رایج به اشتراک می‌گذاریم.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> نگارش و اکسپت مقاله فرآیندی پنج‌مرحله‌ای است: استخراج نوآوری از پژوهش یا پایان‌نامه، انتخاب کنفرانس یا نشریه معتبر و منطبق با هدف، نگارش ساختارمند متن بر پایه شیوه‌نامه مقصد، ارسال و پاسخ مستند به داوران، و انجام اصلاحات تا پذیرش نهایی. مقاله کنفرانسی سریع‌ترین مسیر (۲ تا ۸ هفته)، مقاله علمی پژوهشی داخلی مناسب اهداف کاری در ایران و مقاله ISI برای اعتبار بین‌المللی است.
         </p>
 
@@ -148,7 +148,7 @@ export default function ArticleWritingAcceptancePage() {
         )}
 
         <h2>نگارش و اکسپت مقاله چرا تعیین‌کننده‌ترین مرحله پژوهش شماست؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مقاله، سند رسمی و قابل استناد پژوهش شماست؛ بدون آن یافته‌ها در قفسه کتابخانه‌ها می‌مانند. اکسپت مقاله یعنی داوران مستقل، نوآوری، درستی روش و تازگی یافته‌های شما را تایید کرده‌اند؛ همین تایید است که در فارغ‌التحصیلی، پذیرش دکتری، جذب هیئت علمی و ارتقای رتبه اثر مستقیم می‌گذارد.
         </p>
         <p>
@@ -167,12 +167,12 @@ export default function ArticleWritingAcceptancePage() {
 
         <h3>گام اول: استخراج نوآوری قابل انتشار از پژوهش</h3>
         <p>
-          هر پایان‌نامه و پروژه پژوهشی، دست‌کم یک بخش دارد که ارزش انتشار مستقل دارد: مدل یا روش پیشنهادی، داده میدانی دست‌اول، مقایسه تطبیقی یا نتیجه‌ای که با پیشینه‌ها فرق می‌کند. این بخش را شناسایی کنید و در یک جمله بیان کنید: «نوآوری این مقاله برای خواننده چیست؟» اگر نمی‌توانید این جمله را صادقانه بنویسید، مقاله هنوز آماده نیست و باید پژوهش را تکمیل کنید. برای مستندسازی دقیق همین بخش از پژوهش، <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>خدمات تدوین فصول پایان‌نامه</Link> می‌تواند مبنا و پیشینه علمی شما را منظم و قابل استناد کند.
+          هر پایان‌نامه و پروژه پژوهشی، دست‌کم یک بخش دارد که ارزش انتشار مستقل دارد: مدل یا روش پیشنهادی، داده میدانی دست‌اول، مقایسه تطبیقی یا نتیجه‌ای که با پیشینه‌ها فرق می‌کند. این بخش را شناسایی کنید و در یک جمله بیان کنید: «نوآوری این مقاله برای خواننده چیست؟» اگر نمی‌توانید این جمله را صادقانه بنویسید، مقاله هنوز آماده نیست و باید پژوهش را تکمیل کنید. برای مستندسازی دقیق همین بخش از پژوهش، <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>خدمات تدوین فصول پایان‌نامه</Link> می‌تواند مبنا و پیشینه علمی شما را منظم و قابل استناد کند.
         </p>
 
         <h3>گام دوم: انتخاب کنفرانس یا نشریه معتبر</h3>
         <p>
-          انتخاب مقصد، بیش از خود متن بر سرنوشت شما اثر می‌گذارد. سه فیلتر را به‌ترتیب اجرا کنید: اعتبار (آیا دوره‌های قبلی کنفرانس یا شماره‌های نشریه در پایگاه‌های معتبر ثبت شده‌اند؟)، تناسب موضوع با حوزه مقصد و زمان‌بندی واقعی اعلام‌شده. فهرست نشریات تاییدشده وزارت علوم را در <a href="https://journals.msrt.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>سامانه نشریات علمی وزارت علوم</a> ببینید و برای کنفرانس‌های تخصصی مهندسی، ناشران شناخته‌شده‌ای مانند <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>IEEE</a> مبنای اعتبارسنجی است. هر مجموعه‌ای که متن را بدون داوری واقعی و صرفاً به‌دلیل پرداخت هزینه منتشر کند، به احتمال زیاد نشریه جعلی یا کاغذی است و انتشار در آن به اعتبار شما آسیب می‌زند.
+          انتخاب مقصد، بیش از خود متن بر سرنوشت شما اثر می‌گذارد. سه فیلتر را به‌ترتیب اجرا کنید: اعتبار (آیا دوره‌های قبلی کنفرانس یا شماره‌های نشریه در پایگاه‌های معتبر ثبت شده‌اند؟)، تناسب موضوع با حوزه مقصد و زمان‌بندی واقعی اعلام‌شده. فهرست نشریات تاییدشده وزارت علوم را در <a href="https://journals.msrt.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>سامانه نشریات علمی وزارت علوم</a> ببینید و برای کنفرانس‌های تخصصی مهندسی، ناشران شناخته‌شده‌ای مانند <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>IEEE</a> مبنای اعتبارسنجی است. هر مجموعه‌ای که متن را بدون داوری واقعی و صرفاً به‌دلیل پرداخت هزینه منتشر کند، به احتمال زیاد نشریه جعلی یا کاغذی است و انتشار در آن به اعتبار شما آسیب می‌زند.
         </p>
 
         <h3>گام سوم: نگارش ساختارمند متن مطابق شیوه‌نامه</h3>
@@ -203,7 +203,7 @@ export default function ArticleWritingAcceptancePage() {
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "right" }}>
             <thead>
-              <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>معیار</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>مقاله کنفرانسی</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>علمی پژوهشی داخلی</th>
@@ -246,8 +246,8 @@ export default function ArticleWritingAcceptancePage() {
         </div>
 
         {/* ویژگی ویژه موسسه: اکسپت ۷ تا ۱۰ روزه تضمینی */}
-        <div style={{ margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #eef4ff 0%, #f8f9fa 100%)", borderRadius: "12px", borderRight: "6px solid #0d6efd", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
-          <h2 style={{ margin: "0 0 15px", color: "#1a1a2e", fontSize: "1.45rem", lineHeight: "1.6" }}>ویژگی ویژه تز پژوه؛ اخذ اکسپت مقاله در ۷ تا ۱۰ روز با تضمین کتبی</h2>
+        <div style={{ margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #eef4ff 0%, #f8f9fa 100%)", borderRadius: "12px", borderRight: "6px solid var(--primary)", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
+          <h2 style={{ margin: "0 0 15px", color: "var(--navy-800)", fontSize: "1.45rem", lineHeight: "1.6" }}>ویژگی ویژه تز پژوه؛ اخذ اکسپت مقاله در ۷ تا ۱۰ روز با تضمین کتبی</h2>
           <p style={{ margin: 0 }}>
             در حالت عادی، فاصله ارسال تا اعلام پذیرش مقاله، زمان‌برترین بخش پرونده پژوهشی است؛ بسته به مقصد ممکن است این فرآیند از چند هفته تا ۱۲ ماه و حتی بیشتر طول بکشد و در پایان هیچ تضمینی برای نتیجه وجود نداشته باشد. تز پژوه این چالش را به یک مزیت مشخص تبدیل کرده است: زمان اخذ اکسپت را از ماه‌ها به ۷ تا ۱۰ روز کوتاه می‌کنیم و پذیرش مقاله را به‌صورت ۱۰۰٪ تضمینی، با تعهد کتبی در قرارداد رسمی و زمان‌بندی مشخص ارائه می‌دهیم؛ یعنی از روز اول دقیقاً می‌دانید گواهی پذیرش در چه تاریخی به دست شما می‌رسد. این سرعت حاصل حذف داوری نیست، بلکه نتیجه انطباق دقیق متن با شیوه‌نامه مقصد، ارسال به مقصدهای از پیش اعتبارسنجی‌شده و مدیریت تخصصی چرخه ارزیابی توسط تیم ماست.
           </p>
@@ -268,7 +268,7 @@ export default function ArticleWritingAcceptancePage() {
         <h2>پاسخ به پرسش‌های رایج پژوهشگران درباره اکسپت مقاله</h2>
 
         <h3>مقاله من معمولاً چقدر طول می‌کشد تا اکسپت شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مقاله کنفرانسی معمولاً ۲ تا ۸ هفته بعد از مهلت ارسال نتیجه می‌دهد؛ نشریات علمی پژوهشی داخلی بسته به صف انتشار از حدود ۴ ماه تا بیش از یک سال زمان می‌برند و مقالات ISI به دلیل داوری چندمرحله‌ای معمولاً بین ۳ تا ۱۲ ماه یا بیشتر طول می‌کشند. انتخاب مقصد، این زمان را بیش از کیفیت متن تعیین می‌کند.
         </p>
         <p>
@@ -276,7 +276,7 @@ export default function ArticleWritingAcceptancePage() {
         </p>
 
         <h3>آیا مقاله کنفرانسی جایگزین مقاله ژورنالی می‌شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بستگی به هدف شما دارد؛ برای رزومه اولیه و شرایط برخی دانشگاه‌ها، مقاله کنفرانسی معتبر کافی است، اما برای جذب هیئت علمی، ارتقای رتبه و بیشتر پذیرش‌های دکتری، مقاله علمی پژوهشی یا ISI شرط اصلی است. بهترین استراتژی ترکیبی است: کنفرانس برای ارائه سریع یافته و ژورنال برای نسخه کامل و بسط‌یافته.
         </p>
         <p>
@@ -284,7 +284,7 @@ export default function ArticleWritingAcceptancePage() {
         </p>
 
         <h3>چگونه نشریه جعلی و کاغذی را تشخیص بدهم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> نشانه‌های هشدار عبارتند از: انتشار بدون داوری واقعی و بدون پذیرش اصلاحات علمی، تماس تلفنی و پیامکی مستمر برای دعوت به ارسال، ادعای نمایه شدن بدون لینک مستقیم به پروفایل نشریه، و درخواست هزینه غیرعادی پیش از داوری. پیش از ارسال، وضعیت نشریه را در سامانه رسمی وزارت علوم و سایت ناشر بین‌المللی بررسی کنید.
         </p>
         <p>
@@ -329,8 +329,8 @@ export default function ArticleWritingAcceptancePage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع و انتشار مقالات کنفرانسی و ژورنالی بوده است.
           </p>

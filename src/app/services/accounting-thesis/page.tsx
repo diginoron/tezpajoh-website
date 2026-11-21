@@ -84,14 +84,14 @@ export default function AccountingThesisPage() {
 
   const renderCTA = (textTitle: string, textSubtitle: string) => (
     <div style={{ textAlign: "center", margin: "40px 0", padding: "32px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "14px", border: "1px solid #dee2e6", boxShadow: "0 6px 20px rgba(0,0,0,0.06)" }}>
-      <h3 style={{ marginBottom: "16px", color: "#1a1a2e", fontSize: "1.5rem", fontWeight: "800" }}>{textTitle}</h3>
+      <h3 style={{ marginBottom: "16px", color: "var(--navy-800)", fontSize: "1.5rem", fontWeight: "800" }}>{textTitle}</h3>
       <p style={{ marginBottom: "24px", color: "#495057", fontSize: "1.1rem", maxWidth: "700px", margin: "0 auto 24px auto" }}>
         {textSubtitle}
       </p>
       <a 
         href="https://www.tezpajoh.ir/contact/" 
         className="btn btn-primary btn-lg" 
-        style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#ffffff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease", boxShadow: "0 4px 14px rgba(13,110,253,0.35)" }}
+        style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#ffffff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease", boxShadow: "0 4px 14px rgba(22, 104, 199,0.35)" }}
       >
         دریافت مشاوره تخصصی در بخش تماس با ما
       </a>
@@ -110,13 +110,13 @@ export default function AccountingThesisPage() {
           <span>/</span>
           <Link href="/services" style={{ color: "#666", textDecoration: "none" }}>خدمات</Link>
           <span>/</span>
-          <span style={{ color: "#0d6efd", fontWeight: "bold" }}>انجام پایان نامه حسابداری</span>
+          <span style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه حسابداری</span>
         </div>
       </div>
 
       {/* ب) کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.4rem", fontWeight: "900", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.4rem", fontWeight: "900", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           راهنمای جامع انجام پایان نامه حسابداری در مقاطع ارشد و دکتری با متدهای ۲۰۲۶
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", color: "#666", fontSize: "0.95rem", alignItems: "center" }}>
@@ -130,7 +130,7 @@ export default function AccountingThesisPage() {
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#2d3436", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         
         <p>
-          رشته حسابداری زبان گویای بازار سرمایه و شریان حیاتی تصمیم‌گیری‌های اقتصادی است. در سال‌های اخیر، همگرایی گزارشگری مالی با مفاهیم حاکمیت شرکتی، پایداری زیست‌محیطی (ESG)، مدیریت سود و عدم تقارن اطلاعاتی، مسیر پژوهش‌های دانشگاهی را دگرگون ساخته است. دانشجویان دوره‌های کارشناسی ارشد و دکتری به خوبی می‌دانند که <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در گرایش‌های تخصصی این رشته مستلزم تلفیق دقیق مبانی نظری مالی با تکنیک‌های پیشرفته اقتصادسنجی و پردازش کلان‌داده‌های بورسی است. فرآیند خطیر <strong>انجام پایان نامه حسابداری</strong> دیگر با گردآوری ساده چند نسبت مالی سنتی به نتیجه مطلوب نمی‌رسد، بلکه نیازمند رویکردی ژرف‌نگرانه، اعتبارسنجی دقیق داده‌های تابلویی و استدلال‌های شفاف علمی است.
+          رشته حسابداری زبان گویای بازار سرمایه و شریان حیاتی تصمیم‌گیری‌های اقتصادی است. در سال‌های اخیر، همگرایی گزارشگری مالی با مفاهیم حاکمیت شرکتی، پایداری زیست‌محیطی (ESG)، مدیریت سود و عدم تقارن اطلاعاتی، مسیر پژوهش‌های دانشگاهی را دگرگون ساخته است. دانشجویان دوره‌های کارشناسی ارشد و دکتری به خوبی می‌دانند که <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در گرایش‌های تخصصی این رشته مستلزم تلفیق دقیق مبانی نظری مالی با تکنیک‌های پیشرفته اقتصادسنجی و پردازش کلان‌داده‌های بورسی است. فرآیند خطیر <strong>انجام پایان نامه حسابداری</strong> دیگر با گردآوری ساده چند نسبت مالی سنتی به نتیجه مطلوب نمی‌رسد، بلکه نیازمند رویکردی ژرف‌نگرانه، اعتبارسنجی دقیق داده‌های تابلویی و استدلال‌های شفاف علمی است.
         </p>
 
         <p>
@@ -144,8 +144,8 @@ export default function AccountingThesisPage() {
 
         {/* H2: ۱ */}
         <h2>اهمیت و ضرورت انجام پایان نامه حسابداری در توسعه بازارهای مالی</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> انجام پایان نامه حسابداری با اعتبارسنجی فرضیات مالی و تجربی، نقشی اساسی در کاهش عدم تقارن اطلاعاتی، شفافیت افشای گزارشگری مالی شرکت‌ها و بهینه‌سازی تخصیص منابع در بورس اوراق بهادار ایفا کرده و زمینه‌ساز انتشار مقالات در معتبرترین ژورنال‌های بین‌المللی است.
           </p>
         </div>
@@ -153,13 +153,13 @@ export default function AccountingThesisPage() {
           چرا پژوهش در حسابداری فراتر از ثبت رویدادهای مالی است؟ بر مبنای نظریه نمایندگی (Agency Theory) و نظریه علامت‌دهی (Signaling Theory)، صورت‌های مالی تنها ابزار رسمی برای کاهش تضاد منافع میان مدیران و سهامداران هستند. هنگامی که یک محقق اقدام به <strong>انجام پایان نامه حسابداری</strong> می‌کند، در واقع کارایی بازار، شفافیت اطلاعاتی، پایداری سودآوری و رفتار فرصت‌طلبانه مدیران را در بوته آزمایش قرار می‌دهد. داده‌های تجربی نشان می‌دهد تصمیم‌گیرندگان کلان اقتصادی برای تنظیم مقررات ناظر بر بازار سرمایه، همواره به یافته‌های مستخرج از رساله‌های دانشگاهی متکی هستند. بنابراین، انتخاب زاویه دید نوآورانه در این رشته نه تنها پیشرفت تحصیلی دانشجو را تضمین می‌کند، بلکه اثری ملموس بر سلامت نظام اقتصادی بر جای می‌گذارد.
         </p>
         <p>
-          جهت مشاهده آخرین روندهای پژوهشی و آشنایی با ساختار پروژه‌های بین‌المللی، می‌توانید مقالات نمایه‌شده در پایگاه بین‌المللی <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd", fontWeight: "bold" }}>ScienceDirect</a> را در حوزه کیفیت گزارشگری مالی بررسی نمایید.
+          جهت مشاهده آخرین روندهای پژوهشی و آشنایی با ساختار پروژه‌های بین‌المللی، می‌توانید مقالات نمایه‌شده در پایگاه بین‌المللی <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: "bold" }}>ScienceDirect</a> را در حوزه کیفیت گزارشگری مالی بررسی نمایید.
         </p>
 
         {/* H2: ۲ */}
         <h2>مراحل گام‌به‌گام انجام پایان نامه حسابداری از انتخاب موضوع تا دفاع نهایی</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> فرآیند ساختارمند انجام پایان نامه حسابداری شامل ۷ مرحله کلیدی است: شناسایی شکاف تحقیقاتی، تدوین پروپوزال، گردآوری داده‌های ترکیبی، پالایش داده‌ها، انجام آزمون‌های تشخیصی اقتصادسنجی، برازش مدل در استاتا یا ایویوز و در نهایت تدوین گزارش تفسیری فصل چهارم و پنجم.
           </p>
         </div>
@@ -169,7 +169,7 @@ export default function AccountingThesisPage() {
 
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
           <li style={{ marginBottom: "16px" }}>
-            <strong>شناسایی شکاف پژوهشی (Research Gap):</strong> مطالعه عمیق مقالات منتشر شده در ژورنال‌های تراز اول دو سال اخیر (مانند Journal of Accounting and Economics و The Accounting Review) و یافتن متغیرهای واسطه‌ای یا تعدیل‌گری که تاکنون در بورس تهران سنجیده نشده‌اند. در این زمینه می‌توانید از خدمات تخصصی تدوین <Link href="/services/proposal" style={{ color: "#0d6efd", fontWeight: "bold" }}>پروپوزال حسابداری</Link> در تز پژوه استفاده کنید.
+            <strong>شناسایی شکاف پژوهشی (Research Gap):</strong> مطالعه عمیق مقالات منتشر شده در ژورنال‌های تراز اول دو سال اخیر (مانند Journal of Accounting and Economics و The Accounting Review) و یافتن متغیرهای واسطه‌ای یا تعدیل‌گری که تاکنون در بورس تهران سنجیده نشده‌اند. در این زمینه می‌توانید از خدمات تخصصی تدوین <Link href="/services/proposal" style={{ color: "var(--primary)", fontWeight: "bold" }}>پروپوزال حسابداری</Link> در تز پژوه استفاده کنید.
           </li>
           <li style={{ marginBottom: "16px" }}>
             <strong>طراحی مدل مفهومی و متغیرها:</strong> تفکیک متغیرهای وابسته (مانند خوانایی گزارش‌های مالی یا هزینه سرمایه حقوق صاحبان سهام)، متغیرهای مستقل، متغیرهای کنترلی (مانند اندازه شرکت، اهرم مالی، نسبت ارزش دفتری به بازار) و متغیرهای تعدیل‌گر.
@@ -193,8 +193,8 @@ export default function AccountingThesisPage() {
 
         {/* H3: Voice Search 1 */}
         <h3>چطور با هوش مصنوعی موضوعات بدیع برای انجام پایان نامه حسابداری بیابیم؟</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> با ارائه مقالات هسته (Seed Papers) سال‌های ۲۰۲۵ و ۲۰۲۶ به ابزارهای هوش مصنوعی آکادمیک نظیر Claude یا Elicit و دستوردهی سیستماتیک جهت تمرکز بر بخش «پیشنهادات برای تحقیقات آتی»، می‌توان به شکاف‌های نظری نوآورانه و متغیرهای میان‌رشته‌ای دست یافت.
           </p>
         </div>
@@ -219,8 +219,8 @@ export default function AccountingThesisPage() {
 
         {/* H3: Voice Search 2 */}
         <h3>چطور با هوش مصنوعی فرضیه انجام پایان نامه حسابداری را تدوین کنیم؟</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> با تعریف دقیق متغیر مستقل، وابسته و چارچوب نظری حاکم (همچون نظریه نمایندگی) در پرامپت ورودی، هوش مصنوعی می‌تواند فرضیات جهت‌دار و آزمون‌پذیر را مطابق استانداردهای نگارش متون آکادمیک مالی و بدون ابهام نگارشی فرمول‌بندی کند.
           </p>
         </div>
@@ -230,8 +230,8 @@ export default function AccountingThesisPage() {
 
         {/* H2: ۳ - Comparison Table */}
         <h2>مقایسه جامع نرم‌افزارهای تخصصی در انجام پایان نامه حسابداری</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> استاتا و ایویوز نرم‌افزارهای استاندارد و محبوب برای داده‌های تابلویی هستند؛ استاتا به سبب پشتیبانی بی‌نقص از رگرسیون پویای GMM و مدیریت داده‌های مقطعی بزرگ نسبت به ایویوز برای مقطع دکتری مزیت چشمگیری دارد، در حالی که اسمارت‌پی‌ال‌اس مختص گرایش‌های رفتاری است.
           </p>
         </div>
@@ -281,10 +281,10 @@ export default function AccountingThesisPage() {
               </tr>
               <tr style={{ backgroundColor: "#ffffff" }}>
                 <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", fontWeight: "bold" }}>خدمات مشاوره‌ای تز پژوه</td>
-                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "#0d6efd", fontWeight: "bold" }}>کدنویسی دوفایل (do-file) اختصاصی</td>
-                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "#0d6efd", fontWeight: "bold" }}>برآورد گام‌به‌گام و گزارش خروجی‌ها</td>
-                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "#0d6efd", fontWeight: "bold" }}>استخراج متن گزارش‌ها و پردازش داده‌ها</td>
-                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "#0d6efd", fontWeight: "bold" }}>برازش مدل اندازه‌گیری و ساختاری</td>
+                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "var(--primary)", fontWeight: "bold" }}>کدنویسی دوفایل (do-file) اختصاصی</td>
+                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "var(--primary)", fontWeight: "bold" }}>برآورد گام‌به‌گام و گزارش خروجی‌ها</td>
+                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "var(--primary)", fontWeight: "bold" }}>استخراج متن گزارش‌ها و پردازش داده‌ها</td>
+                <td style={{ padding: "12px 16px", border: "1px solid #dee2e6", color: "var(--primary)", fontWeight: "bold" }}>برازش مدل اندازه‌گیری و ساختاری</td>
               </tr>
             </tbody>
           </table>
@@ -297,8 +297,8 @@ export default function AccountingThesisPage() {
 
         {/* H3: Voice Search 3 */}
         <h3>بهترین نرم‌افزار آماری برای انجام پایان نامه حسابداری چیست؟</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> نرم‌افزار Stata به دلیل پشتیبانی کامل از رگرسیون تابلویی پویا (Arellano-Bond)، آزمون‌های نقض فروض کلاسیک و مدیریت ماتریس‌های داده‌ای بزرگ، عنوان استانداردترین و معتبرترین نرم‌افزار آماری را برای پایان نامه‌های تجربی حسابداری در اختیار دارد.
           </p>
         </div>
@@ -308,19 +308,19 @@ export default function AccountingThesisPage() {
 
         {/* H2: ۴ */}
         <h2>مدیریت داده‌های مالی و استخراج متغیرها در انجام پایان نامه حسابداری</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> مدیریت داده‌ها نیازمند استخراج منظم ارقام از کدال، ادغام صورت‌های مالی تجدیدارائه‌شده، کنترل تورم و تعدیل داده‌های پرت از طریق وینسورایز کردن در سطوح ۱٪ و ۹۹٪ است تا ضرایب رگرسیونی از سوگیری مقادیر نامتعارف در امان بمانند.
           </p>
         </div>
         <p>
-          بزرگترین خطایی که سبب رد شدن فصول تحلیلی در داوری می‌شود، نادیده گرفتن ماهیت تجدید ارائه‌ها (Restatements) و تورم ساختاری است. بر مبنای تجارب آکادمیک تیم ما، داده‌های استخراج‌شده از نرم‌افزارهای تجاری موجود گاهی حاوی مقادیر گم‌شده (Missing Values) یا دسته‌بندی‌های اشتباه در سود ناخالص و عملیاتی هستند. شما باید پیش از هرگونه رگرسیون، داده‌ها را متوازن (Balanced Panel) یا نامتوازن و منظم نموده و متغیرهای کنترلی نظیر سن شرکت و اهرم مالی را به درستی محاسبه کنید. همچنین مطالعه مقالات آرشیو معتبر <a href="https://www.ssrn.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd", fontWeight: "bold" }}>SSRN</a> نشان می‌دهد کنترل اثرات ثابت سال و صنعت، امری ضروری در مقالات مالی است.
+          بزرگترین خطایی که سبب رد شدن فصول تحلیلی در داوری می‌شود، نادیده گرفتن ماهیت تجدید ارائه‌ها (Restatements) و تورم ساختاری است. بر مبنای تجارب آکادمیک تیم ما، داده‌های استخراج‌شده از نرم‌افزارهای تجاری موجود گاهی حاوی مقادیر گم‌شده (Missing Values) یا دسته‌بندی‌های اشتباه در سود ناخالص و عملیاتی هستند. شما باید پیش از هرگونه رگرسیون، داده‌ها را متوازن (Balanced Panel) یا نامتوازن و منظم نموده و متغیرهای کنترلی نظیر سن شرکت و اهرم مالی را به درستی محاسبه کنید. همچنین مطالعه مقالات آرشیو معتبر <a href="https://www.ssrn.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)", fontWeight: "bold" }}>SSRN</a> نشان می‌دهد کنترل اثرات ثابت سال و صنعت، امری ضروری در مقالات مالی است.
         </p>
 
         {/* H3: Voice Search 4 */}
         <h3>چگونه داده‌های مالی صورت‌های مالی را برای انجام پایان نامه حسابداری استخراج کنیم؟</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> داده‌های ارقام سود و زیان، ترازنامه و جریان وجوه نقد مستقیماً از صورت‌های مالی حسابرسی‌شده منتشره در سامانه کدال (Codal.ir) و دیتابیس‌های رسمی بورس استخراج شده و پس از اعتبارسنجی یادداشت‌های همراه در قالب فایل اکسل ماتریسی کدگذاری می‌شوند.
           </p>
         </div>
@@ -336,19 +336,19 @@ export default function AccountingThesisPage() {
 
         {/* H2: ۵ */}
         <h2>مهم‌ترین حوزه‌های پژوهشی در انجام پایان نامه حسابداری ارشد و دکتری</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> حوزه‌های پیشرو شامل مدیریت سود تعهدی و واقعی، کیفیت حسابرسی و حق‌الزحمه نامتعارف، حسابداری پایداری و افشای کربن، محافظه‌کاری شرطی و غیرشرطی و حسابداری رفتاری در قضاوت‌های حرفه‌ای مدیران هستند که بیشترین استناد را در سال‌های اخیر به خود اختصاص داده‌اند.
           </p>
         </div>
         <p>
-          دانشجویان گرایش‌های مختلف بر حسب علاقه و ماهیت رشته خود می‌توانند در یکی از شاخه‌های زیر به پژوهش بپردازند. لازم به ذکر است که تلفیق مفاهیم حسابداری با حوزه‌های مدیریتی می‌تواند از طریق مطالعه <Link href="/services/management-thesis" style={{ color: "#0d6efd", fontWeight: "bold" }}>انجام پایان نامه مدیریت</Link> زاویه دید وسیع‌تری به پژوهشگر ببخشد:
+          دانشجویان گرایش‌های مختلف بر حسب علاقه و ماهیت رشته خود می‌توانند در یکی از شاخه‌های زیر به پژوهش بپردازند. لازم به ذکر است که تلفیق مفاهیم حسابداری با حوزه‌های مدیریتی می‌تواند از طریق مطالعه <Link href="/services/management-thesis" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پایان نامه مدیریت</Link> زاویه دید وسیع‌تری به پژوهشگر ببخشد:
         </p>
 
         {/* H4: 1 */}
         <h4>انجام پایان نامه حسابداری در گرایش حسابرسی و کیفیت افشا</h4>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "15px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> در گرایش حسابرسی، مسائلی چون چرخش اجباری موسسات حسابرسی، حق‌الزحمه غیرعادی حسابرسی، دوره تصدی حسابرس و تاثیر ساختار کمیته حسابرسی بر ضعف کنترل‌های داخلی در کانون توجه قرار دارند.
           </p>
         </div>
@@ -358,8 +358,8 @@ export default function AccountingThesisPage() {
 
         {/* H4: 2 */}
         <h4>انجام پایان نامه حسابداری در گرایش مدیریت و سنجش عملکرد</h4>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "15px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> در حسابداری مدیریت، تحلیل چسبندگی هزینه‌ها (Cost Stickiness)، ارزیابی عملکرد متوازن (BSC)، هزینه‌یابی بر مبنای فعالیت و اثر تعهدات بودجه‌ای بر ایجاد لایه‌های پنهان سازمانی محور اصلی تحقیقات را تشکیل می‌دهند.
           </p>
         </div>
@@ -369,8 +369,8 @@ export default function AccountingThesisPage() {
 
         {/* H4: 3 */}
         <h4>انجام پایان نامه حسابداری در گرایش مالی و حاکمیت شرکتی</h4>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "15px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> این گرایش به مدلسازی مدیریت سود واقعی (دستکاری جریان وجوه نقد و تولید مازاد)، هموارسازی سود، استقلال اعضای هیئت مدیره و سهامداران نهادی در راستای صیانت از حقوق سهامداران خرد می‌پردازد.
           </p>
         </div>
@@ -380,8 +380,8 @@ export default function AccountingThesisPage() {
 
         {/* H5 */}
         <h5 style={{ fontSize: "1.15rem", fontWeight: "800", color: "#1e293b", marginTop: "25px" }}>متغیرهای نوین میان‌رشته‌ای در رساله‌های حسابداری</h5>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "14px 18px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "15px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "14px 18px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "15px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> متغیرهای نوینی همچون افشای ردپای کربن، نمره ریسک ژئوپلیتیک، استقرار سامانه‌های هوشمند پردازش ابری، و لحن احساسی گزارش‌های تفسیری مدیریت (Textual Sentiment Analysis) پنجره‌های تحقیقاتی سال ۲۰۲۶ را شکل می‌دهند.
           </p>
         </div>
@@ -391,19 +391,19 @@ export default function AccountingThesisPage() {
 
         {/* H2: ۶ */}
         <h2>اشتباهات رایج دانشجویان در فرآیند انجام پایان نامه حسابداری و راهکارهای عبور از آن‌ها</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> اشتباهاتی مانند غفلت از آزمون درون‌زایی، عدم انطباق دوره‌های مالی در متغیرهای باوقفه (Lagged Variables)، عدم توجه به خودهمبستگی جملات پسماند و تعمیم نادرست نتایج بدون بررسی پایداری، شایع‌ترین عوامل کاهش نمره دفاع هستند.
           </p>
         </div>
         <p>
-          بسیاری از پژوهشگران گمان می‌کنند اگر ضریب تعیین مدل (R-squared) بسیار بالا باشد، تحقیق آن‌ها موفق است، در حالی که در داده‌های تابلویی حسابداری، ضریب تعیین نجومی اغلب نشانه همخطی شدید میان متغیرها یا وجود متغیرهای ایستا نشده است. استفاده از آزمون ریشه واحد تابلویی لوین، لین و چو (LLC) یا ایم، پسران و شین (IPS) پیش از برازش مدل الزامی است. جهت اجتناب از این خطاها، مشاوره با فارغ‌التحصیلان برتر مقاطع دکتری در چارچوب خدمات <Link href="/masters-thesis" style={{ color: "#0d6efd", fontWeight: "bold" }}>پایان نامه کارشناسی ارشد</Link> تز پژوه، سپری مطمئن برای کارنامه تحصیلی شماست.
+          بسیاری از پژوهشگران گمان می‌کنند اگر ضریب تعیین مدل (R-squared) بسیار بالا باشد، تحقیق آن‌ها موفق است، در حالی که در داده‌های تابلویی حسابداری، ضریب تعیین نجومی اغلب نشانه همخطی شدید میان متغیرها یا وجود متغیرهای ایستا نشده است. استفاده از آزمون ریشه واحد تابلویی لوین، لین و چو (LLC) یا ایم، پسران و شین (IPS) پیش از برازش مدل الزامی است. جهت اجتناب از این خطاها، مشاوره با فارغ‌التحصیلان برتر مقاطع دکتری در چارچوب خدمات <Link href="/masters-thesis" style={{ color: "var(--primary)", fontWeight: "bold" }}>پایان نامه کارشناسی ارشد</Link> تز پژوه، سپری مطمئن برای کارنامه تحصیلی شماست.
         </p>
 
         {/* H2: ۷ */}
         <h2>راهنمای جلسه دفاع و نگارش مقاله مستخرج از انجام پایان نامه حسابداری</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> موفقیت در دفاع مشروط به اشراف بر توجیه اقتصادی علائم ضرایب، ارائه ماتریس همبستگی، دفاع منطقی از عدم وجود معضل درون‌زایی و ترجمه یافته‌های آماری به راهکارهای کاربردی برای مدیران و تحلیل‌گران مالی است.
           </p>
         </div>
@@ -413,8 +413,8 @@ export default function AccountingThesisPage() {
 
         {/* H3: ۵ FAQs */}
         <h3>پرسش‌های متداول در خصوص انجام پایان نامه حسابداری</h3>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> در این بخش به ۵ پرسش پرتکرار پژوهشگران درباره انتخاب موضوع، نرم‌افزارهای تحلیلی، استخراج داده‌ها از سامانه کدال، رفع معضل درون‌زایی و خدمات مشاوره‌ای گروه تز پژوه پاسخ داده شده است.
           </p>
         </div>
@@ -458,8 +458,8 @@ export default function AccountingThesisPage() {
 
         {/* H2: ۸ */}
         <h2>سخن پایانی و نقشه راه موفقیت در انجام پایان نامه حسابداری</h2>
-        <div style={{ backgroundColor: "#f0f7ff", padding: "16px 20px", borderRight: "4px solid #0d6efd", borderRadius: "6px", margin: "20px 0" }}>
-          <p style={{ margin: "0", fontWeight: "600", color: "#0c4a6e" }}>
+        <div style={{ backgroundColor: "var(--primary-soft)", padding: "16px 20px", borderRight: "4px solid var(--primary)", borderRadius: "6px", margin: "20px 0" }}>
+          <p style={{ margin: "0", fontWeight: "600", color: "var(--navy-800)" }}>
             <strong>پاسخ صریح و شفاف:</strong> طی نمودن موفقیت‌آمیز مسیر رساله حسابداری مستلزم تلفیق مهارت‌های اقتصادسنجی، درک عمیق استانداردهای گزارشگری مالی و همراهی با راهنمایان با تجربه است که فرآیند تحقیق را هدفمند و شفاف می‌سازند.
           </p>
         </div>
@@ -473,8 +473,8 @@ export default function AccountingThesisPage() {
         )}
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "28px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "10px", boxShadow: "0 2px 12px rgba(0,0,0,0.03)", display: "flex", flexDirection: "column", gap: "14px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e", fontWeight: "800" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "28px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "10px", boxShadow: "0 2px 12px rgba(0,0,0,0.03)", display: "flex", flexDirection: "column", gap: "14px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)", fontWeight: "800" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#4b5563", fontSize: "1.05rem", lineHeight: "1.8" }}>
             این مقاله توسط دپارتمان تخصصی حسابداری و علوم مالی گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه درخشان در هدایت پروژه‌های آکادمیک، تدوین پروپوزال‌های تخصصی، تحلیل داده‌های اقتصادسنجی و مشاوره رساله‌های ارشد و دکتری، متشکل از اعضای هیئت علمی و پژوهشگران تراز اول دانشگاه‌های معتبر کشور است. هدف اصلی تز پژوه، ارتقای کیفیت استانداردهای تحقیقاتی و هموارسازی مسیر دانش‌پژوهان برای دستیابی به مدارج عالی علمی و دفاع موفقیت‌آمیز است.
           </p>

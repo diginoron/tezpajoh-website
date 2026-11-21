@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap');
 
 :root {
-  --bg-color: #f8f9fa; /* Light gray/white background */
-  --text-main: #111827; /* Dark text */
-  --text-muted: #4b5563; /* Gray text */
-  --primary: #b58d22; /* Darker gold for better contrast on white */
-  --primary-hover: #d4af37;
-  --secondary: #ffffff; /* White surfaces */
-  --glass-bg: rgba(255, 255, 255, 0.85); /* Light glass */
-  --glass-border: rgba(0, 0, 0, 0.1); /* Darker border for light glass */
+  /* Mepiran-style academic services palette: navy + royal blue */
+  --navy-900: #0a1e38;
+  --navy-800: #0f2a4d;
+  --navy-700: #16386a;
+  --primary: #1668c7;
+  --primary-hover: #0d55a9;
+  --primary-soft: #e9f2fd;
+  --accent: #ffb300;
+  --bg-color: #f4f7fb;
+  --text-main: #14213d;
+  --text-muted: #4e6076;
+  --secondary: #ffffff;
+  --glass-bg: #ffffff;
+  --glass-border: rgba(20, 42, 78, 0.08);
   --radius-lg: 16px;
   --radius-md: 12px;
   --radius-sm: 8px;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow-sm: 0 2px 10px rgba(15, 42, 77, 0.06);
+  --shadow-md: 0 8px 24px rgba(15, 42, 77, 0.1);
+  --shadow-lg: 0 16px 40px rgba(15, 42, 77, 0.16);
 }
 
 * {
@@ -42,13 +51,12 @@ button {
   font-family: inherit;
 }
 
-/* Glassmorphism utility */
+/* Card utility (white surface, soft navy shadow) */
 .glass {
   background: var(--glass-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
 }
 
 /* Base layouts */
@@ -56,7 +64,6 @@ button {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 /* Typography */
@@ -68,7 +75,7 @@ h1, h2, h3, h4 {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #a67c00 0%, #d4af37 50%, #8a6a16 100%);
+  background: linear-gradient(135deg, #1668c7 0%, #3f8fe0 50%, #0d55a9 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -76,7 +83,49 @@ h1, h2, h3, h4 {
   animation: shimmer 5s linear infinite;
 }
 
+/* Shared global classes used by service/blog article pages */
+.breadcrumb {
+  padding-top: 6rem;
+}
+
+.page-header {
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.4rem;
+  color: var(--navy-800);
+}
+
+.page-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.page-content h2 {
+  color: var(--primary);
+  margin-top: 2rem;
+}
+
+.page-content h3 {
+  color: var(--navy-700);
+  margin-top: 1.5rem;
+}
+
+.page-content p {
+  line-height: 1.9;
+  margin-bottom: 1rem;
+  color: var(--text-main);
+}
+
 /* Animations */
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -88,22 +137,11 @@ h1, h2, h3, h4 {
   }
 }
 
-@keyframes shimmer {
-  0% { background-position: 0% center; }
-  100% { background-position: 200% center; }
-}
-
-@keyframes pulseGlow {
-  0% { box-shadow: 0 0 0 0 rgba(181, 141, 34, 0.4); }
-  70% { box-shadow: 0 0 0 15px rgba(181, 141, 34, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(181, 141, 34, 0); }
-}
-
 /* Buttons */
 .btn-primary {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, var(--primary) 0%, #8a6a16 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
   color: #ffffff;
   padding: 14px 32px;
   border-radius: var(--radius-sm);
@@ -115,7 +153,7 @@ h1, h2, h3, h4 {
   justify-content: center;
   gap: 8px;
   transition: var(--transition);
-  box-shadow: 0 6px 20px rgba(181, 141, 34, 0.3);
+  box-shadow: 0 6px 20px rgba(22, 104, 199, 0.3);
   z-index: 1;
 }
 
@@ -133,7 +171,7 @@ h1, h2, h3, h4 {
 
 .btn-primary:hover {
   transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 10px 25px rgba(181, 141, 34, 0.5);
+  box-shadow: 0 10px 25px rgba(22, 104, 199, 0.45);
 }
 
 .btn-primary:hover::before {
@@ -159,5 +197,42 @@ h1, h2, h3, h4 {
   background: var(--primary);
   color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(181, 141, 34, 0.2);
+  box-shadow: 0 5px 15px rgba(22, 104, 199, 0.25);
+}
+
+/* Floating consultation call button (mepiran-style) */
+.floating-call {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1200;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+  color: #ffffff;
+  font-weight: 700;
+  padding: 13px 22px;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(22, 104, 199, 0.4);
+}
+
+.floating-call:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(22, 104, 199, 0.5);
+}
+
+.floating-call svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .floating-call {
+    bottom: 16px;
+    left: 16px;
+    padding: 11px 18px;
+    font-size: 0.95rem;
+  }
 }

@@ -80,7 +80,7 @@ export default function ManagementThesisPage() {
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>
         با بهره‌گیری از اپلیکیشن دستیار هوشمند تز پژوه و همراهی اساتید برتر، فرآیند پژوهش خود را تسریع و بهینه کنید.
       </p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         ورود به بخش تماس با ما و مشاوره
       </a>
     </div>
@@ -100,7 +100,7 @@ export default function ManagementThesisPage() {
 
       {/* ب) کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           راهنمای جامع انجام پایان نامه مدیریت (ارشد و دکتری) با متدهای ۲۰۲۶
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -114,24 +114,24 @@ export default function ManagementThesisPage() {
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         
         <p>
-          دنیای مدیریت همواره در حال تغییر و تحول است و پژوهش‌های آکادمیک در این حوزه باید بتوانند با سرعت بالای این تغییرات همگام شوند. اگر دانشجوی کارشناسی ارشد یا دکتری هستید، بدون شک یکی از بزرگترین چالش‌های شما عبور موفقیت‌آمیز از سد رساله و پروژه پایانی است. <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در گرایش‌های مختلف مدیریت نیازمند دیدگاهی جامع، درک عمیق از تئوری‌های نوین سازمانی، و تسلط بر ابزارهای تحلیل داده است. در این مقاله جامع که توسط گروه تخصصی تز پژوه با بیش از ۱۶ سال تجربه تحقیقاتی به رشته تحریر درآمده است، شما را با جدیدترین رویکردها و چالش‌های مسیر رساله آشنا خواهیم کرد.
+          دنیای مدیریت همواره در حال تغییر و تحول است و پژوهش‌های آکادمیک در این حوزه باید بتوانند با سرعت بالای این تغییرات همگام شوند. اگر دانشجوی کارشناسی ارشد یا دکتری هستید، بدون شک یکی از بزرگترین چالش‌های شما عبور موفقیت‌آمیز از سد رساله و پروژه پایانی است. <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در گرایش‌های مختلف مدیریت نیازمند دیدگاهی جامع، درک عمیق از تئوری‌های نوین سازمانی، و تسلط بر ابزارهای تحلیل داده است. در این مقاله جامع که توسط گروه تخصصی تز پژوه با بیش از ۱۶ سال تجربه تحقیقاتی به رشته تحریر درآمده است، شما را با جدیدترین رویکردها و چالش‌های مسیر رساله آشنا خواهیم کرد.
         </p>
 
         {renderCTA()}
 
         <h2>چالش‌های مدرن در تدوین رساله مدیریت</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بزرگترین چالش امروز دانشجویان، یافتن شکاف تحقیقاتی واقعی (Research Gap)، انتخاب مدل مفهومی بدیع و ترکیب روش‌های کیفی و کمی در متدولوژی تحقیق است که به شدت مورد توجه داوران ژورنال‌های معتبر قرار دارد.
         </p>
         <p>
           بر اساس تست‌های انجام شده روی صدها پروژه تحقیقاتی در سال‌های اخیر، صرفاً ترجمه مقالات خارجی و کپی‌برداری از پرسشنامه‌های قدیمی دیگر نمی‌تواند تضمین‌کننده یک دفاع موفق باشد. اساتید دانشگاهی اکنون به دنبال کاربردی بودن موضوعات و بومی‌سازی مدل‌های غربی با شرایط فرهنگی و اقتصادی سازمان‌های داخلی هستند. شما باید بتوانید اثبات کنید که دستاورد پژوهش شما یک مسئله ملموس از صنایع یا سازمان‌ها را حل می‌کند. اینجاست که تسلط بر رویکردهای نوین اهمیت می‌یابد. 
         </p>
         <p>
-          همچنین می‌توانید برای آشنایی بیشتر با رویکردهای جهانی، به منابعی همچون <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>ScienceDirect</a> برای یافتن مقالات Q1 و Q2 مراجعه کنید و روندهای روز را بررسی نمایید.
+          همچنین می‌توانید برای آشنایی بیشتر با رویکردهای جهانی، به منابعی همچون <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>ScienceDirect</a> برای یافتن مقالات Q1 و Q2 مراجعه کنید و روندهای روز را بررسی نمایید.
         </p>
 
         <h3>چطور با هوش مصنوعی موضوع رساله مدیریت پیدا کنیم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> با استفاده از پرامپت‌نویسی پیشرفته در ابزارهایی مانند Claude یا ChatGPT، می‌توانید روند مقالات ۲۰۲۵-۲۰۲۶ را تحلیل کرده و با محدود کردن متغیرها به یک صنعت خاص، موضوعات میان‌رشته‌ای نوآورانه خلق کنید.
         </p>
         <p>
@@ -154,7 +154,7 @@ export default function ManagementThesisPage() {
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "right" }}>
             <thead>
-              <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>ویژگی</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>تحقیق کیفی (Qualitative)</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>تحقیق کمی (Quantitative)</th>
@@ -188,11 +188,11 @@ export default function ManagementThesisPage() {
         {renderCTA()}
 
         <h3>چرا روش آمیخته (Mixed Methods) برای رساله دکتری ضروری است؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> روش آمیخته با ترکیب اکتشاف کیفی و آزمون کمی، علاوه بر رفع محدودیت‌های هر روش به صورت مجزا، میزان نوآوری پژوهش را به طرز چشمگیری افزایش داده و شانس پذیرش مقالات ISI را بالا می‌برد.
         </p>
         <p>
-          دانشجویان مقطع دکتری باید بدانند که در سطح جهانی و پایگاه‌های معتبری چون <a href="https://www.emerald.com/insight/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>Emerald Insight</a>، مقالاتی که خروجی روش‌های ترکیبی هستند، استنادات (Citations) بسیار بالاتری دریافت می‌کنند. شما ابتدا از طریق مصاحبه با خبرگان صنعت (پنل دلفی یا تماتیک) مولفه‌های یک پدیده ناشناخته را شناسایی می‌کنید و سپس در بخش کمی، آن را در یک جامعه آماری گسترده آزمون می‌کنید. این سطح از عمق، تفاوت یک کار ضعیف و یک رساله درخشان را رقم می‌زند.
+          دانشجویان مقطع دکتری باید بدانند که در سطح جهانی و پایگاه‌های معتبری چون <a href="https://www.emerald.com/insight/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>Emerald Insight</a>، مقالاتی که خروجی روش‌های ترکیبی هستند، استنادات (Citations) بسیار بالاتری دریافت می‌کنند. شما ابتدا از طریق مصاحبه با خبرگان صنعت (پنل دلفی یا تماتیک) مولفه‌های یک پدیده ناشناخته را شناسایی می‌کنید و سپس در بخش کمی، آن را در یک جامعه آماری گسترده آزمون می‌کنید. این سطح از عمق، تفاوت یک کار ضعیف و یک رساله درخشان را رقم می‌زند.
         </p>
 
         <h2>نقش تحلیل آماری در ارتقای کیفیت رساله مدیریت</h2>
@@ -202,12 +202,12 @@ export default function ManagementThesisPage() {
         </p>
 
         <h3>چطور با هوش مصنوعی فرضیه پایان نامه بنویسیم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> با تغذیه مدل مفهومی و روابط بین متغیرها (مستقل، وابسته، میانجی و تعدیل‌گر) به یک مدل زبانی هوش مصنوعی، می‌توانید فرضیات اصلی و فرعی را با ساختار گرامری استاندارد و جهت‌دار استخراج کنید.
         </p>
         <p>
           نگارش فرضیات نیازمند رعایت اصول خاصی است. فرضیه نباید به صورت سوالی مطرح شود و باید رابطه بین حداقل دو متغیر را به صورت قطعی (جهت‌دار یا بدون جهت) بیان کند. استفاده هوشمندانه از ابزارهای هوش مصنوعی، به عنوان یک دستیار ویراستار، در تنظیم ساختار و ادبیات فرضیه‌ها بر اساس چارچوب نظری شما بسیار موثر است. 
-          همچنین در صورت تمایل به مطالعه بیشتر پیرامون روند تکامل پژوهش‌ها، به <Link href="/blog" style={{ color: "#0d6efd" }}>مقالات وبلاگ ما</Link> مراجعه فرمایید. برای مقطع ارشد نیز می‌توانید بخش <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>راهنمای کارشناسی ارشد</Link> و برای آشنایی با بایدها و نبایدهای دکتری، <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>خدمات رساله دکتری</Link> را مطالعه کنید.
+          همچنین در صورت تمایل به مطالعه بیشتر پیرامون روند تکامل پژوهش‌ها، به <Link href="/blog" style={{ color: "var(--primary)" }}>مقالات وبلاگ ما</Link> مراجعه فرمایید. برای مقطع ارشد نیز می‌توانید بخش <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>راهنمای کارشناسی ارشد</Link> و برای آشنایی با بایدها و نبایدهای دکتری، <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>خدمات رساله دکتری</Link> را مطالعه کنید.
         </p>
 
         <h2>نتیجه‌گیری: مسیر موفقیت از نگارش تا دفاع</h2>
@@ -218,8 +218,8 @@ export default function ManagementThesisPage() {
         {renderCTA()}
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع مقاطع ارشد و دکتری بوده است.
           </p>

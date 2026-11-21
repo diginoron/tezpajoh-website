@@ -14,7 +14,7 @@ export default function MastersThesisPillar() {
   return (
     <div className={`container ${styles.pillarPage}`}>
       <div className={styles.hero}>
-        <h1 className="text-gradient">راهنمای جامع و انجام پایان‌نامه کارشناسی ارشد</h1>
+        <h1>راهنمای جامع و انجام پایان‌نامه کارشناسی ارشد</h1>
         <p>مقطع کارشناسی ارشد اولین تجربه جدی و مستقل شما در دنیای پژوهش آکادمیک است. پایان‌نامه این مقطع نه‌تنها شرط فارغ‌التحصیلی است، بلکه پلی برای ورود به مقطع دکتری یا بازارهای کار تخصصی محسوب می‌شود.</p>
       </div>
 

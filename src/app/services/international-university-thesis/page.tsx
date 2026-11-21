@@ -111,7 +111,7 @@ export default function InternationalUniversityThesisPage() {
     <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
       <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         دریافت مشاوره تخصصی و سفارش
       </a>
     </div>
@@ -130,7 +130,7 @@ export default function InternationalUniversityThesisPage() {
 
       {/* کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه دانشگاه های خارجی؛ راهنمای جامع از پذیرش تا دفاع
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -143,7 +143,7 @@ export default function InternationalUniversityThesisPage() {
       {/* کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          دریافت پذیرش از یک دانشگاه خارجی تنها نیمی از مسیر است؛ نیمه دیگر، تولید پژوهشی است که باید به زبان مقصد، در قالب آیین‌نامه آن دانشگاه و در فاصله‌ای دور از استاد راهنما تدوین شود. تجربه تیم تز پژوه با دانشجویان بورسیه و مهاجر نشان می‌دهد اصلی‌ترین دغدغه‌ها نه محتوای علمی، بلکه زبان نگارش، قالب‌بندی استاندارد و ارتباط از راه دور با دانشگاه است. در این راهنما تمام مراحل <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> برای دانشگاه‌های خارجی را گام‌به‌گام مرور می‌کنیم و نشان می‌دهیم چگونه می‌توان بدون سفر، بدون سد زبانی و بدون ریسک رد شدن در بررسی اصالت متن، تا جلسه دفاع پیش رفت.
+          دریافت پذیرش از یک دانشگاه خارجی تنها نیمی از مسیر است؛ نیمه دیگر، تولید پژوهشی است که باید به زبان مقصد، در قالب آیین‌نامه آن دانشگاه و در فاصله‌ای دور از استاد راهنما تدوین شود. تجربه تیم تز پژوه با دانشجویان بورسیه و مهاجر نشان می‌دهد اصلی‌ترین دغدغه‌ها نه محتوای علمی، بلکه زبان نگارش، قالب‌بندی استاندارد و ارتباط از راه دور با دانشگاه است. در این راهنما تمام مراحل <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> برای دانشگاه‌های خارجی را گام‌به‌گام مرور می‌کنیم و نشان می‌دهیم چگونه می‌توان بدون سفر، بدون سد زبانی و بدون ریسک رد شدن در بررسی اصالت متن، تا جلسه دفاع پیش رفت.
         </p>
 
         {renderCTA(
@@ -152,7 +152,7 @@ export default function InternationalUniversityThesisPage() {
         )}
 
         <h2>انجام پایان نامه دانشگاه های خارجی چیست؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه دانشگاه های خارجی یعنی تدوین پایان‌نامه یا رساله مطابق آیین‌نامه، قالب ارجاع‌دهی و زبان رسمی یک دانشگاه غیرایرانی؛ از پروپوزال و اخذ تأیید استاد راهنما تا نگارش نهایی، چک اصالت متن و دفاع حضوری یا آنلاین به زبان همان دانشگاه.
         </p>
         <p>
@@ -163,7 +163,7 @@ export default function InternationalUniversityThesisPage() {
         </p>
 
         <h2>چرا نگارش پایان‌نامه در دانشگاه خارجی سخت‌تر است؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> سه مانع اصلی را باید مدیریت کنید: سد زبان در نگارش علمی، آستانه سخت‌گیرانه شباهت متن در ابزارهایی مانند Turnitin و فاصله جغرافیایی با استاد راهنما؛ اختلاف ساعت و پاسخ‌های دیرهنگام استاد، بیشترین تأخیر را در پروژه‌های خارجی ایجاد می‌کند.
         </p>
         <ul>
@@ -174,13 +174,13 @@ export default function InternationalUniversityThesisPage() {
         </ul>
 
         <h2>راهنمای گام‌به‌گام انجام پایان نامه دانشگاه خارجی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مسیر استاندارد شش گام دارد: شناخت آیین‌نامه دانشگاه مقصد، تعیین زبان و قالب ارجاع‌دهی، نگارش پروپوزال و اخذ تأیید استاد، اجرای پژوهش و تحلیل داده، نگارش چندزبانه با ویرایش نیتیو و در نهایت چک اصالت متن و آماده‌سازی دفاع.
         </p>
 
         <h3>گام اول: شناخت آیین‌نامه و انتخاب دانشگاه مقصد</h3>
         <p>
-          پیش از هر چیز، شیوه‌نامه پایان‌نامه دانشکده مقصد را دانلود و دقیق بخوانید: ساختار فصل‌ها، قالب فونت و صفحه‌بندی، حداقل حجم، درصد مجاز شباهت و شرط مقاله. اگر هنوز دانشگاه خود را انتخاب نکرده‌اید، علاوه بر اعتبار علمی (که می‌توانید در رتبه‌بندی‌های معتبری مانند <a href="https://www.timeshighereducation.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>Times Higher Education</a> بررسی کنید)، سه عامل را بسنجید: شرایط ارتباط با استاد راهنما، نحوه برگزاری دفاع و آسودگی شما از زبان مقصد.
+          پیش از هر چیز، شیوه‌نامه پایان‌نامه دانشکده مقصد را دانلود و دقیق بخوانید: ساختار فصل‌ها، قالب فونت و صفحه‌بندی، حداقل حجم، درصد مجاز شباهت و شرط مقاله. اگر هنوز دانشگاه خود را انتخاب نکرده‌اید، علاوه بر اعتبار علمی (که می‌توانید در رتبه‌بندی‌های معتبری مانند <a href="https://www.timeshighereducation.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>Times Higher Education</a> بررسی کنید)، سه عامل را بسنجید: شرایط ارتباط با استاد راهنما، نحوه برگزاری دفاع و آسودگی شما از زبان مقصد.
         </p>
 
         <h3>گام دوم: تعیین زبان نگارش و استاندارد ارجاع‌دهی</h3>
@@ -190,7 +190,7 @@ export default function InternationalUniversityThesisPage() {
 
         <h3>گام سوم: نگارش پروپوزال و اخذ تأیید استاد راهنمای خارجی</h3>
         <p>
-          استاد راهنمای خارجی پروپوزالِ کوتاه، مسئله‌محور و دقیق می‌خواهد؛ معمولاً ۵ تا ۱۰ صفحه با روش‌شناسی شفاف، زمان‌بندی واقع‌بینانه و منابع به‌روز. بازخورد استاد را چرخه‌ای ببینید: هر اصلاح ممکن است چند روز تا چند هفته طول بکشد، پس بازنگری‌ها را از ابتدا در برنامه پروژه پیش‌بینی کنید. الگوی استاندارد پروپوزال دانشگاه مقصد در خدمت <Link href="/services/proposal" style={{ color: "#0d6efd" }}>انجام پروپوزال</Link> تز پژوه به‌طور کامل پوشش داده می‌شود.
+          استاد راهنمای خارجی پروپوزالِ کوتاه، مسئله‌محور و دقیق می‌خواهد؛ معمولاً ۵ تا ۱۰ صفحه با روش‌شناسی شفاف، زمان‌بندی واقع‌بینانه و منابع به‌روز. بازخورد استاد را چرخه‌ای ببینید: هر اصلاح ممکن است چند روز تا چند هفته طول بکشد، پس بازنگری‌ها را از ابتدا در برنامه پروژه پیش‌بینی کنید. الگوی استاندارد پروپوزال دانشگاه مقصد در خدمت <Link href="/services/proposal" style={{ color: "var(--primary)" }}>انجام پروپوزال</Link> تز پژوه به‌طور کامل پوشش داده می‌شود.
         </p>
 
         <h3>گام چهارم: اجرای پژوهش، گردآوری و تحلیل داده</h3>
@@ -205,17 +205,17 @@ export default function InternationalUniversityThesisPage() {
 
         <h3>گام ششم: چک اصالت، آماده‌سازی دفاع و ارسال نهایی</h3>
         <p>
-          پیش از ارسال، درصد شباهت متن را با سرویس رسمی <a href="https://www.turnitin.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>Turnitin</a> بررسی و موارد نشان‌دار را بازنویسی کنید. سپس اسلاید دفاع را آماده و پرسش و پاسخ را به زبان مقصد تمرین کنید؛ شبیه‌سازی جلسه دفاع در خدمت <Link href="/services/training-consulting" style={{ color: "#0d6efd" }}>آموزش و مشاوره دفاع</Link> تز پژوه شامل تمرین پاسخ به سوالات احتمالی کمیته است تا روز دفاع، با اطمینان کامل وارد شوید.
+          پیش از ارسال، درصد شباهت متن را با سرویس رسمی <a href="https://www.turnitin.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>Turnitin</a> بررسی و موارد نشان‌دار را بازنویسی کنید. سپس اسلاید دفاع را آماده و پرسش و پاسخ را به زبان مقصد تمرین کنید؛ شبیه‌سازی جلسه دفاع در خدمت <Link href="/services/training-consulting" style={{ color: "var(--primary)" }}>آموزش و مشاوره دفاع</Link> تز پژوه شامل تمرین پاسخ به سوالات احتمالی کمیته است تا روز دفاع، با اطمینان کامل وارد شوید.
         </p>
 
         <h2>جدول مقایسه مسیرهای انجام پایان‌نامه دانشگاه خارجی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> سه مسیر رایج وجود دارد: تحصیل حضوری در کشور مقصد، تحصیل غیرحضوری یا آنلاین، و سرپرستی مشترک دو دانشگاه؛ تفاوت اصلی در زبان نگارش، نحوه تعامل با استاد، شکل جلسه دفاع و نیاز به داده و آزمایشگاه محلی است.
         </p>
         <div style={{ overflowX: "auto" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", margin: "25px 0", fontSize: "1rem" }}>
             <thead>
-              <tr style={{ backgroundColor: "#0d6efd", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ border: "1px solid #dee2e6", padding: "12px" }}>ویژگی</th>
                 <th style={{ border: "1px solid #dee2e6", padding: "12px" }}>تحصیل حضوری در دانشگاه خارجی</th>
                 <th style={{ border: "1px solid #dee2e6", padding: "12px" }}>تحصیل غیرحضوری / آنلاین</th>
@@ -274,7 +274,7 @@ export default function InternationalUniversityThesisPage() {
         <h2>پاسخ به پرسش‌های رایج دانشجویان</h2>
 
         <h3>پایان‌نامه دانشگاه خارجی به چه زبانی نوشته می‌شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> به زبان آموزشی همان دانشگاه؛ در اغلب دانشگاه‌های اروپا، آمریکا و آسیای شرقی انگلیسی، در آلمان و اتریش گاهی آلمانی، در ترکیه ترکی استانبولی و در دانشگاه‌های عرب‌زبان عربی. تز پژوه نگارش، ویرایش نیتیو و آماده‌سازی دفاع را دقیقاً به همان زبان انجام می‌دهد.
         </p>
         <p>
@@ -282,19 +282,19 @@ export default function InternationalUniversityThesisPage() {
         </p>
 
         <h3>آیا می‌توان بدون سفر به کشور مقصد، پایان‌نامه دانشگاه خارجی را انجام داد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بله؛ در بسیاری از دانشگاه‌ها تمام فرآیند — از پروپوزال تا دفاع ویدیویی — غیرحضوری قابل انجام است. تنها برخی آزمایش‌های آزمایشگاهی یا دفاع‌های خاص به حضور فیزیکی نیاز دارند؛ این محدودیت‌ها را باید پیش از تصویب پروپوزال از آیین‌نامه دانشگاه استعلام کنید.
         </p>
         <p>
-          حالت غیرحضوری برای شاغلان و دانشجویان مقیم ایران رایج‌ترین انتخاب است؛ تمام تعامل با استاد، ارسال فصول و تمرین دفاع از راه دور انجام می‌شود. اگر برنامه تحصیلات تکمیلی بیشتری دارید، راهنمای <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>رساله دکتری</Link> نیز ساختاری مشابه اما با سخت‌گیری بیشتر بر نوآوری دارد.
+          حالت غیرحضوری برای شاغلان و دانشجویان مقیم ایران رایج‌ترین انتخاب است؛ تمام تعامل با استاد، ارسال فصول و تمرین دفاع از راه دور انجام می‌شود. اگر برنامه تحصیلات تکمیلی بیشتری دارید، راهنمای <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>رساله دکتری</Link> نیز ساختاری مشابه اما با سخت‌گیری بیشتر بر نوآوری دارد.
         </p>
 
         <h3>انجام پایان نامه دانشگاه های خارجی چقدر زمان و هزینه می‌برد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ارشد معمولاً ۴ تا ۷ ماه و رساله دکتری ۱۰ تا ۱۸ ماه زمان می‌برد. هزینه به زبان نگارش، مقطع، نیاز به داده و ویرایش نیتیو وابسته است؛ پس از جلسه مشاوره رایگان، پیشنهاد زمانی و مالی شفاف و مرحله‌ای دریافت می‌کنید.
         </p>
         <p>
-          بزرگ‌ترین عامل تاخیر، انتظار برای بازخورد استاد خارجی است؛ با زمان‌بندی چرخه‌ای و ارسال مرحله‌ای فصول، این تاخیر قابل مدیریت می‌شود. جزئیات زمان‌بندی مرحله‌به‌مرحله در مقاله <Link href="/blog/thesis-checklist-1405" style={{ color: "#0d6efd" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> وبلاگ ما به تفصیل آمده است.
+          بزرگ‌ترین عامل تاخیر، انتظار برای بازخورد استاد خارجی است؛ با زمان‌بندی چرخه‌ای و ارسال مرحله‌ای فصول، این تاخیر قابل مدیریت می‌شود. جزئیات زمان‌بندی مرحله‌به‌مرحله در مقاله <Link href="/blog/thesis-checklist-1405" style={{ color: "var(--primary)" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> وبلاگ ما به تفصیل آمده است.
         </p>
 
         {renderCTA(
@@ -331,7 +331,7 @@ export default function InternationalUniversityThesisPage() {
 
         <h3>آیا برای فارغ‌التحصیلی از دانشگاه خارجی، مقاله علمی هم لازم است؟</h3>
         <p>
-          در بسیاری از دانشگاه‌های خارجی، به‌ویژه در مقطع دکتری، انتشار دست‌کم یک مقاله در نشریه یا کنفرانس معتبر شرط دفاع است. بخش نوآورانه پایان‌نامه می‌تواند به مقاله تبدیل شود؛ فرآیند کامل در خدمت <Link href="/services/article-writing-acceptance" style={{ color: "#0d6efd" }}>نگارش و اکسپت مقاله</Link> تز پژوه تا مرحله پذیرش نهایی پشتیبانی می‌شود.
+          در بسیاری از دانشگاه‌های خارجی، به‌ویژه در مقطع دکتری، انتشار دست‌کم یک مقاله در نشریه یا کنفرانس معتبر شرط دفاع است. بخش نوآورانه پایان‌نامه می‌تواند به مقاله تبدیل شود؛ فرآیند کامل در خدمت <Link href="/services/article-writing-acceptance" style={{ color: "var(--primary)" }}>نگارش و اکسپت مقاله</Link> تز پژوه تا مرحله پذیرش نهایی پشتیبانی می‌شود.
         </p>
 
         <h3>محرمانگی اطلاعات و تضمین کیفیت پروژه چگونه است؟</h3>
@@ -340,8 +340,8 @@ export default function InternationalUniversityThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع مقاطع ارشد و دکتری بوده است.
           </p>

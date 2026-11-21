@@ -19,7 +19,7 @@ const renderCTA = (
   <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
     <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
     <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
       دریافت مشاوره تخصصی و سفارش
     </a>
   </div>
@@ -127,7 +127,7 @@ export default function ArtResearchThesisPage() {
 
       {/* ب) کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه پژوهش هنر؛ راهنمای جامع ارشد و دکتری (۱۴۰۵)
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -140,33 +140,33 @@ export default function ArtResearchThesisPage() {
       {/* ج) کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          رشته پژوهش هنر محل تلاقی اندیشه نظری، فلسفه زیبایی‌شناسی، تاریخ تمدن و بازخوانی موشکافانه آثار تجسمی و نمایشی است. در دنیای آکادمیک امروز، <strong>انجام پایان نامه پژوهش هنر</strong> نیازمند گذار از ادبیات توصیفی و انشاگونه سنتی به سوی پژوهش‌های ساختارمند تحلیلی با چارچوب‌های نظری روزآمد است. کمیته‌های داوری در دانشکده‌های هنر، اصالت پژوهش را در چگونگی پیوند میان اثر هنری به عنوان سند بصری و نظریه‌های معتبر نقد هنری ارزیابی می‌کنند. اگر برای مقاطع کارشناسی ارشد یا دکتری در جست‌وجوی مسیری مطمئن برای <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> هستید، این راهنمای جامع از سوی دپارتمان تخصصی هنر گروه تز پژوه تدوین شده تا شما را در تمام مراحل از گزینش موضوع تا جلسه دفاع همراهی کند.
+          رشته پژوهش هنر محل تلاقی اندیشه نظری، فلسفه زیبایی‌شناسی، تاریخ تمدن و بازخوانی موشکافانه آثار تجسمی و نمایشی است. در دنیای آکادمیک امروز، <strong>انجام پایان نامه پژوهش هنر</strong> نیازمند گذار از ادبیات توصیفی و انشاگونه سنتی به سوی پژوهش‌های ساختارمند تحلیلی با چارچوب‌های نظری روزآمد است. کمیته‌های داوری در دانشکده‌های هنر، اصالت پژوهش را در چگونگی پیوند میان اثر هنری به عنوان سند بصری و نظریه‌های معتبر نقد هنری ارزیابی می‌کنند. اگر برای مقاطع کارشناسی ارشد یا دکتری در جست‌وجوی مسیری مطمئن برای <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> هستید، این راهنمای جامع از سوی دپارتمان تخصصی هنر گروه تز پژوه تدوین شده تا شما را در تمام مراحل از گزینش موضوع تا جلسه دفاع همراهی کند.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه پژوهش هنر فرآیندی تخصصی شامل شناسایی خلأ پژوهشی در تاریخ یا نقد هنر، تدوین پروپوزال متکی بر مبانی نظری منسجم (نشانه‌شناسی، آیکونوگرافی یا جامعه‌شناسی هنر)، گردآوری و اعتبارسنجی اسناد بصری، تحلیل فرمال و معنایی نمونه‌های منتخب، و تدوین فصول رساله طبق شیوه نامه‌های معتبر دانشگاهی است.
         </p>
 
         {renderCTA()}
 
         <h2>ارکان روش‌شناختی در انجام پایان نامه پژوهش هنر</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایان‌نامه پژوهش هنر بر سه رکن اساسی تکیه دارد: انتخاب جامعه نمونه از آثار هنری دارای غنای بصری، تدوین چارچوب نظری شفاف برای جلوگیری از قضاوت‌های سلیقه‌ای، و اتخاذ روش تحلیل کیفی منسجم که بتواند لایه‌های پنهان فرم و معنا را آشکار سازد.
         </p>
         <p>
           تفاوت بنیادین پژوهش هنر با سایر رشته‌های علوم انسانی در این نکته نهفته است که محقق با پدیده‌ای چندبعدی، حسی و نمادین روبروست. تحلیل یک نگاره کهن، یک اثر نقاشی معاصر، یک تندیس شهری یا سکانس‌هایی از سینمای مؤلف نمی‌تواند بر پایه دریافت‌های شخصی نویسنده انجام شود. هیئت داوران در گام نخست بررسی می‌کنند که آیا محقق توانسته مفاهیم انتزاعی نظری را به «نشانگرهای بصری» در اثر پیوند دهد یا خیر.
         </p>
         <p>
-          در سال‌های اخیر، گرایش دانشکده‌های هنر به سمت مطالعات تطبیقی و بین‌رشته‌ای افزایش چشمگیری یافته است؛ بررسی تأثیر گفتمان‌های سیاسی و اجتماعی بر هنرهای سنتی، بازخوانی آثار مدرن بر پایه کهن‌الگوهای اساطیری، و سنجش میزان خوانش‌های مخاطبان در بسترهای مجازی، از پربسامدترین گرایش‌ها هستند. پژوهشگران برای گردآوری پیشینه معتبر و دسترسی به مقالات داوری‌شده خارجی غالباً از پایگاه‌های مرجعی مانند <a href="https://www.jstor.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>JSTOR</a> و پایگاه‌های تخصصی نقد هنر بهره می‌برند تا ادبیات پژوهش خود را با استانداردهای روز دنیا غنا بخشند.
+          در سال‌های اخیر، گرایش دانشکده‌های هنر به سمت مطالعات تطبیقی و بین‌رشته‌ای افزایش چشمگیری یافته است؛ بررسی تأثیر گفتمان‌های سیاسی و اجتماعی بر هنرهای سنتی، بازخوانی آثار مدرن بر پایه کهن‌الگوهای اساطیری، و سنجش میزان خوانش‌های مخاطبان در بسترهای مجازی، از پربسامدترین گرایش‌ها هستند. پژوهشگران برای گردآوری پیشینه معتبر و دسترسی به مقالات داوری‌شده خارجی غالباً از پایگاه‌های مرجعی مانند <a href="https://www.jstor.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>JSTOR</a> و پایگاه‌های تخصصی نقد هنر بهره می‌برند تا ادبیات پژوهش خود را با استانداردهای روز دنیا غنا بخشند.
         </p>
 
         <h2>قلمروها و حوزه‌های پژوهشی در انجام پایان نامه پژوهش هنر</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> این رشته گستره وسیعی از هنرهای تجسمی (نگارگری، نقاشی، خوشنویسی)، هنرهای سنتی و صنایع دستی، هنرهای نمایشی و سینما، فلسفه و تاریخ هنر، و اقتصاد و مدیریت هنری را پوشش می‌دهد؛ هر قلمرو ادبیات پژوهشی و اسناد بصری ویژه خود را می‌طلبد.
         </p>
 
         <h3>۱. هنرهای تجسمی و بازخوانی میراث تصویری ایران</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مطالعه نسخه‌های خطی، مکاتب نگارگری (تبریز، شیراز، هرات، اصفهان)، نمادشناسی نقوش سفال و منسوجات، و تحلیل جریان‌های نقاشی و مجسمه‌سازی معاصر از مهم‌ترین مباحث این حوزه به شمار می‌آیند.
         </p>
         <p>
@@ -174,7 +174,7 @@ export default function ArtResearchThesisPage() {
         </p>
 
         <h3>۲. هنرهای نمایشی، سینما و رسانه‌های نوین</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> تحلیل ساختار روایی، نشانه‌شناسی تصویر و صدا، نقد فمینیستی و روانکاوانه آثار سینمایی، مطالعات اجرا در تئاتر و بازنمایی هویت در هنر دیجیتال و ویدیوآرت، محورهای اساسی این شاخه هستند.
         </p>
         <p>
@@ -182,45 +182,45 @@ export default function ArtResearchThesisPage() {
         </p>
 
         <h3>۳. فلسفه هنر، زیبایی‌شناسی و جامعه‌شناسی هنر</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بررسی آرای فیلسوفان زیبایی‌شناس (کانت، هگل، هایدگر، آدورنو)، اقتصاد فرهنگ، سازوکار نهادهای هنری و گالری‌ها، و تحلیل نحوه ادراک زیباشناختی جامعه، بسترساز پژوهش‌های نظری عمیق در این گرایش است.
         </p>
         <p>
-          این گرایش با رشته‌هایی چون <Link href="/services/sociology-thesis" style={{ color: "#0d6efd" }}>جامعه‌شناسی</Link> پیوند تنگاتنگی دارد و به بررسی نقش نهادهای حامی، سرمایه فرهنگی بوردیو و اقتصاد هنر در ارزش‌گذاری آثار می‌پردازد.
+          این گرایش با رشته‌هایی چون <Link href="/services/sociology-thesis" style={{ color: "var(--primary)" }}>جامعه‌شناسی</Link> پیوند تنگاتنگی دارد و به بررسی نقش نهادهای حامی، سرمایه فرهنگی بوردیو و اقتصاد هنر در ارزش‌گذاری آثار می‌پردازد.
         </p>
 
         <h2>مراحل گام‌به‌گام انجام پایان نامه پژوهش هنر در تز پژوه</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> روند اجرایی در پنج مرحله طراحی شده است: گزینش موضوع بکر و دستیابی به منابع تصویری، تدوین پروپوزال، نگارش فصول پیشینه و چارچوب نظری، تحلیل عمیق نمونه‌های پژوهش، و شبیه‌سازی دفاع همراه با تهیه اسلایدهای استاندارد.
         </p>
 
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام اول؛ انتخاب عنوان دقیق و گزینش جامعه نمونه:</strong> در این گام باید مطمئن شد نمونه‌های تصویری با کیفیت بالا در دسترس هستند و موضوع تکراری نیست. خدمت <Link href="/services/topic-selection" style={{ color: "#0d6efd", fontWeight: "bold" }}>ارائه موضوع پایان‌نامه</Link> در تز پژوه عناوین نوآورانه‌ای مبتنی بر رویکردهای تحلیلی ۲۰۲۶ پیشنهاد می‌کند.
+            <strong>گام اول؛ انتخاب عنوان دقیق و گزینش جامعه نمونه:</strong> در این گام باید مطمئن شد نمونه‌های تصویری با کیفیت بالا در دسترس هستند و موضوع تکراری نیست. خدمت <Link href="/services/topic-selection" style={{ color: "var(--primary)", fontWeight: "bold" }}>ارائه موضوع پایان‌نامه</Link> در تز پژوه عناوین نوآورانه‌ای مبتنی بر رویکردهای تحلیلی ۲۰۲۶ پیشنهاد می‌کند.
           </li>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام دوم؛ تدوین پروپوزال متقن با رویکرد نظری معین:</strong> تشریح دقیق بیان مسئله، ضرورت پژوهش، فرضیه‌ها یا سوالات، تعریف جامعه نمونه و تشریح گام‌به‌گام روش تحلیل اثر در قالب <Link href="/services/proposal" style={{ color: "#0d6efd", fontWeight: "bold" }}>انجام پروپوزال</Link> تخصصی جهت اخذ تصویب سریع از گروه هنر.
+            <strong>گام دوم؛ تدوین پروپوزال متقن با رویکرد نظری معین:</strong> تشریح دقیق بیان مسئله، ضرورت پژوهش، فرضیه‌ها یا سوالات، تعریف جامعه نمونه و تشریح گام‌به‌گام روش تحلیل اثر در قالب <Link href="/services/proposal" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پروپوزال</Link> تخصصی جهت اخذ تصویب سریع از گروه هنر.
           </li>
           <li style={{ marginBottom: "16px" }}>
             <strong>گام سوم؛ نگارش فصول ادبیات تحقیق و چارچوب نظری:</strong> تبیین نظریه منتخب (نشانه‌شناسی، آیکونوگرافی و ...) و استخراج مدل عملیاتی تحلیل اثر، به گونه‌ای که خواننده متوجه شود آثار هنری با چه متری ارزیابی خواهند شد.
           </li>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام چهارم؛ تحلیل نشانه‌شناختی، فرمال و معنایی نمونه‌ها:</strong> پیاده‌سازی مدل نظری بر روی تصاویر و آثار هنری، درج تصاویر باکیفیت همراه با ارجاعات معتبر موزه‌ای و تدوین مستندات در قالب <Link href="/services/thesis-chapters" style={{ color: "#0d6efd", fontWeight: "bold" }}>فصول پایان‌نامه</Link> و امکان تبدیل یافته‌ها به <Link href="/services/article-writing-acceptance" style={{ color: "#0d6efd", fontWeight: "bold" }}>نگارش و اکسپت مقاله</Link>.
+            <strong>گام چهارم؛ تحلیل نشانه‌شناختی، فرمال و معنایی نمونه‌ها:</strong> پیاده‌سازی مدل نظری بر روی تصاویر و آثار هنری، درج تصاویر باکیفیت همراه با ارجاعات معتبر موزه‌ای و تدوین مستندات در قالب <Link href="/services/thesis-chapters" style={{ color: "var(--primary)", fontWeight: "bold" }}>فصول پایان‌نامه</Link> و امکان تبدیل یافته‌ها به <Link href="/services/article-writing-acceptance" style={{ color: "var(--primary)", fontWeight: "bold" }}>نگارش و اکسپت مقاله</Link>.
           </li>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام پنجم؛ ویرایش تخصصی و آماده‌سازی ارائه دفاع:</strong> تدوین پاورپوینت با ساختار روایی تصویری، آماده‌سازی پاسخ به پرسش‌های چالش‌برانگیز داوران و شرکت در جلسه آزمایشی با خدمات <Link href="/services/training-consulting" style={{ color: "#0d6efd", fontWeight: "bold" }}>آموزش و مشاوره دفاع</Link>.
+            <strong>گام پنجم؛ ویرایش تخصصی و آماده‌سازی ارائه دفاع:</strong> تدوین پاورپوینت با ساختار روایی تصویری، آماده‌سازی پاسخ به پرسش‌های چالش‌برانگیز داوران و شرکت در جلسه آزمایشی با خدمات <Link href="/services/training-consulting" style={{ color: "var(--primary)", fontWeight: "bold" }}>آموزش و مشاوره دفاع</Link>.
           </li>
         </ol>
 
         <h2>جدول مقایسه روش‌های پژوهش و چارچوب‌های نظری در پایان‌نامه هنر</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> هر نظریه هنری زاویه دید متفاوتی برای واکاوی اثر فراهم می‌آورد؛ جدول زیر پنج چارچوب نظری پرطرفدار را بر اساس حوزه کاربرد، ابزار تحلیل و شیوه استنتاج مقایسه می‌کند.
         </p>
 
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "right" }}>
             <thead>
-              <tr style={{ backgroundColor: "#0d6efd", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>چارچوب نظری / روش</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>نظریه‌پردازان کلیدی</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>ابزارها و لایه‌های بررسی</th>
@@ -268,7 +268,7 @@ export default function ArtResearchThesisPage() {
         )}
 
         <h2>پنج اشتباه رایج در انجام پایان نامه پژوهش هنر</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> تقلیل رساله به تاریخ‌نگاری محض، غلبه نگارش انشایی و ذوقی، ضعف کیفیت و فقدان شناسنامه تصاویر، فقدان پیوند میان فصول نظری و تحلیل عملی، و تعمیم‌های نامعتبر، پنج تله رایج در پایان‌نامه‌های هنر هستند.
         </p>
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
@@ -292,23 +292,23 @@ export default function ArtResearchThesisPage() {
         <h2>پاسخ به سوالات پرتکرار دانشجویان در انجام پایان نامه پژوهش هنر</h2>
 
         <h3>بهترین موضوع برای پایان نامه پژوهش هنر چگونه انتخاب می‌شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موضوع ایده‌آل موضوعی است که اثر یا گروهی از آثار کمتر دیده‌شده یا روایتی نوین از آثار مشهور را از پنجره یک نظریه منسجم نقد کند، اسناد تصویری قابل اتکا داشته باشد و مسئله‌ای واقعی از تاریخ یا هویت بصری را پاسخ دهد.
         </p>
         <p>
-          دانشجویان غالباً تمایل دارند عناوینی بسیار وسیع مانند «بررسی سیر تحول هنر ایران» انتخاب کنند، در حالی که پژوهش موفق بر روی موردی مشخص و عمیق تمرکز دارد؛ برای مثال «بازخوانی بینامتنی شمایل دیو در نگاره‌های مکتب هرات بر پایه شاهنامه طهماسبی». برای مقایسه دیدگاه‌ها و پیوندهای متقابل با رشته‌های مرتبط، مطالعه راهنماهای <Link href="/services/architecture-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه معماری</Link> و فصول رساله <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>دکتری</Link> توصیه می‌شود.
+          دانشجویان غالباً تمایل دارند عناوینی بسیار وسیع مانند «بررسی سیر تحول هنر ایران» انتخاب کنند، در حالی که پژوهش موفق بر روی موردی مشخص و عمیق تمرکز دارد؛ برای مثال «بازخوانی بینامتنی شمایل دیو در نگاره‌های مکتب هرات بر پایه شاهنامه طهماسبی». برای مقایسه دیدگاه‌ها و پیوندهای متقابل با رشته‌های مرتبط، مطالعه راهنماهای <Link href="/services/architecture-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه معماری</Link> و فصول رساله <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>دکتری</Link> توصیه می‌شود.
         </p>
 
         <h3>چگونه چارچوب نظری متناسب با آثار هنری را انتخاب کنیم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انتخاب چارچوب نظری باید تابع ماهیت پرسش پژوهش باشد؛ اگر به دنبال ریشه‌یابی معانی نمادین تاریخی هستید آیکونوگرافی، اگر در پی سازوکار تولید معنای نشانه‌ها هستید نشانه‌شناسی، و اگر روابط قدرت را بررسی می‌کنید جامعه‌شناسی هنر مناسب است.
         </p>
         <p>
-          پیش از ثبت نظریه در پروپوزال، اطمینان حاصل کنید که نظریه قابلیت تبدیل به یک چک‌لیست تحلیلی برای بررسی تک‌تک آثار را دارد؛ تطابق نظریه و تصویر، رمز پیروزی در آزمون‌های تحصیلات تکمیلی و چاپ مقالات در نشریات علمی-پژوهشی به شمار می‌رود. پایگاه‌های پژوهشی داخلی معتبر مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>نورمگز</a> نیز برای مطالعه نمونه‌های پیشین بسیار کارآمد هستند.
+          پیش از ثبت نظریه در پروپوزال، اطمینان حاصل کنید که نظریه قابلیت تبدیل به یک چک‌لیست تحلیلی برای بررسی تک‌تک آثار را دارد؛ تطابق نظریه و تصویر، رمز پیروزی در آزمون‌های تحصیلات تکمیلی و چاپ مقالات در نشریات علمی-پژوهشی به شمار می‌رود. پایگاه‌های پژوهشی داخلی معتبر مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>نورمگز</a> نیز برای مطالعه نمونه‌های پیشین بسیار کارآمد هستند.
         </p>
 
         <h3>دفاع پایان نامه پژوهش هنر چگونه با نمره عالی برگزار می‌شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ارائه اسلایدهای بصری متمرکز، پرهیز از روخوانی متون طولانی، تسلط بر اصطلاحات تخصصی چارچوب نظری، و نمایش واضح تطابق نشانه‌های بصری با دستاوردهای مفهومی، داوران را در روز دفاع متقاعد می‌سازد.
         </p>
         <p>
@@ -353,8 +353,8 @@ export default function ArtResearchThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: دپارتمان پژوهش هنر گروه تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: دپارتمان پژوهش هنر گروه تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این راهنمای کاربردی توسط پژوهشگران و اساتید دپارتمان پژوهش هنر در گروه تخصصی تز پژوه تهیه شده است. این دپارتمان با بیش از ۱۶ سال تجربه مستمر در هدایت و مشاوره رساله‌های تحصیلات تکمیلی، متشکل از دانش‌آموختگان مقاطع کارشناسی ارشد و دکتری دانشگاه‌های برتر هنر کشور است. تمرکز این تیم بر انطباق شیوه‌های نقد هنر با متدهای تحلیلی روز، استانداردسازی ارجاعات بصری و ارتقای سطح کیفی پژوهش‌های هنری است تا دانشجویان عزیز به نتایج درخشان علمی و افتخارات دانشگاهی دست یابند.
           </p>

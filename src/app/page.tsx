@@ -15,13 +15,32 @@ export default function Home() {
       <section className={styles.hero}>
         <div className={`container ${styles.heroContainer}`}>
           <div className={styles.heroContent}>
-            <h1 className="text-gradient">مشاوره و انجام پایان‌نامه ارشد و دکتری با تضمین کیفیت</h1>
+            <span className={styles.heroBadge}>بیش از ۱۵ سال تجربه تخصصی</span>
+            <h1>مشاوره و انجام پایان‌نامه ارشد و دکتری با تضمین کیفیت</h1>
             <p>
-              گروه تخصصی «تز پژوه» با بیش از ۱۵ سال تجربه درخشان، همراه مطمئن شما در تمامی مراحل انجام رساله دکتری و پایان‌نامه کارشناسی ارشد است. ما از انتخاب موضوع تا روز دفاع در کنار شما هستیم.
+              گروه تخصصی «تز پژوه» همراه مطمئن شما در تمامی مراحل انجام رساله دکتری و پایان‌نامه کارشناسی ارشد است. ما از انتخاب موضوع تا روز دفاع در کنار شما هستیم.
             </p>
             <div className={styles.heroActions}>
-              <Link href="/services" className="btn-primary">مشاهده خدمات ما</Link>
-              <Link href="/contact" className="btn-outline">درخواست مشاوره رایگان</Link>
+              <Link href="/services" className={styles.heroCtaPrimary}>مشاهده خدمات ما</Link>
+              <Link href="/contact" className={styles.heroCtaSecondary}>درخواست مشاوره رایگان</Link>
+            </div>
+            <div className={styles.trustRow}>
+              <div className={styles.trustItem}>
+                <strong>اصالت کار</strong>
+                <span>گزارش همانندجویی</span>
+              </div>
+              <div className={styles.trustItem}>
+                <strong>تحویل به موقع</strong>
+                <span>سرعت و دقت بالا</span>
+              </div>
+              <div className={styles.trustItem}>
+                <strong>تضمین کیفیت</strong>
+                <span>بر اساس استانداردها</span>
+              </div>
+              <div className={styles.trustItem}>
+                <strong>پشتیبانی ۲۴/۷</strong>
+                <span>همراه شما هستیم</span>
+              </div>
             </div>
           </div>
         </div>
@@ -30,6 +49,7 @@ export default function Home() {
       {/* Fields / Majors Section */}
       <section className="container" style={{ padding: '40px 0' }}>
         <div className={styles.sectionHeader}>
+          <span className={styles.sectionTag}>تخصص ما</span>
           <h2>رشته‌های تخصصی تحت پوشش</h2>
           <p>تیم اساتید تز پژوه، انجام پروژه‌های پایانی در طیف وسیعی از رشته‌های دانشگاهی را با بالاترین کیفیت تضمین می‌کند.</p>
         </div>
@@ -120,6 +140,7 @@ export default function Home() {
       {/* Services Overview */}
       <section className={`container ${styles.services}`}>
         <div className={styles.sectionHeader}>
+          <span className={styles.sectionTag}>خدمات جامع</span>
           <h2>خدمات جامع تز پژوه</h2>
         </div>
         <div className={styles.servicesGrid}>
@@ -153,6 +174,7 @@ export default function Home() {
       {/* Latest Blog Posts (Cluster Links) */}
       <section className={`container ${styles.blogSection}`}>
         <div className={styles.sectionHeader}>
+          <span className={styles.sectionTag}>وبلاگ تخصصی</span>
           <h2>تازه‌های وبلاگ تخصصی</h2>
           <p>آخرین مقالات و راهنماهای کاربردی برای دانشجویان تحصیلات تکمیلی.</p>
         </div>

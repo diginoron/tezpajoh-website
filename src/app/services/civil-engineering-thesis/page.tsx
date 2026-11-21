@@ -103,7 +103,7 @@ export default function CivilEngineeringThesisPage() {
     <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
       <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         دریافت مشاوره تخصصی و سفارش
       </a>
     </div>
@@ -122,7 +122,7 @@ export default function CivilEngineeringThesisPage() {
 
       {/* کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه عمران؛ راهنمای جامع از انتخاب موضوع تا دفاع
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -135,10 +135,10 @@ export default function CivilEngineeringThesisPage() {
       {/* کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          مهندسی عمران رشته‌ای است که خطای کوچک یک مدل، می‌تواند ایمنی یک سازه واقعی را زیر سوال ببرد؛ به همین دلیل <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در این رشته، بیش از هر چیز به انتخاب دقیق موضوع، تسلط بر نرم‌افزارهای تخصصی و صحت داده‌ها وابسته است. تجربه تیم تز پژوه در پروژه‌های ارشد و دکتری عمران نشان می‌دهد بیشترین تأخیرها نه از سختی فنی، بلکه از انتخاب موضوع بزرگ، زیرساخت داده ناکافی و شروع دیرهنگام نگارش ناشی می‌شود. در این مقاله کل مسیر از انتخاب موضوع تا روز دفاع را گام‌به‌گام، همراه با معرفی نرم‌افزارها، روش‌های پژوهش معتبر و اشتباهات رایج مرور می‌کنیم.
+          مهندسی عمران رشته‌ای است که خطای کوچک یک مدل، می‌تواند ایمنی یک سازه واقعی را زیر سوال ببرد؛ به همین دلیل <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در این رشته، بیش از هر چیز به انتخاب دقیق موضوع، تسلط بر نرم‌افزارهای تخصصی و صحت داده‌ها وابسته است. تجربه تیم تز پژوه در پروژه‌های ارشد و دکتری عمران نشان می‌دهد بیشترین تأخیرها نه از سختی فنی، بلکه از انتخاب موضوع بزرگ، زیرساخت داده ناکافی و شروع دیرهنگام نگارش ناشی می‌شود. در این مقاله کل مسیر از انتخاب موضوع تا روز دفاع را گام‌به‌گام، همراه با معرفی نرم‌افزارها، روش‌های پژوهش معتبر و اشتباهات رایج مرور می‌کنیم.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه عمران فرآیندی پنج‌مرحله‌ای است: انتخاب موضوع بکر در یکی از گرایش‌ها، تدوین پروپوزال، مدل‌سازی یا گردآوری داده (نرم‌افزاری، آزمایشگاهی یا میدانی)، تحلیل و اعتبارسنجی نتایج، و در نهایت نگارش فصول و دفاع. سه عامل موفقیت در این مسیر عبارتند از: تمرکز بر یک مسئله مهندسی مشخص، صحت و اعتبار داده‌ها، و اعتبارسنجی نتایج با مراجع معتبر.
         </p>
 
@@ -148,7 +148,7 @@ export default function CivilEngineeringThesisPage() {
         )}
 
         <h2>انجام پایان نامه عمران چه تفاوتی با سایر رشته‌ها دارد؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایان‌نامه عمران ذاتاً «مدل‌محور» و «داده‌محور» است؛ به جای جمع‌بندی صرف منابع، باید یک مسئله مهندسی را با ابزار محاسباتی (نرم‌افزار یا آزمایش) مدل کنید، نتایج را اعتبارسنجی کرده و راهکار پیشنهادی خود را با استدلال فنی، مستدل و قابل دفاع ارائه دهید.
         </p>
         <p>
@@ -181,7 +181,7 @@ export default function CivilEngineeringThesisPage() {
         </p>
 
         <h2>مراحل انجام پایان نامه عمران؛ نقشه راه گام‌به‌گام</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مسیر استاندارد شامل پنج گام است: انتخاب موضوع محدود و عمیق، تدوین و تصویب پروپوزال، مدل‌سازی و گردآوری داده، تحلیل و اعتبارسنجی نتایج، و نگارش فصول و آمادگی دفاع. کیفیت هر گام به گام قبلی وابسته است؛ پرش از هر مرحله به معنای بازگشت اجباری در مرحله بعد است.
         </p>
 
@@ -192,22 +192,22 @@ export default function CivilEngineeringThesisPage() {
 
         <h3>گام دوم: تدوین پروپوزال</h3>
         <p>
-          پروپوزال سند قرارداد شما با کمیته است: بیان مسئله، اهداف، سوالات، روش و پیشینه پژوهش. در پروژه‌های عمران، تعیین دقیق ابزار (نرم‌افزار، آزمایش یا پرسشنامه) و منبع داده در همین مرحله الزامی است؛ بسیاری از پروژه‌های معطل‌مانده، در پروپوزال خود ابزار را مبهم گذاشته‌اند. <Link href="/services/proposal" style={{ color: "#0d6efd" }}>خدمات انجام پروپوزال</Link> ما دقیقاً همین نقطه را پوشش می‌دهد.
+          پروپوزال سند قرارداد شما با کمیته است: بیان مسئله، اهداف، سوالات، روش و پیشینه پژوهش. در پروژه‌های عمران، تعیین دقیق ابزار (نرم‌افزار، آزمایش یا پرسشنامه) و منبع داده در همین مرحله الزامی است؛ بسیاری از پروژه‌های معطل‌مانده، در پروپوزال خود ابزار را مبهم گذاشته‌اند. <Link href="/services/proposal" style={{ color: "var(--primary)" }}>خدمات انجام پروپوزال</Link> ما دقیقاً همین نقطه را پوشش می‌دهد.
         </p>
 
         <h3>گام سوم: مدل‌سازی و گردآوری داده</h3>
         <p>
-          بسته به گرایش، این گام یعنی مدل‌سازی نرم‌افزاری (ETABS، PLAXIS، SWMM)، اجرای برنامه آزمایشگاهی یا گردآوری داده میدانی با پرسشنامه و مصاحبه. منابع پژوهش را از مقالات معتبر داخلی مانند <a href="https://civilica.com" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>پایگاه مقالات تخصصی عمران (سیویلیکا)</a> و مجلات شیوه‌نامه‌دار تهیه کنید و از همان ابتدا جدول تحلیل منابع بسازید؛ این جدول، فصل دوم پایان‌نامه را همزمان می‌سازد.
+          بسته به گرایش، این گام یعنی مدل‌سازی نرم‌افزاری (ETABS، PLAXIS، SWMM)، اجرای برنامه آزمایشگاهی یا گردآوری داده میدانی با پرسشنامه و مصاحبه. منابع پژوهش را از مقالات معتبر داخلی مانند <a href="https://civilica.com" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>پایگاه مقالات تخصصی عمران (سیویلیکا)</a> و مجلات شیوه‌نامه‌دار تهیه کنید و از همان ابتدا جدول تحلیل منابع بسازید؛ این جدول، فصل دوم پایان‌نامه را همزمان می‌سازد.
         </p>
 
         <h3>گام چهارم: تحلیل و اعتبارسنجی نتایج</h3>
         <p>
-          خروجی نرم‌افزار به خودی خود یافته نیست؛ تحلیل یعنی تفسیر، مقایسه و نتیجه‌گیری. هر مدل باید با یک نمونه معتبر، نتایج مطالعات پیشین یا مفروضات آیین‌نامه‌ها اعتبارسنجی شود و بررسی حساسیت پارامترهای کلید، عمق فصل تحلیلی را می‌سازد. الگوی گزارش‌دهی علمی را از نشریات معتبری مانند <a href="https://ascelibrary.org" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>مقالات انجمن مهندسان عمران آمریکا (ASCE)</a> بیاموزید؛ همین الگو بعداً برای مقاله مستخرج استفاده می‌شود.
+          خروجی نرم‌افزار به خودی خود یافته نیست؛ تحلیل یعنی تفسیر، مقایسه و نتیجه‌گیری. هر مدل باید با یک نمونه معتبر، نتایج مطالعات پیشین یا مفروضات آیین‌نامه‌ها اعتبارسنجی شود و بررسی حساسیت پارامترهای کلید، عمق فصل تحلیلی را می‌سازد. الگوی گزارش‌دهی علمی را از نشریات معتبری مانند <a href="https://ascelibrary.org" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>مقالات انجمن مهندسان عمران آمریکا (ASCE)</a> بیاموزید؛ همین الگو بعداً برای مقاله مستخرج استفاده می‌شود.
         </p>
 
         <h3>گام پنجم: نگارش فصول و آمادگی دفاع</h3>
         <p>
-          نگارش را از فصل دوم (مبانی نظری و پیشینه) موازی با مدل‌سازی شروع کنید، نه بعد از آن. تدوین فصل‌به‌فصل با استانداردهای نگارشی و ارجاع‌دهی یکدست، بخشی از <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>خدمات تدوین فصول پایان‌نامه</Link> ماست. برای درک توقعات هر مقطع، راهنمای <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>رساله دکتری</Link> را از دست ندهید.
+          نگارش را از فصل دوم (مبانی نظری و پیشینه) موازی با مدل‌سازی شروع کنید، نه بعد از آن. تدوین فصل‌به‌فصل با استانداردهای نگارشی و ارجاع‌دهی یکدست، بخشی از <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>خدمات تدوین فصول پایان‌نامه</Link> ماست. برای درک توقعات هر مقطع، راهنمای <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>رساله دکتری</Link> را از دست ندهید.
         </p>
 
         <h2>مقایسه روش‌های پژوهش رایج در پایان‌نامه‌های عمران</h2>
@@ -218,7 +218,7 @@ export default function CivilEngineeringThesisPage() {
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "right" }}>
             <thead>
-              <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>روش پژوهش</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>حوزه کاربرد اصلی</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>مناسب برای</th>
@@ -266,7 +266,7 @@ export default function CivilEngineeringThesisPage() {
         )}
 
         <h2>اشتباهات رایج در انجام پایان نامه عمران و راه حل آن‌ها</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پنج اشتباه پرتکرار عبارتند از: انتخاب موضوع بیش از حد وسیع، مدل‌سازی بدون اعتبارسنجی، داده ناکافی یا غیرمعتبر، غفلت از ویرایش‌های جدید آیین‌نامه‌ها و شروع نگارش در آخرین ماه‌ها. هر پنج مورد با یک تصمیم درست در هفته‌های اول پروژه قابل پیشگیری است.
         </p>
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
@@ -280,23 +280,23 @@ export default function CivilEngineeringThesisPage() {
         <h2>پاسخ به پرسش‌های رایج دانشجویان عمران</h2>
 
         <h3>بهترین نرم‌افزار برای پایان نامه عمران کدام است؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بستگی به گرایش دارد؛ ETABS و SAP2000 برای تحلیل سازه، PLAXIS و Abaqus برای ژئوتکنیک، نرم‌افزارهای شبیه‌سازی ترافیک برای راه و ترابری و SPSS یا R برای مدیریت ساخت. نرم‌افزار باید متناسب با موضوع انتخاب شود، نه برعکس.
         </p>
         <p>
-          اگر موضوع را دوست دارید اما نرم‌افزار آن را بلد نیستید، از دست‌یار متخصص در همان مرحله استفاده کنید؛ یادگیری نرم‌افزار در میانه پروژه، بدون راهنما، رایج‌ترین علت توقف پروژه‌های عمران است. <Link href="/services/training-consulting" style={{ color: "#0d6efd" }}>خدمات آموزش و مشاوره</Link> ما دقیقاً برای همین طراحی شده است.
+          اگر موضوع را دوست دارید اما نرم‌افزار آن را بلد نیستید، از دست‌یار متخصص در همان مرحله استفاده کنید؛ یادگیری نرم‌افزار در میانه پروژه، بدون راهنما، رایج‌ترین علت توقف پروژه‌های عمران است. <Link href="/services/training-consulting" style={{ color: "var(--primary)" }}>خدمات آموزش و مشاوره</Link> ما دقیقاً برای همین طراحی شده است.
         </p>
 
         <h3>انجام پایان نامه عمران چقدر زمان می‌برد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> با برنامه‌ریزی دقیق و پیشرفت موازی مراحل، پایان‌نامه ارشد عمران معمولاً بین ۶ تا ۹ ماه و رساله دکتری بین ۱۲ تا ۱۸ ماه زمان می‌برد؛ اصلی‌ترین عامل افزایش این زمان، انتظار برای تصویب مرحله‌ای و شروع دیرهنگام مدل‌سازی و نگارش است.
         </p>
         <p>
-          یک خط زمانی واقع‌بینانه برای ارشد شامل حدود یک ماه موضوع و پروپوزال، دو ماه مدل‌سازی یا گردآوری داده، دو تا سه ماه تحلیل و اعتبارسنجی، و دو ماه نگارش و آماده‌سازی دفاع است. مسیرهای <Link href="/blog/thesis-checklist-1405" style={{ color: "#0d6efd" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> در وبلاگ ما این زمان‌بندی را به تفصیل پوشش می‌دهد.
+          یک خط زمانی واقع‌بینانه برای ارشد شامل حدود یک ماه موضوع و پروپوزال، دو ماه مدل‌سازی یا گردآوری داده، دو تا سه ماه تحلیل و اعتبارسنجی، و دو ماه نگارش و آماده‌سازی دفاع است. مسیرهای <Link href="/blog/thesis-checklist-1405" style={{ color: "var(--primary)" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> در وبلاگ ما این زمان‌بندی را به تفصیل پوشش می‌دهد.
         </p>
 
         <h3>آیا پایان‌نامه عمران حتماً به آزمایشگاه یا داده میدانی نیاز دارد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> خیر؛ روش غالب در پروژه‌های ارشد عمران، مدل‌سازی عددی نرم‌افزاری با داده ثانویه معتبر است و بسیاری از موضوعات سازه، ژئوتکنیک و آب بدون آزمایشگاه قابل انجام‌اند؛ آزمایش یا داده میدانی صرفاً در موضوعات خاص و با توجیه روش‌مند افزوده می‌شود.
         </p>
         <p>
@@ -341,8 +341,8 @@ export default function CivilEngineeringThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع مقاطع ارشد و دکتری بوده است.
           </p>

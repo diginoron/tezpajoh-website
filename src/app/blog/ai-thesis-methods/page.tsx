@@ -16,7 +16,7 @@ const CTABox = ({ heading, message, button }: { heading: string; message: string
   <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f0f7ff 0%, #e6f0fa 100%)", borderRadius: "12px", border: "1px solid #d0e3f7", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
     <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.4rem" }}>{heading}</h3>
     <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{message}</p>
-    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
       {button}
     </a>
   </div>
@@ -123,7 +123,7 @@ export default function AiThesisMethodsPage() {
       </div>
 
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.3rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.5" }}>
+        <h1 style={{ fontSize: "2.3rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.5" }}>
           راهکارهای عملیاتی برای انجام پایان نامه با روش‌های مبتنی بر هوش مصنوعی
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -141,48 +141,48 @@ export default function AiThesisMethodsPage() {
           button="دریافت مشاوره تخصصی و سفارش"
         />
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>در یک نگاه:</strong> انجام پایان نامه با هوش مصنوعی یعنی تقسیم کار هوشمندانه میان انسان و ماشین؛ ایده‌پردازی، جمع‌بندی پیشینه، کدگذاری اولیه داده‌ها و ویرایش ساختاری به ابزارها سپرده می‌شود و طرح پژوهش، تفسیر یافته‌ها و نتیجه‌گیری با قضاوت تخصصی خودِ پژوهشگر شکل می‌گیرد. پژوهشگری که این مرزها را رعایت کند، هم سرعت پیشرفت کار و هم اصالت متن نهایی را به‌طور محسوسی بالا می‌برد.
         </p>
 
         <p>
-          هوش مصنوعی در دو سال اخیر از یک ابزار سرگرم‌کننده به همراهی جدی در فرآیند پژوهش دانشگاهی تبدیل شده است. بر اساس پیمایش نشریه <a href="https://www.nature.com/articles/d41586-023-00451-5" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>Nature</a> از بیش از ۱۶۰۰ پژوهشگر، حدود ۳۰ درصد آنان از ابزارهای مولد برای بهبود نگارش متون علمی بهره می‌برند؛ با این حال مرز میان «دستیار هوشمند» و «جایگزین پژوهشگر» همچنان به قوت خود باقی است. در این مقاله از <strong>تز پژوه</strong>، نقشه راه عملیاتی <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> را با روش‌های مبتنی بر هوش مصنوعی مرور می‌کنیم؛ از یافتن موضوع و تدوین پروپوزال تا تحلیل داده، ویرایش فصول و آمادگی برای دفاع، همراه با جدول مقایسه ابزارها، پنج اشتباه رایج و پاسخ پرسش‌های پرتکرار شما.
+          هوش مصنوعی در دو سال اخیر از یک ابزار سرگرم‌کننده به همراهی جدی در فرآیند پژوهش دانشگاهی تبدیل شده است. بر اساس پیمایش نشریه <a href="https://www.nature.com/articles/d41586-023-00451-5" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>Nature</a> از بیش از ۱۶۰۰ پژوهشگر، حدود ۳۰ درصد آنان از ابزارهای مولد برای بهبود نگارش متون علمی بهره می‌برند؛ با این حال مرز میان «دستیار هوشمند» و «جایگزین پژوهشگر» همچنان به قوت خود باقی است. در این مقاله از <strong>تز پژوه</strong>، نقشه راه عملیاتی <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> را با روش‌های مبتنی بر هوش مصنوعی مرور می‌کنیم؛ از یافتن موضوع و تدوین پروپوزال تا تحلیل داده، ویرایش فصول و آمادگی برای دفاع، همراه با جدول مقایسه ابزارها، پنج اشتباه رایج و پاسخ پرسش‌های پرتکرار شما.
         </p>
 
         <h2>انجام پایان نامه با هوش مصنوعی یعنی چه و از کجا شروع می‌شود؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> به زبان ساده یعنی تقسیم کار؛ مراحل تکراری و پرحجم مانند خلاصه‌سازی منابع، کدگذاری اولیه مصاحبه‌ها و یکدست‌سازی متن به ابزارها سپرده می‌شود و تصمیم‌های علمی مانند انتخاب روش و تفسیر یافته‌ها نزد خود پژوهشگر می‌ماند.
         </p>
         <p>
-          تصور درست از این روش، نقش «کارگردان» را به پژوهشگر و نقش «دستیار صحنه» را به فناوری می‌دهد. دستیار صحنه سریع، پرتولید و همیشه در دسترس است، اما نمی‌داند کدام صحنه برای فیلم شما اهمیت دارد؛ این تصمیم با کارگردان است. یونسکو نیز در <a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>نخستین راهنمای جهانی خود</a> درباره به‌کارگیری هوش مصنوعی مولد در آموزش و پژوهش، بر همین رویکرد انسان‌محور تأکید کرده است.
+          تصور درست از این روش، نقش «کارگردان» را به پژوهشگر و نقش «دستیار صحنه» را به فناوری می‌دهد. دستیار صحنه سریع، پرتولید و همیشه در دسترس است، اما نمی‌داند کدام صحنه برای فیلم شما اهمیت دارد؛ این تصمیم با کارگردان است. یونسکو نیز در <a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>نخستین راهنمای جهانی خود</a> درباره به‌کارگیری هوش مصنوعی مولد در آموزش و پژوهش، بر همین رویکرد انسان‌محور تأکید کرده است.
         </p>
         <p>
           نقطه شروع عملیاتی، نه نصب ابزار، بلکه تعریف دقیق تکلیف است. پیش از هر چیز مشخص کنید در کدام مرحله هستید: انتخاب موضوع، پروپوزال، فصول میانی یا تحلیل داده. سپس برای هر مرحله یک نتیجه قابل انتظار تعریف کنید؛ برای مثال «فهرست ده شکاف پژوهشی مستند از مقالات دو سال اخیر». همین ساده‌سازی، تفاوت میان پژوهشگری است که هر هفته بیست ساعت صرفه‌جویی می‌کند با کسی که ساعت‌ها با خروجی‌های بی‌ربط وقت تلف می‌کند.
         </p>
 
         <h2>نقشه راه گام‌به‌گام انجام پایان نامه با هوش مصنوعی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مسیر بهینه پنج گام دارد: شکار شکاف پژوهشی، استحکام‌بخشی پروپوزال، گردآوری و تحلیل داده، نگارش و ویرایش فصول، و ممیزی اصالت متن؛ در هر گام ابزارها نقش دستیار دارند و تصمیم نهایی با شماست.
         </p>
 
         <h3>گام ۱: شکار شکاف پژوهشی و انتخاب موضوع</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> از مدل‌های زبانی بخواهید محدودیت‌ها و پیشنهادهای پژوهشی مقالات دو سه سال اخیر حوزه‌تان را جمع‌بندی کند؛ خروجی اولیه فقط نقشه راه است و باید با مطالعه اصل مقالات معتبر راستی‌آزمایی شود.
         </p>
         <p>
-          یک دستور کار عملی بنویسید: «بر اساس بخش محدودیت‌ها و پیشنهادها در مقالات ۲۰۲۴ به بعد، فهرستی از شکاف‌های پژوهشی را در قالب جدول ارائه کن». سپس هر ردیف را با متن اصلی مقاله بسنجید، چون مدل‌ها گاهی یافته‌ای را که وجود ندارد گزارش می‌کنند. در <Link href="/services/topic-selection" style={{ color: "#0d6efd" }}>انتخاب موضوع پایان‌نامه</Link>، موضوع نهایی باید در تقاطع علاقه شخصی، تسلط استاد راهنما و داده در دسترس قرار بگیرد؛ هوش مصنوعی فقط فهرست گزینه‌ها را غنی‌تر می‌کند.
+          یک دستور کار عملی بنویسید: «بر اساس بخش محدودیت‌ها و پیشنهادها در مقالات ۲۰۲۴ به بعد، فهرستی از شکاف‌های پژوهشی را در قالب جدول ارائه کن». سپس هر ردیف را با متن اصلی مقاله بسنجید، چون مدل‌ها گاهی یافته‌ای را که وجود ندارد گزارش می‌کنند. در <Link href="/services/topic-selection" style={{ color: "var(--primary)" }}>انتخاب موضوع پایان‌نامه</Link>، موضوع نهایی باید در تقاطع علاقه شخصی، تسلط استاد راهنما و داده در دسترس قرار بگیرد؛ هوش مصنوعی فقط فهرست گزینه‌ها را غنی‌تر می‌کند.
         </p>
 
         <h3>گام ۲: نگارش پروپوزال مستحکم</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ابزارها در تدوین بیان مسئله، هم‌راستاسازی سوالات با اهداف و تنظیم ادبیات نظری بسیار موثرند؛ اما اصل نوآوری و منطق حاکم بر طرح باید از اندوخته نظری خود شما بیاید تا در جلسه تصویب پاسخ‌گو باشید.
         </p>
         <p>
-          پیش‌نویس هر بخش را با ورودی‌های واقعی خود بسازید: نتایج مرور منابع، دیدگاه استاد راهنما و داده اولیه. سپس از ابزار بخواهید انسجام منطقی، ترتیب استدلال و وضوح تعریف‌ها را بازبینی کند. الگوی مشابه پژوهش‌های موفق را در <Link href="/services/proposal" style={{ color: "#0d6efd" }}>نوشتن پروپوزال</Link> ببینید و طرح خود را با آن مقایسه کنید؛ جلسه تصویب پروپوزال، جایی است که تسلط شخصی شما آزموده می‌شود، نه روانی متن.
+          پیش‌نویس هر بخش را با ورودی‌های واقعی خود بسازید: نتایج مرور منابع، دیدگاه استاد راهنما و داده اولیه. سپس از ابزار بخواهید انسجام منطقی، ترتیب استدلال و وضوح تعریف‌ها را بازبینی کند. الگوی مشابه پژوهش‌های موفق را در <Link href="/services/proposal" style={{ color: "var(--primary)" }}>نوشتن پروپوزال</Link> ببینید و طرح خود را با آن مقایسه کنید؛ جلسه تصویب پروپوزال، جایی است که تسلط شخصی شما آزموده می‌شود، نه روانی متن.
         </p>
 
         <h3>گام ۳: گردآوری و تحلیل داده‌ها</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> در داده کمی، مدل‌های زبانی نوشتن اسکریپت تحلیل و تفسیر خروجی نرم‌افزارهای آماری را سرعت می‌بخشند و در داده کیفی، کدگذاری اولیه و خوشه‌بندی پاسخ‌ها را ساده می‌کنند؛ صحت هر خروجی باید با روش استاندارد بازبینی شود.
         </p>
         <p>
@@ -190,28 +190,28 @@ export default function AiThesisMethodsPage() {
         </p>
 
         <h3>گام ۴: نگارش فصول و ویرایش ساختاری</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پیش‌نویس فصل‌ها بر اساس داده واقعی و ساختار استاندارد نوشته و سپس با کمک ابزارها برای انسجام پاراگراف‌ها، یکدستی لحن و رفع ابهام ویرایش می‌شود؛ استناددهی دقیق را هرگز به ابزار نسپارید.
         </p>
         <p>
-          به جای درخواست «فصل سوم را بنویس»، هر زیربخش را با جدول پارامترهای واقعی پژوهش خود پیش‌نویس کنید و از ابزار بخواهید فقط بازنویسی و انسجام را تقویت کند. ارجاع درون‌متنی را با نرم‌افزارهای مدیریت منابع مانند Mendeley یا EndNote درج کنید؛ ساختار استاندارد فصل‌ها در <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>تنظیم فصول پایان‌نامه</Link> توضیح داده شده است. یک متن ویرایش‌شده خوب، خواننده را تا انتها همراه نگه می‌دارد و همین، بیشترین اثر را بر نمره دارد.
+          به جای درخواست «فصل سوم را بنویس»، هر زیربخش را با جدول پارامترهای واقعی پژوهش خود پیش‌نویس کنید و از ابزار بخواهید فقط بازنویسی و انسجام را تقویت کند. ارجاع درون‌متنی را با نرم‌افزارهای مدیریت منابع مانند Mendeley یا EndNote درج کنید؛ ساختار استاندارد فصل‌ها در <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>تنظیم فصول پایان‌نامه</Link> توضیح داده شده است. یک متن ویرایش‌شده خوب، خواننده را تا انتها همراه نگه می‌دارد و همین، بیشترین اثر را بر نمره دارد.
         </p>
 
         <h3>گام ۵: ممیزی اصالت و آمادگی برای دفاع</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> متن نهایی را از نظر یکتایی، نشانه‌های نگارش ماشینی و دقت استنادها ممیزی کنید و درباره میزان استفاده از ابزارها با راهنمای دانشگاه خود شفاف باشید؛ در دانشکده‌های معتبر، شفافیت یک امتیاز است.
         </p>
         <p>
-          دامنه کار ابزارهای ممیزی وسیع است؛ به گزارش رسمی شرکت Turnitin، تا سال ۲۰۲۴ بیش از ۲۰۰ میلیون متن بررسی شده و در حدود ۱۱ درصد آن‌ها بخش قابل توجهی از نگارش ماشینی تشخیص داده شده است. پیش از تحویل، فهرستی از بخش‌هایی که با کمک ابزارها بازنویسی شده‌اند تهیه کنید و متناظر با <Link href="/services/training-consulting" style={{ color: "#0d6efd" }}>آموزش و مشاوره پژوهشی</Link>، برای پرسش‌های محتمل جلسه دفاع آماده شوید؛ به‌ویژه درباره انتخاب روش و تفسیر یافته‌ها.
+          دامنه کار ابزارهای ممیزی وسیع است؛ به گزارش رسمی شرکت Turnitin، تا سال ۲۰۲۴ بیش از ۲۰۰ میلیون متن بررسی شده و در حدود ۱۱ درصد آن‌ها بخش قابل توجهی از نگارش ماشینی تشخیص داده شده است. پیش از تحویل، فهرستی از بخش‌هایی که با کمک ابزارها بازنویسی شده‌اند تهیه کنید و متناظر با <Link href="/services/training-consulting" style={{ color: "var(--primary)" }}>آموزش و مشاوره پژوهشی</Link>، برای پرسش‌های محتمل جلسه دفاع آماده شوید؛ به‌ویژه درباره انتخاب روش و تفسیر یافته‌ها.
         </p>
 
         <h2>جدول مقایسه: ابزارهای هوش مصنوعی برای انجام پایان نامه</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> هیچ ابزاری همه‌کاره نیست؛ برای پیشینه و ایده‌پردازی مدل‌های زبانی، برای تحلیل کمی نرم‌افزارهای آماری، برای داده کیفی نرم‌افزارهای کدگذاری و برای اصالت متن سرویس‌های ممیزی، بهترین ترکیب را می‌سازند.
         </p>
-        <table style={{ width: "100%", borderCollapse: "collapse", margin: "25px 0", fontSize: "1rem", border: "2px solid #0d6efd" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", margin: "25px 0", fontSize: "1rem", border: "2px solid var(--primary)" }}>
           <thead>
-            <tr style={{ backgroundColor: "#0d6efd", color: "#fff" }}>
+            <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
               <th style={{ border: "1px solid #999", padding: "12px", textAlign: "center" }}>مرحله پایان‌نامه</th>
               <th style={{ border: "1px solid #999", padding: "12px", textAlign: "center" }}>نقش پیشنهادی هوش مصنوعی</th>
               <th style={{ border: "1px solid #999", padding: "12px", textAlign: "center" }}>ابزارهای رایج</th>
@@ -265,7 +265,7 @@ export default function AiThesisMethodsPage() {
         />
 
         <h2>پنج اشتباه رایج در انجام پایان نامه با هوش مصنوعی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بزرگ‌ترین اشتباهات عبارت‌اند از واگذاری نگارش کامل فصل‌ها، کپی خروجی بدون راستی‌آزمایی، پذیرش استنادهای ساختگی، بی‌توجهی به قوانین دانشکده و حذف ممیزی نهایی؛ هر پنج مورد با یک چرخه بازبینی انسانی قابل پیشگیری است.
         </p>
         <ul style={{ paddingRight: "25px", marginBottom: "30px", lineHeight: "2" }}>
@@ -277,7 +277,7 @@ export default function AiThesisMethodsPage() {
         </ul>
 
         <h2>آیا هوش مصنوعی می‌تواند پایان نامه من را از صفر بنویسد؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> خیر؛ خروجی بدون داده میدانی و چارچوب نظری شخصی، هم از نظر دانشگاهی غیرقابل دفاع است و هم به‌سادگی توسط سرویس‌های ممیزی شناسایی می‌شود؛ نقش درست ابزارها، تسریع در مراحل میانی است نه تولید کل کار.
         </p>
         <p>
@@ -285,7 +285,7 @@ export default function AiThesisMethodsPage() {
         </p>
 
         <h2>هوش مصنوعی برای کدام بخش پایان نامه بیشترین کاربرد را دارد؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بیشترین صرفه‌جویی زمانی در مرور پیشینه و کدگذاری کیفی رخ می‌دهد؛ جمع‌بندی ده‌ها مقاله و دسته‌بندی پاسخ‌های مصاحبه، کار تکراری و پرحجمی است که ابزارها در آن عملکرد مطمئن‌تری دارند.
         </p>
         <p>
@@ -293,7 +293,7 @@ export default function AiThesisMethodsPage() {
         </p>
 
         <h2>آیا دانشگاه‌ها با استفاده از هوش مصنوعی در پایان نامه مخالف‌اند؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> رویکرد غالب، «شفافیت با محدودیت» است؛ بسیاری از دانشکده‌ها استفاده برای ویرایش و ایده‌پردازی را با ذکر اعلام می‌پذیرند، اما تولید متن داورپذیر توسط ماشین را تخلف می‌دانند؛ ملاک، راهنمای همان دانشکده است.
         </p>
         <p>
@@ -301,7 +301,7 @@ export default function AiThesisMethodsPage() {
         </p>
 
         <h2>نتیجه‌گیری: مسیر هوشمند برای رسیدن به دفاع موفق</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موفقیت در انجام پایان نامه با هوش مصنوعی از سه عادت ساده می‌آید: تعریف دقیق تکلیف برای ابزار، راستی‌آزمایی هر خروجی با منبع اصلی و شفافیت در اعلام دامنه استفاده؛ با این سه عادت، فناوری در خدمت اصالت کار شماست.
         </p>
         <p>
@@ -315,7 +315,7 @@ export default function AiThesisMethodsPage() {
         />
 
         <h2>پرسش‌های متداول</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> در این بخش، پرسش‌های پرتکرار دانشجویان درباره استفاده از هوش مصنوعی در پایان‌نامه را با پاسخ‌های مستقیم و کاربردی جمع‌بندی کرده‌ایم؛ برای شرایط خاص خودتان نیز می‌توانید مشاوره رایگان بگیرید.
         </p>
 
@@ -344,8 +344,8 @@ export default function AiThesisMethodsPage() {
           در بخش روش‌شناسی یا پاورقی، نوع ابزار، هدف استفاده و دامنه آن را شفاف بنویسید؛ برای مثال «برای ویرایش زبانی فصل‌ها از یک ویرایشگر هوشمند استفاده شد». برای نقل مستقیم خروجی چت‌بات‌ها، شیوه‌نامه APA قالب استناد مشخصی ارائه کرده است که باید دقیق اجرا شود تا قابلیت ردیابی متن حفظ شود.
         </p>
 
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: تیم تحقیق و توسعه تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: تیم تحقیق و توسعه تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             گروه تخصصی تز پژوه با بیش از ۱۶ سال تجربه در ارائه موضوع، تدوین پروپوزال، تنظیم فصول پایان‌نامه، تحلیل آماری و شبیه‌سازی جلسه دفاع، همراه دانشجویان کارشناسی ارشد و دکتری است. این مقاله بر اساس تجربه اجرایی صدها پروژه پژوهشی و بررسی آخرین راهنماهای جهانی استفاده از هوش مصنوعی در پژوهش تدوین شده است.
           </p>

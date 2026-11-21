@@ -105,7 +105,7 @@ export default function PsychologyThesisPage() {
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>
         با بهره‌گیری از اپلیکیشن دستیار هوشمند تز پژوه و همراهی اساتید برتر، فرآیند پژوهش خود را تسریع و بهینه کنید.
       </p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         ورود به بخش تماس با ما و مشاوره
       </a>
     </div>
@@ -126,7 +126,7 @@ export default function PsychologyThesisPage() {
 
       {/* ب) کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           راهنمای جامع انجام پایان نامه روانشناسی (ارشد و دکتری) با متدهای ۲۰۲۶
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -139,13 +139,13 @@ export default function PsychologyThesisPage() {
       {/* ج) کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          روانشناسی یکی از پرطرفدارترین و در عین حال دقیق‌ترین رشته‌های علوم انسانی است که هر ساله هزاران دانشجو در گرایش‌های بالینی، عمومی، سلامت، سازمانی و صنعتی، کودکان استثنایی و مشاوره در آن تحصیل می‌کنند. اگر دانشجوی کارشناسی ارشد یا دکتری این رشته هستید، حتما می‌دانید که <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> روانشناسی صرفا یک پروژه دانشجویی نیست؛ بلکه نخستین تجربه جدی شما در نقش یک پژوهشگر حرفه‌ای است. در این مقاله جامع که توسط گروه تخصصی تز پژوه با بیش از ۱۶ سال تجربه تحقیقاتی تدوین شده است، تمام مراحل انجام پایان نامه روانشناسی را از انتخاب موضوع و پروپوزال تا تحلیل داده‌ها و روز دفاع، گام به گام بررسی می‌کنیم.
+          روانشناسی یکی از پرطرفدارترین و در عین حال دقیق‌ترین رشته‌های علوم انسانی است که هر ساله هزاران دانشجو در گرایش‌های بالینی، عمومی، سلامت، سازمانی و صنعتی، کودکان استثنایی و مشاوره در آن تحصیل می‌کنند. اگر دانشجوی کارشناسی ارشد یا دکتری این رشته هستید، حتما می‌دانید که <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> روانشناسی صرفا یک پروژه دانشجویی نیست؛ بلکه نخستین تجربه جدی شما در نقش یک پژوهشگر حرفه‌ای است. در این مقاله جامع که توسط گروه تخصصی تز پژوه با بیش از ۱۶ سال تجربه تحقیقاتی تدوین شده است، تمام مراحل انجام پایان نامه روانشناسی را از انتخاب موضوع و پروپوزال تا تحلیل داده‌ها و روز دفاع، گام به گام بررسی می‌کنیم.
         </p>
 
         {renderCTA()}
 
         <h2>چالش‌های اصلی در انجام پایان نامه روانشناسی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بزرگترین چالش دانشجویان روانشناسی، یافتن موضوعی بکر در تقاطع نیاز واقعی جامعه هدف و شکاف تحقیقاتی مقالات معتبر، دسترسی به نمونه پژوهش و اجرای درست ملاحظات اخلاقی مانند اخذ کد اخلاق و رضایت آگاهانه است.
         </p>
         <p>
@@ -156,15 +156,15 @@ export default function PsychologyThesisPage() {
         </p>
 
         <h2>انتخاب موضوع؛ نقطه شروع یک پایان‌نامه درخشان</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بهترین موضوع، پژوهشی است که یک مسئله واقعی و قابل اندازه‌گیری (مانند فرسودگی شغلی پرستاران یا اضطراب ریاضی دانش‌آموزان) را با ابزار معتبر و در جامعه در دسترس بررسی کند.
         </p>
         <h3>چطور در یک هفته موضوع بکر برای پایان‌نامه روانشناسی پیدا کنیم؟</h3>
         <p>
-          به جای جستجوی موضوعات آماده در سایت‌ها، مرور مستقیم مقالات دو سه سال اخیر مجلات معتبر، بهترین راه است. در پایگاه‌هایی مانند <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>PubMed</a>، بخش انتهایی مقالات (Suggestions for Further Research) را بخوانید؛ همان‌جا ده‌ها ایده بکر و مستند برای پژوهش بعدی به شما پیشنهاد شده است. سپس ایده منتخب را با سه فیلتر ساده بسنجید: آیا جامعه موردنظر برای ما قابل دسترس است؟ آیا ابزار سنجش معتبر آن موجود است؟ و آیا حاشیه نوآوری کافی برای تصویب کمیته دارد؟ این روش هم شکاف تحقیقاتی را پوشش می‌دهد و هم ریسک رد شدن موضوع را به حداقل می‌رساند.
+          به جای جستجوی موضوعات آماده در سایت‌ها، مرور مستقیم مقالات دو سه سال اخیر مجلات معتبر، بهترین راه است. در پایگاه‌هایی مانند <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>PubMed</a>، بخش انتهایی مقالات (Suggestions for Further Research) را بخوانید؛ همان‌جا ده‌ها ایده بکر و مستند برای پژوهش بعدی به شما پیشنهاد شده است. سپس ایده منتخب را با سه فیلتر ساده بسنجید: آیا جامعه موردنظر برای ما قابل دسترس است؟ آیا ابزار سنجش معتبر آن موجود است؟ و آیا حاشیه نوآوری کافی برای تصویب کمیته دارد؟ این روش هم شکاف تحقیقاتی را پوشش می‌دهد و هم ریسک رد شدن موضوع را به حداقل می‌رساند.
         </p>
         <h2>روش‌شناسی پژوهش؛ قلب پایان‌نامه روانشناسی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> هیچ روش واحدی برای همه پایان‌نامه‌های روانشناسی بهترین نیست؛ انتخاب روش کاملا به سوال پژوهش شما بستگی دارد و همین انسجام میان سوال، روش و ابزار است که کیفیت متدولوژی کار شما را تعیین می‌کند.
         </p>
         <p>
@@ -172,7 +172,7 @@ export default function PsychologyThesisPage() {
         </p>
         <table style={{ width: "100%", borderCollapse: "collapse", margin: "25px 0", fontSize: "1rem" }}>
           <thead>
-            <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+            <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
               <th style={{ padding: "15px", border: "1px solid #ddd" }}>روش پژوهش</th>
               <th style={{ padding: "15px", border: "1px solid #ddd" }}>بهترین کاربرد</th>
               <th style={{ padding: "15px", border: "1px solid #ddd" }}>ابزار و نمونه رایج</th>
@@ -218,11 +218,11 @@ export default function PsychologyThesisPage() {
           پژوهش روانشناسی مستقیما با ذهن، رفتار و احساسات انسان‌ها سروکار دارد؛ به همین دلیل ملاحظات اخلاقی در این رشته یک تشریفات اداری نیست، بلکه بخشی از اعتبار علمی کار شماست. پیش از شروع جمع‌آوری داده، باید کد اخلاق (Ethics Code) را از کمیته معتبر دانشگاهی دریافت کنید، فرم رضایت آگاهانه (Informed Consent) را از تک‌تک شرکت‌کنندگان بگیرید و محرمانگی هویت و داده‌ها را تضمین کنید. در پژوهش‌هایی که روی کودکان، بیماران یا گروه‌های آسیب‌پذیر انجام می‌شود، این الزامات سخت‌گیرانه‌تر هم بررسی می‌شوند.
         </p>
         <p>
-          نکته مهم دیگر، استناددهی دقیق در کل متن است. هر ایده، جمله یا یافته‌ای که از منبع دیگری گرفته شده باید دقیقا ارجاع داده شود و استاندارد رایج این رشته، راهنمای <a href="https://apastyle.apa.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>APA</a> است. اگر از همان پروپوزال، قواعد ارجاع‌دهی را رعایت کنید، در مرحله تصحیح نهایی و آماده‌سازی برای دفاع، ساعت‌ها زمان و انرژی خود را ذخیره کرده‌اید.
+          نکته مهم دیگر، استناددهی دقیق در کل متن است. هر ایده، جمله یا یافته‌ای که از منبع دیگری گرفته شده باید دقیقا ارجاع داده شود و استاندارد رایج این رشته، راهنمای <a href="https://apastyle.apa.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>APA</a> است. اگر از همان پروپوزال، قواعد ارجاع‌دهی را رعایت کنید، در مرحله تصحیح نهایی و آماده‌سازی برای دفاع، ساعت‌ها زمان و انرژی خود را ذخیره کرده‌اید.
         </p>
         <h2>نقش تحلیل آماری در کیفیت پایان‌نامه روانشناسی</h2>
         <h3>بهترین نرم‌افزار برای تحلیل داده‌های روانشناسی کدام است؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> برای آمار توصیفی و استنباطی، SPSS کفایت می‌کند؛ برای مدل‌های پیچیده و معادلات ساختاری (SEM) از AMOS، LISREL یا SmartPLS و برای تحلیل داده‌های کیفی از MAXQDA استفاده کنید.
         </p>
         <p>
@@ -242,12 +242,12 @@ export default function PsychologyThesisPage() {
           <li><strong>تکرار آمار در فصل بحث و نتیجه‌گیری:</strong> فصل پنجم جای تفسیر روانشناختی یافته‌ها و ربط آن‌ها به پیشینه و نظریه‌ها است، نه تکرار جدول‌ها و اعداد فصل چهارم.</li>
         </ol>
         <h3>چطور در جلسه دفاع روانشناسی آماده شویم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> یک شبیه‌سازی کامل دفاع با سوالات احتمالی کمیته، تسلط کامل بر محدودیت‌های پژوهش و آمادگی برای پرسش‌های روش‌شناسی، مهم‌ترین عوامل قبولی با نمره عالی هستند.
         </p>
         <p>
           کمیته دفاع معمولا می‌خواهد بفهمد آیا شما صاحب منطق کار خود هستید یا صرفا متن را تحویل گرفته‌اید. اگر بتوانید به زبان ساده توضیح دهید که چرا این روش را انتخاب کردید، محدودیت‌های پژوهش‌تان کدام‌ها هستند و یافته‌های شما چه سهمی در دانش روانشناسی دارد، جلسه دفاع به یک گفتگوی علمی لذت‌بخش تبدیل خواهد شد.
-          همچنین می‌توانید برای مطالعه بیشتر، به <Link href="/blog" style={{ color: "#0d6efd" }}>مقالات وبلاگ ما</Link> مراجعه فرمایید. برای مقطع ارشد نیز بخش <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>راهنمای کارشناسی ارشد</Link> و برای آشنایی با بایدها و نبایدهای دکتری، <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>خدمات رساله دکتری</Link> را مطالعه کنید.
+          همچنین می‌توانید برای مطالعه بیشتر، به <Link href="/blog" style={{ color: "var(--primary)" }}>مقالات وبلاگ ما</Link> مراجعه فرمایید. برای مقطع ارشد نیز بخش <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>راهنمای کارشناسی ارشد</Link> و برای آشنایی با بایدها و نبایدهای دکتری، <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>خدمات رساله دکتری</Link> را مطالعه کنید.
         </p>
 
         <h2>نتیجه‌گیری: از انتخاب موضوع تا لحظه دفاع</h2>
@@ -258,8 +258,8 @@ export default function PsychologyThesisPage() {
         {renderCTA()}
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع مقاطع ارشد و دکتری بوده است.
           </p>

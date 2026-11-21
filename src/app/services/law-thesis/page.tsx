@@ -103,7 +103,7 @@ export default function LawThesisPage() {
     <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
       <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         دریافت مشاوره تخصصی و سفارش
       </a>
     </div>
@@ -122,7 +122,7 @@ export default function LawThesisPage() {
 
       {/* کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه حقوق؛ راهنمای جامع از انتخاب موضوع تا دفاع
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -135,10 +135,10 @@ export default function LawThesisPage() {
       {/* کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          حقوق، دانشی زنده و متحول است؛ هر اصلاحیه قانونی، رأی جدید دادگاه‌ها یا تغییر رویه قضایی می‌تواند موضوع پژوهش شما را دگرگون کند. به همین دلیل <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در رشته حقوق، کمتر به ابزار فنی و بیشتر به انتخاب دقیق موضوع، تسلط بر منابع معتبر و توان استدلال تحلیلی وابسته است. تجربه تیم تز پژوه در پروژه‌های ارشد و دکتری این رشته نشان می‌دهد بیشترین تأخیرها نه از کمبود منابع، بلکه از انتخاب موضوع وسیع، رویکرد توصیفی به جای تحلیلی و شروع دیرهنگام نگارش ناشی می‌شود. در این مقاله کل مسیر از انتخاب موضوع تا روز دفاع را گام‌به‌گام، همراه با روش‌های پژوهش معتبر و اشتباهات رایج مرور می‌کنیم.
+          حقوق، دانشی زنده و متحول است؛ هر اصلاحیه قانونی، رأی جدید دادگاه‌ها یا تغییر رویه قضایی می‌تواند موضوع پژوهش شما را دگرگون کند. به همین دلیل <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> در رشته حقوق، کمتر به ابزار فنی و بیشتر به انتخاب دقیق موضوع، تسلط بر منابع معتبر و توان استدلال تحلیلی وابسته است. تجربه تیم تز پژوه در پروژه‌های ارشد و دکتری این رشته نشان می‌دهد بیشترین تأخیرها نه از کمبود منابع، بلکه از انتخاب موضوع وسیع، رویکرد توصیفی به جای تحلیلی و شروع دیرهنگام نگارش ناشی می‌شود. در این مقاله کل مسیر از انتخاب موضوع تا روز دفاع را گام‌به‌گام، همراه با روش‌های پژوهش معتبر و اشتباهات رایج مرور می‌کنیم.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه حقوق فرآیندی پنج‌مرحله‌ای است: انتخاب موضوع بکر در یکی از گرایش‌ها، تدوین پروپوزال، گردآوری منابع (قوانین، دکترین و رویه قضایی)، تحلیل استدلالی و در صورت نیاز مطالعه تطبیقی، و در نهایت نگارش فصول و دفاع. سه عامل موفقیت در این مسیر عبارتند از: تمرکز بر یک مسئله حقوقی مشخص، تکیه بر منابع معتبر و به‌روز، و استدلال تحلیلی به جای توصیف صرف.
         </p>
 
@@ -148,7 +148,7 @@ export default function LawThesisPage() {
         )}
 
         <h2>انجام پایان نامه حقوق چه تفاوتی با سایر رشته‌ها دارد؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایان‌نامه حقوق ذاتاً «استدلال‌محور» و «منبع‌محور» است؛ به جای آزمایش میدانی و داده عددی، باید یک مسئله حقوقی را با تکیه بر متن قوانین، دکترین، آرای قضایی و در برخی گرایش‌ها فقه تحلیل کنید و راهکار پیشنهادی خود را با استدلالی منسجم، مستدل و قابل دفاع ارائه دهید.
         </p>
         <p>
@@ -183,12 +183,12 @@ export default function LawThesisPage() {
 
         <h3>گام اول: انتخاب موضوع و کشف شکاف پژوهشی</h3>
         <p>
-          بهترین موضوعات، محل تلاقی یک مسئله واقعی با یک خلأ در قانون یا رویه قضایی است؛ مثلاً «تحلیل مسوولیت کیفری اشخاص حقوقی در جرایم اقتصادی با نگاه به تجربه حقوق تطبیقی» یا «ابهامات اجرایی قراردادهای الکترونیکی در رویه دادگاه‌های ایران». برای یافتن شکاف پژوهشی، مقالات شیوه‌نامه‌دار دو سال اخیر را در پایگاه‌هایی مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>Noormags</a> و <a href="https://www.ssrn.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>SSRN</a> بررسی کنید و نتیجه را با منابع در دسترس خود بسنجید. موضوع پیشنهادی باید از فیلترهای «تکراری نبودن»، «دسترسی به منابع معتبر» و «تناسب با گرایش و علاقه شما» عبور کند. برای شروع می‌توانید از <Link href="/services/topic-selection" style={{ color: "#0d6efd" }}>خدمات ارائه موضوع پایان‌نامه</Link> تز پژوه استفاده کنید.
+          بهترین موضوعات، محل تلاقی یک مسئله واقعی با یک خلأ در قانون یا رویه قضایی است؛ مثلاً «تحلیل مسوولیت کیفری اشخاص حقوقی در جرایم اقتصادی با نگاه به تجربه حقوق تطبیقی» یا «ابهامات اجرایی قراردادهای الکترونیکی در رویه دادگاه‌های ایران». برای یافتن شکاف پژوهشی، مقالات شیوه‌نامه‌دار دو سال اخیر را در پایگاه‌هایی مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>Noormags</a> و <a href="https://www.ssrn.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>SSRN</a> بررسی کنید و نتیجه را با منابع در دسترس خود بسنجید. موضوع پیشنهادی باید از فیلترهای «تکراری نبودن»، «دسترسی به منابع معتبر» و «تناسب با گرایش و علاقه شما» عبور کند. برای شروع می‌توانید از <Link href="/services/topic-selection" style={{ color: "var(--primary)" }}>خدمات ارائه موضوع پایان‌نامه</Link> تز پژوه استفاده کنید.
         </p>
 
         <h3>گام دوم: نگارش پروپوزال و طرح تحقیق</h3>
         <p>
-          پروپوزال حقوق، قرارداد پژوهشی شما با کمیته است. بیان مسئله باید با اشاره به خلأ قانونی، تعارض آرای قضایی یا اختلاف دکترین مستند شود؛ سوالات و فرضیه‌ها دقیقاً همان چیزی باشند که در فصل‌های تحلیلی پاسخ داده می‌شوند و روش‌شناسی (کتابخانه‌ای، تطبیقی یا میدانی) به‌گونه‌ای شفاف تعریف شود که داور بداند در فصل سوم دقیقاً چه اتفاقی می‌افتد. ساختار استاندارد نگارش و نکات تضمین تصویب را در <Link href="/services/proposal" style={{ color: "#0d6efd" }}>خدمات انجام پروپوزال</Link> مطالعه کنید.
+          پروپوزال حقوق، قرارداد پژوهشی شما با کمیته است. بیان مسئله باید با اشاره به خلأ قانونی، تعارض آرای قضایی یا اختلاف دکترین مستند شود؛ سوالات و فرضیه‌ها دقیقاً همان چیزی باشند که در فصل‌های تحلیلی پاسخ داده می‌شوند و روش‌شناسی (کتابخانه‌ای، تطبیقی یا میدانی) به‌گونه‌ای شفاف تعریف شود که داور بداند در فصل سوم دقیقاً چه اتفاقی می‌افتد. ساختار استاندارد نگارش و نکات تضمین تصویب را در <Link href="/services/proposal" style={{ color: "var(--primary)" }}>خدمات انجام پروپوزال</Link> مطالعه کنید.
         </p>
 
         <h3>گام سوم: گردآوری و تحلیل منابع</h3>
@@ -203,7 +203,7 @@ export default function LawThesisPage() {
 
         <h3>گام پنجم: نگارش فصول و آمادگی دفاع</h3>
         <p>
-          نگارش را از فصل دوم (مبانی نظری و پیشینه) موازی با گردآوری منابع شروع کنید، نه بعد از آن. تدوین فصل‌به‌فصل با استانداردهای نگارشی و ارجاع‌دهی یکدست، بخشی از <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>خدمات تدوین فصول پایان‌نامه</Link> ماست. برای درک توقعات هر مقطع، راهنمای <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>رساله دکتری</Link> را از دست ندهید.
+          نگارش را از فصل دوم (مبانی نظری و پیشینه) موازی با گردآوری منابع شروع کنید، نه بعد از آن. تدوین فصل‌به‌فصل با استانداردهای نگارشی و ارجاع‌دهی یکدست، بخشی از <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>خدمات تدوین فصول پایان‌نامه</Link> ماست. برای درک توقعات هر مقطع، راهنمای <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>رساله دکتری</Link> را از دست ندهید.
         </p>
 
         <h2>مقایسه روش‌های پژوهش رایج در پایان‌نامه‌های حقوق</h2>
@@ -214,7 +214,7 @@ export default function LawThesisPage() {
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "right" }}>
             <thead>
-              <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>روش پژوهش</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>حوزه کاربرد اصلی</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>مناسب برای</th>
@@ -262,7 +262,7 @@ export default function LawThesisPage() {
         )}
 
         <h2>اشتباهات رایج در انجام پایان نامه حقوق و راه حل آن‌ها</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پنج اشتباه پرتکرار عبارتند از: انتخاب موضوع بیش از حد وسیع، رویکرد توصیفی بدون تحلیل، تکیه بر منابع کهنه و غیرمعتبر، تطبیق‌کاری صوری و شروع نگارش در آخرین ماه‌ها. هر پنج مورد با یک تصمیم درست در هفته‌های اول پروژه قابل پیشگیری است.
         </p>
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
@@ -276,7 +276,7 @@ export default function LawThesisPage() {
         <h2>پاسخ به پرسش‌های رایج دانشجویان حقوق</h2>
 
         <h3>بهترین موضوع برای پایان نامه حقوق کدام است؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بهترین موضوع، موضوعی است که در نقطه تلاقی یک خلأ واقعی در قانون یا رویه قضایی، منابع در دسترس شما و گرایش تحصیلی‌تان قرار گیرد؛ موضوعات روز مانند دارایی‌های دیجیتال، جرایم اقتصادی و قراردادهای الکترونیکی فرصت‌های خوبی می‌سازند، اما بدون تناسب با شرایط شما ارزشی ندارند.
         </p>
         <p>
@@ -284,15 +284,15 @@ export default function LawThesisPage() {
         </p>
 
         <h3>انجام پایان نامه حقوق چقدر زمان می‌برد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> با برنامه‌ریزی دقیق و پیشرفت موازی مراحل، پایان‌نامه ارشد حقوق معمولاً بین ۶ تا ۹ ماه و رساله دکتری بین ۱۲ تا ۱۸ ماه زمان می‌برد؛ اصلی‌ترین عامل افزایش این زمان، انتظار برای تصویب مرحله‌ای و شروع دیرهنگام نگارش است.
         </p>
         <p>
-          یک خط زمانی واقع‌بینانه برای ارشد شامل حدود یک ماه موضوع و پروپوزال، دو ماه گردآوری و دسته‌بندی منابع، دو تا سه ماه تحلیل و تطبیق، و دو ماه نگارش و آماده‌سازی دفاع است. مسیرهای <Link href="/blog/thesis-checklist-1405" style={{ color: "#0d6efd" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> در وبلاگ ما این زمان‌بندی را به تفصیل پوشش می‌دهد.
+          یک خط زمانی واقع‌بینانه برای ارشد شامل حدود یک ماه موضوع و پروپوزال، دو ماه گردآوری و دسته‌بندی منابع، دو تا سه ماه تحلیل و تطبیق، و دو ماه نگارش و آماده‌سازی دفاع است. مسیرهای <Link href="/blog/thesis-checklist-1405" style={{ color: "var(--primary)" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> در وبلاگ ما این زمان‌بندی را به تفصیل پوشش می‌دهد.
         </p>
 
         <h3>آیا پایان‌نامه حقوق حتماً به کار میدانی نیاز دارد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> خیر؛ روش غالب در پژوهش‌های حقوقی، کتابخانه‌ای و تحلیلی است و بسیاری از موضوعات جزا، خصوصی و عمومی بدون هیچ کار میدانی قابل انجام‌اند؛ کار میدانی (پیمایش یا مصاحبه) صرفاً در مسائل جرم‌شناسی و مطالعات میان‌رشته‌ای به پژوهش افزوده می‌شود.
         </p>
         <p>
@@ -337,8 +337,8 @@ export default function LawThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع مقاطع ارشد و دکتری بوده است.
           </p>

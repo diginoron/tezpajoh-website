@@ -1,13 +1,14 @@
 .footer {
-  background: var(--secondary);
+  background: var(--navy-800);
   padding-top: 60px;
   margin-top: 80px;
-  border-top: 1px solid var(--glass-border);
+  border-top: 4px solid var(--primary);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .footerGrid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 2fr 1.4fr 1fr 1.2fr;
   gap: 40px;
   margin-bottom: 40px;
 }
@@ -15,17 +16,31 @@
 .brandInfo h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .brandInfo p {
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1.8;
 }
 
 .links h3 {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  color: var(--text-main);
+  color: #ffffff;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.links h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
 }
 
 .links ul {
@@ -37,20 +52,54 @@
 }
 
 .links a {
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .links a:hover {
-  color: var(--primary);
+  color: #ffffff;
   padding-right: 5px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  direction: ltr;
+  justify-content: flex-end;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+}
+
+.contactItem:hover {
+  color: #ffffff;
+}
+
+.contactItem svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--accent);
 }
 
 .copyright {
   text-align: center;
   padding: 20px;
-  border-top: 1px solid rgba(0,0,0,0.05);
-  color: var(--text-muted);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.55);
   font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
+  .footerGrid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 768px) {

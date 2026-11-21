@@ -16,7 +16,7 @@ const CTABox = ({ heading, message, button }: { heading: string; message: string
   <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f0f7ff 0%, #e6f0fa 100%)", borderRadius: "12px", border: "1px solid #d0e3f7", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
     <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.4rem" }}>{heading}</h3>
     <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{message}</p>
-    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
       {button}
     </a>
   </div>
@@ -122,7 +122,7 @@ export default function AiPhdThesisPage() {
       </div>
 
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.3rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.5" }}>
+        <h1 style={{ fontSize: "2.3rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.5" }}>
           انجام رساله دکتری هوش مصنوعی، صفر تا 100 هر آنچه باید بدانید
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -134,12 +134,12 @@ export default function AiPhdThesisPage() {
 
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>در یک نگاه:</strong> انجام رساله دکتری هوش مصنوعی یک پروژه پژوهشی در مرز دانش است که بر سه ستون استوار می‌شود: ۱) فرمول‌بندی ریاضی و طراحی معماری یا الگوریتم نوآورانه برای حل یک چالش باز در یادگیری ماشین، یادگیری عمیق، بینایی ماشین یا پردازش زبان طبیعی؛ ۲) پیاده‌سازی تکرارپذیر در پایتون (PyTorch/TensorFlow) همراه با آزمایش‌های مقایسه‌ای و مطالعه حذفی (Ablation Study) روی بنچمارک‌های استاندارد؛ و ۳) استخراج و چاپ مقاله در ژورنال‌های معتبر ISI (Q1/Q2). این راهنمای صفر تا صد، نقشه راه دقیق عبور موفق از تمامی این مراحل را پیش روی شما قرار می‌دهد.
         </p>
 
         <p>
-          مقطع دکتری هوش مصنوعی یکی از پویاترین و در عین حال چالش‌برانگیزترین میدان‌های آکادمیک جهان است. سرعت انتشار مقالات در کنفرانس‌ها و نشریات تراز اول به قدری بالاست که ایده‌ای که امروز نوآورانه به نظر می‌رسد، ممکن است شش ماه بعد به یک روش پایه تبدیل شود. در چنین رقابتی، دانشجوی دکتری برای موفقیت در مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> و رساله نمی‌تواند به آزمون‌وخطای سنتی تکیه کند. شما به یک استراتژی پژوهشی مهندسی‌شده نیاز دارید که از روز انتخاب موضوع تا لحظه اخذ پذیرش مقاله ISI و دفاع نهایی، ریسک دوباره‌کاری و رد شدن توسط داوران را به صفر برساند. در این مقاله جامع از <strong>تز پژوه</strong>، صفر تا ۱۰۰ الزامات علمی، فنی و اجرایی <Link href="/phd-thesis" style={{ color: "#0d6efd", fontWeight: "bold" }}>انجام رساله دکتری</Link> در گرایش هوش مصنوعی را کالبدشکافی می‌کنیم.
+          مقطع دکتری هوش مصنوعی یکی از پویاترین و در عین حال چالش‌برانگیزترین میدان‌های آکادمیک جهان است. سرعت انتشار مقالات در کنفرانس‌ها و نشریات تراز اول به قدری بالاست که ایده‌ای که امروز نوآورانه به نظر می‌رسد، ممکن است شش ماه بعد به یک روش پایه تبدیل شود. در چنین رقابتی، دانشجوی دکتری برای موفقیت در مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> و رساله نمی‌تواند به آزمون‌وخطای سنتی تکیه کند. شما به یک استراتژی پژوهشی مهندسی‌شده نیاز دارید که از روز انتخاب موضوع تا لحظه اخذ پذیرش مقاله ISI و دفاع نهایی، ریسک دوباره‌کاری و رد شدن توسط داوران را به صفر برساند. در این مقاله جامع از <strong>تز پژوه</strong>، صفر تا ۱۰۰ الزامات علمی، فنی و اجرایی <Link href="/phd-thesis" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام رساله دکتری</Link> در گرایش هوش مصنوعی را کالبدشکافی می‌کنیم.
         </p>
 
         <CTABox
@@ -149,24 +149,24 @@ export default function AiPhdThesisPage() {
         />
 
         <h2>تفاوت بنیادین رساله دکتری هوش مصنوعی با پایان‌نامه کارشناسی ارشد چیست؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> در کارشناسی ارشد، به‌کارگیری یا ترکیب مدل‌های موجود روی یک مسئله کاربردی پذیرفته می‌شود؛ اما در دکتری هوش مصنوعی، الزام اصلی «تولید دانش جدید» (Novel Contribution) از طریق ارائه معماری عصبی بدیع، تابع هدف ریاضی جدید، کران تئوری همگرایی یا حل یک گلوگاه الگوریتمی است.
         </p>
         <p>
           بسیاری از دانشجویان دکتری در ابتدای مسیر با ذهنیت دوره ارشد به سراغ تعریف موضوع می‌روند؛ برای مثال پیشنهاد می‌دهند «استفاده از شبکه ترنسفورمر برای تشخیص بیماری از تصاویر MRI». چنین عنوانی در کمیته تخصصی دکتری بلافاصله رد می‌شود؛ زیرا صرفاً یک کار کاربردی (Application-driven) است و هیچ نوآوری الگوریتمی در خود هوش مصنوعی ایجاد نمی‌کند.
         </p>
         <p>
-          در مقابل، یک رساله دکتری استاندارد در حوزه <Link href="/services/computer-engineering-ai-thesis" style={{ color: "#0d6efd" }}>انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</Link> سوال را این‌گونه مطرح می‌کند: «چگونه می‌توان مکانیزم توجه جعبه‌سیاه در ترنسفورمرهای بینایی سه‌بعدی را به یک معماری توجه تنکِ علیتی (Causal Sparse Attention) با تضمین ریاضی تفسیرپذیری و کاهش ۴۰ درصدی پیچیدگی حافظه تبدیل کرد؟». تفاوت در همین عمق نظری، فرمول‌بندی ریاضی و قابلیت تعمیم روش پیشنهادی به مسائل گوناگون است.
+          در مقابل، یک رساله دکتری استاندارد در حوزه <Link href="/services/computer-engineering-ai-thesis" style={{ color: "var(--primary)" }}>انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</Link> سوال را این‌گونه مطرح می‌کند: «چگونه می‌توان مکانیزم توجه جعبه‌سیاه در ترنسفورمرهای بینایی سه‌بعدی را به یک معماری توجه تنکِ علیتی (Causal Sparse Attention) با تضمین ریاضی تفسیرپذیری و کاهش ۴۰ درصدی پیچیدگی حافظه تبدیل کرد؟». تفاوت در همین عمق نظری، فرمول‌بندی ریاضی و قابلیت تعمیم روش پیشنهادی به مسائل گوناگون است.
         </p>
 
         <h2>نقشه راه صفر تا ۱۰۰ انجام رساله دکتری هوش مصنوعی در ۶ گام عملیاتی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> چرخه کامل رساله دکتری شامل ۶ فاز پیوسته است: ۱) کشف شکاف پژوهشی از مقالات روز، ۲) تصویب پروپوزال و فرمول‌بندی ریاضی، ۳) طراحی معماری و کدنویسی ماژولار، ۴) بنچمارکینگ و مطالعه حذفی، ۵) نگارش و چاپ مقاله ISI، و ۶) تدوین رساله و دفاع نهایی.
         </p>
 
         <h3>گام اول (۰ تا ۱۵٪): شکار شکاف پژوهشی (Research Gap) و انتخاب مقالات پایه</h3>
         <p>
-          نقطه آغاز، مرور سیستماتیک ادبیات (Systematic Literature Review) بر اساس مقالات دو سال اخیر در کنفرانس‌های سطح الف (NeurIPS، ICML، ICLR، CVPR، ICCV، ACL، AAAI) و ژورنال‌های Q1 (مانند IEEE TPAMI، IEEE TNNLS، Pattern Recognition و Information Fusion) است. برای یافتن شکاف پژوهشی واقعی در <Link href="/services/topic-selection" style={{ color: "#0d6efd" }}>انتخاب موضوع پایان‌نامه</Link> دکتری، باید سه شرط زیر هم‌زمان برقرار باشد:
+          نقطه آغاز، مرور سیستماتیک ادبیات (Systematic Literature Review) بر اساس مقالات دو سال اخیر در کنفرانس‌های سطح الف (NeurIPS، ICML، ICLR، CVPR، ICCV، ACL، AAAI) و ژورنال‌های Q1 (مانند IEEE TPAMI، IEEE TNNLS، Pattern Recognition و Information Fusion) است. برای یافتن شکاف پژوهشی واقعی در <Link href="/services/topic-selection" style={{ color: "var(--primary)" }}>انتخاب موضوع پایان‌نامه</Link> دکتری، باید سه شرط زیر هم‌زمان برقرار باشد:
         </p>
         <ul style={{ paddingRight: "25px", marginBottom: "25px", lineHeight: "2" }}>
           <li><strong>وجود کد مرجع (Baseline Code):</strong> مقاله پایه اصلی حتماً باید دارای مخزن کد رسمی و قابل اجرا در GitHub یا Papers with Code باشد تا زمان شما صرف مهندسی معکوس مقالات مبهم نشود.</li>
@@ -176,7 +176,7 @@ export default function AiPhdThesisPage() {
 
         <h3>گام دوم (۱۵ تا ۳۰٪): تدوین پروپوزال دکتری و فرمول‌بندی ریاضی مسئله</h3>
         <p>
-          پروپوزال دکتری هوش مصنوعی یک سند فنی دقیق است. در بخش بیان مسئله و روش تحقیق <Link href="/services/proposal" style={{ color: "#0d6efd" }}>انجام پروپوزال</Link> دکتری، داوران انتظار دارند موارد زیر را به صورت شفاف ببینند:
+          پروپوزال دکتری هوش مصنوعی یک سند فنی دقیق است. در بخش بیان مسئله و روش تحقیق <Link href="/services/proposal" style={{ color: "var(--primary)" }}>انجام پروپوزال</Link> دکتری، داوران انتظار دارند موارد زیر را به صورت شفاف ببینند:
         </p>
         <ul style={{ paddingRight: "25px", marginBottom: "25px", lineHeight: "2" }}>
           <li>تعریف ریاضی فضای ورودی، فضای ویژگی نهفته (Latent Space) و خروجی مدل؛</li>
@@ -203,16 +203,16 @@ export default function AiPhdThesisPage() {
 
         <h3>گام پنجم (۷۵ تا ۹۰٪): استخراج و چاپ مقالات ISI (Q1/Q2) و پاسخ به داوران</h3>
         <p>
-          بزرگ‌ترین گلوگاه زمانی دانشجویان دکتری، شرط چاپ مقاله برای مجوز دفاع است. استراتژی هوشمندانه این است که به محض تکمیل اولین نوآوری و آزمایش‌های آن، فرآیند نگارش مقاله اول به زبان انگلیسی آکادمیک و در قالب LaTeX آغاز شود و منتظر پایان نگارش کل رساله نمانید. در خدمات تخصصی <Link href="/services/article-writing-acceptance" style={{ color: "#0d6efd" }}>نگارش و اکسپت مقاله</Link>، انتخاب ژورنال هدف با بررسی دقیق اسکوپ، ضریب تاثیر (Impact Factor) و سرعت داوری انجام می‌شود و در مرحله بازنگری (Revision)، نامه پاسخ به داوران (Response to Reviewers) به صورت بندبه‌بند و مستند تدوین می‌گردد.
+          بزرگ‌ترین گلوگاه زمانی دانشجویان دکتری، شرط چاپ مقاله برای مجوز دفاع است. استراتژی هوشمندانه این است که به محض تکمیل اولین نوآوری و آزمایش‌های آن، فرآیند نگارش مقاله اول به زبان انگلیسی آکادمیک و در قالب LaTeX آغاز شود و منتظر پایان نگارش کل رساله نمانید. در خدمات تخصصی <Link href="/services/article-writing-acceptance" style={{ color: "var(--primary)" }}>نگارش و اکسپت مقاله</Link>، انتخاب ژورنال هدف با بررسی دقیق اسکوپ، ضریب تاثیر (Impact Factor) و سرعت داوری انجام می‌شود و در مرحله بازنگری (Revision)، نامه پاسخ به داوران (Response to Reviewers) به صورت بندبه‌بند و مستند تدوین می‌گردد.
         </p>
 
         <h3>گام ششم (۹۰ تا ۱۰۰٪): نگارش فصول رساله، پیش‌دفاع و جلسه دفاع نهایی</h3>
         <p>
-          در گام پایانی، دستاوردهای تئوری و تجربی در قالب استاندارد <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>فصول پایان‌نامه و رساله</Link> یکپارچه می‌شوند. فصل اول به بیان مسئله و نوآوری‌ها، فصل دوم به مبانی نظری و مرور انتقادی پیشینه، فصل سوم به تشریح ریاضی و معماری روش پیشنهادی، فصل چهارم به نتایج تجربی و تحلیل‌های آماری، و فصل پنجم به نتیجه‌گیری و پیشنهادهای آتی اختصاص می‌یابد. سپس با آماده‌سازی ارائه علمی و شرکت در جلسات شبیه‌سازی دفاع، برای دفاع مقتدرانه در برابر هیئت داوران آماده می‌شوید.
+          در گام پایانی، دستاوردهای تئوری و تجربی در قالب استاندارد <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>فصول پایان‌نامه و رساله</Link> یکپارچه می‌شوند. فصل اول به بیان مسئله و نوآوری‌ها، فصل دوم به مبانی نظری و مرور انتقادی پیشینه، فصل سوم به تشریح ریاضی و معماری روش پیشنهادی، فصل چهارم به نتایج تجربی و تحلیل‌های آماری، و فصل پنجم به نتیجه‌گیری و پیشنهادهای آتی اختصاص می‌یابد. سپس با آماده‌سازی ارائه علمی و شرکت در جلسات شبیه‌سازی دفاع، برای دفاع مقتدرانه در برابر هیئت داوران آماده می‌شوید.
         </p>
 
         <h2>محورهای پیشرو و موضوعات مرز دانش برای رساله دکتری هوش مصنوعی در سال ۱۴۰۵ (۲۰۲۶)</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> داغ‌ترین محورهای رساله دکتری در سال ۲۰۲۶ شامل بهینه‌سازی و استدلال در مدل‌های زبانی بزرگ (LLMs)، مدل‌های بنیادی چندوجهی، هوش مصنوعی قابل تفسیر و علیتی (Causal & Explainable AI)، یادگیری فدرال مقاوم به حملات، و شبکه‌های عصبی گراف پویا است.
         </p>
         <p>
@@ -220,9 +220,9 @@ export default function AiPhdThesisPage() {
         </p>
 
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
-          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.98rem", border: "2px solid #0d6efd" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.98rem", border: "2px solid var(--primary)" }}>
             <thead>
-              <tr style={{ backgroundColor: "#0d6efd", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ border: "1px solid #999", padding: "12px", textAlign: "center" }}>حوزه تخصصی در دکتری هوش مصنوعی</th>
                 <th style={{ border: "1px solid #999", padding: "12px", textAlign: "center" }}>محور نوآوری در سطح رساله دکتری</th>
                 <th style={{ border: "1px solid #999", padding: "12px", textAlign: "center" }}>دیتاست‌ها و بنچمارک‌های استاندارد</th>
@@ -271,7 +271,7 @@ export default function AiPhdThesisPage() {
         />
 
         <h2>۵ خطای مرگبار در انجام رساله دکتری هوش مصنوعی و راهکار پیشگیری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انتخاب موضوع نیازمند ابرکامپیوتر، ترکیب مکانیکی دو مدل بدون توجیه ریاضی (A+B Research)، نشت داده در آزمایش‌ها، سابمیت دیرهنگام مقاله ISI، و نبود تطابق میان فرمول‌های فصل سوم و کدهای پایتون، ۵ عامل اصلی طولانی شدن دوره دکتری هستند.
         </p>
         <ul style={{ paddingRight: "25px", marginBottom: "30px", lineHeight: "2" }}>
@@ -282,7 +282,7 @@ export default function AiPhdThesisPage() {
             <strong>خطای دوم؛ نادیده گرفتن محدودیت سخت‌افزاری (GPU Bottleneck):</strong> آموزش از صفر یک مدل بنیادی روی ترابایت‌ها داده ویدئویی برای دانشجویی که به یک یا دو پردازنده گرافیکی دسترسی دارد غیرممکن است. راهکار هوشمندانه، تعریف نوآوری در سطح الگوریتم‌های یادگیری بهینه، تنظیم ظریف کم‌رتبه (LoRA/Adapter)، تقطیر دانش (Knowledge Distillation) یا معماری‌های سبک‌وزن است.
           </li>
           <li>
-            <strong>خطای سوم؛ نشت داده (Data Leakage) و پروتکل ارزیابی ناعادلانه:</strong> اعمال پیش‌پردازش یا انتخاب ویژگی روی کل داده پیش از تفکیک آموزش و آزمون، یا تغییر ابرپارامترها روی داده Test، باعث رد فوری مقاله در داوری‌های دقیق می‌شود. همچنین مطالعه راهنمای <Link href="/blog/ai-thesis-methods" style={{ color: "#0d6efd" }}>انجام پایان نامه با هوش مصنوعی</Link> به شما کمک می‌کند از ابزارهای هوشمند در مستندسازی کدها و پیشینه به شکل اخلاقی و استاندارد بهره ببرید.
+            <strong>خطای سوم؛ نشت داده (Data Leakage) و پروتکل ارزیابی ناعادلانه:</strong> اعمال پیش‌پردازش یا انتخاب ویژگی روی کل داده پیش از تفکیک آموزش و آزمون، یا تغییر ابرپارامترها روی داده Test، باعث رد فوری مقاله در داوری‌های دقیق می‌شود. همچنین مطالعه راهنمای <Link href="/blog/ai-thesis-methods" style={{ color: "var(--primary)" }}>انجام پایان نامه با هوش مصنوعی</Link> به شما کمک می‌کند از ابزارهای هوشمند در مستندسازی کدها و پیشینه به شکل اخلاقی و استاندارد بهره ببرید.
           </li>
           <li>
             <strong>خطای چهارم؛ موکول کردن نگارش مقاله به پایان رساله:</strong> داوری در ژورنال‌های معتبر Springer، Elsevier و IEEE معمولاً بین ۴ تا ۸ ماه زمان می‌برد. مقاله اول باید بلافاصله پس از نهایی شدن نتایج بخش اول رساله ارسال شود تا در زمان اتمام نگارش فصول، نامه پذیرش شما آماده باشد.
@@ -293,15 +293,15 @@ export default function AiPhdThesisPage() {
         </ul>
 
         <h2>چگونه برای جلسه پیش‌دفاع و دفاع نهایی دکتری هوش مصنوعی آماده شویم؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موفقیت در دفاع دکتری هوش مصنوعی نیازمند ارائه داستان‌محور علمی از چالش تا نوآوری، تسلط کامل بر اثبات‌های ریاضی و کدهای پیاده‌سازی‌شده، ارائه شفاف جداول مطالعه حذفی و پیچیدگی محاسباتی، و بیان صادقانه محدودیت‌های روش پیشنهادی است.
         </p>
         <p>
-          در جلسه دفاع دکتری، هیئت داوران شما را به عنوان یک پژوهشگر مستقل و همکار علمی آینده می‌سنجند. بنابراین صرفاً خواندن از روی اسلایدها کافی نیست. شما باید بتوانید توضیح دهید چرا روش پیشنهادی شما در برخی سناریوهای حدی (Edge Cases) دچار افت دقت می‌شود، پیچیدگی زمانی و مکانی آن از مرتبه چند است، و چرا تابع زیان طراحی‌شده به نقطه بهینه همگرا می‌گردد. شرکت در جلسات تخصصی <Link href="/services/training-consulting" style={{ color: "#0d6efd" }}>آموزش و مشاوره پژوهشی</Link> و پیش‌دفاع آزمایشی به شما کمک می‌کند تا به تمامی سوالات چالشی داوران با اعتمادبه‌نفس کامل پاسخ دهید.
+          در جلسه دفاع دکتری، هیئت داوران شما را به عنوان یک پژوهشگر مستقل و همکار علمی آینده می‌سنجند. بنابراین صرفاً خواندن از روی اسلایدها کافی نیست. شما باید بتوانید توضیح دهید چرا روش پیشنهادی شما در برخی سناریوهای حدی (Edge Cases) دچار افت دقت می‌شود، پیچیدگی زمانی و مکانی آن از مرتبه چند است، و چرا تابع زیان طراحی‌شده به نقطه بهینه همگرا می‌گردد. شرکت در جلسات تخصصی <Link href="/services/training-consulting" style={{ color: "var(--primary)" }}>آموزش و مشاوره پژوهشی</Link> و پیش‌دفاع آزمایشی به شما کمک می‌کند تا به تمامی سوالات چالشی داوران با اعتمادبه‌نفس کامل پاسخ دهید.
         </p>
 
         <h2>نتیجه‌گیری: تبدیل رساله دکتری هوش مصنوعی به سکوی پرتاب علمی و حرفه‌ای</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام موفق رساله دکتری هوش مصنوعی حاصل پیوند سه عنصر است: انتخاب شکاف پژوهشی دقیق با داده استاندارد، پیاده‌سازی ماژولار همراه با مطالعه حذفی کامل، و برنامه‌ریزی موازی برای چاپ مقاله ISI Q1؛ مسیری که با راهبری تخصصی، از یک فرآیند فرسایشی به تجربه‌ای ماندگار تبدیل می‌شود.
         </p>
         <p>
@@ -341,8 +341,8 @@ export default function AiPhdThesisPage() {
           از زمان تصویب پروپوزال تا دفاع نهایی، انجام رساله دکتری هوش مصنوعی به طور میانگین بین ۱۲ تا ۱۸ ماه زمان می‌برد که شامل ۳ ماه طراحی معماری و پیاده‌سازی کدها، ۳ ماه اجرای آزمایش‌های تطبیقی و نگارش فصول، و ۶ تا ۹ ماه فرآیند سابمیت، داوری و اخذ پذیرش مقاله ISI است.
         </p>
 
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: دپارتمان هوش مصنوعی و علم داده تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: دپارتمان هوش مصنوعی و علم داده تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این راهنمای تخصصی توسط جمعی از فارغ‌التحصیلان دکتری و پژوهشگران ارشد هوش مصنوعی در گروه تخصصی تز پژوه تدوین شده است. ما با بیش از ۱۶ سال سابقه در راهبری رساله‌های دکتری، پیاده‌سازی مدل‌های یادگیری عمیق و چاپ مقالات در نشریات تراز اول IEEE، Elsevier و Springer، همراه مطمئن دانشجویان دکتری در تمامی مراحل پژوهش هستیم.
           </p>

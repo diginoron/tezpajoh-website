@@ -14,7 +14,7 @@ export default function PhdThesisPillar() {
   return (
     <div className={`container ${styles.pillarPage}`}>
       <div className={styles.hero}>
-        <h1 className="text-gradient">انجام رساله دکتری (PhD Dissertation)</h1>
+        <h1>انجام رساله دکتری (PhD Dissertation)</h1>
         <p>رساله دکتری بالاترین و حساس‌ترین سطح پژوهشی در دوران آکادمیک است. ما در تز پژوه با تیمی از نخبگان، اساتید و فارغ‌التحصیلان دکتری از برترین دانشگاه‌های کشور، مسیر دشوار رساله را برای شما هموار می‌کنیم.</p>
       </div>
 

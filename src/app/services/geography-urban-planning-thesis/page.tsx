@@ -19,7 +19,7 @@ const renderCTA = (
   <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
     <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
     <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
       دریافت مشاوره تخصصی و سفارش
     </a>
   </div>
@@ -127,7 +127,7 @@ export default function GeographyUrbanPlanningThesisPage() {
 
       {/* ب) کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه جغرافیا و برنامه ریزی شهری؛ راهنمای جامع ارشد و دکتری (۱۴۰۵)
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -140,41 +140,41 @@ export default function GeographyUrbanPlanningThesisPage() {
       {/* ج) کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          رشته جغرافیا و برنامه‌ریزی شهری محل تلاقی علوم اجتماعی، اقتصاد فضا، تحلیل مکانی و سیاست‌گذاری عمومی برای بهبود کیفیت زندگی انسان‌هاست. در دنیای آکادمیک امروز، <strong>انجام پایان نامه جغرافیا و برنامه ریزی شهری</strong> نیازمند گذار از گزارش‌های توصیفی و آمارهای تکراری به سوی پژوهش‌های ساختارمند مبتنی بر داده‌های مکانی و چارچوب‌های نظری روزآمد است. کمیته‌های داوری در دانشکده‌های جغرافیا، اصالت پژوهش را در چگونگی توضیح «چرایی توزیع فضایی» پدیده‌ها و پیوند یافته‌ها با نظریه‌های معتبر برنامه‌ریزی ارزیابی می‌کنند. اگر برای مقاطع کارشناسی ارشد یا دکتری در جست‌وجوی مسیری مطمئن برای <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> هستید، این راهنمای جامع از سوی دپارتمان تخصصی جغرافیا و برنامه‌ریزی شهری گروه تز پژوه تدوین شده تا شما را در تمام مراحل، از گزینش موضوع تا جلسه دفاع، همراهی کند.
+          رشته جغرافیا و برنامه‌ریزی شهری محل تلاقی علوم اجتماعی، اقتصاد فضا، تحلیل مکانی و سیاست‌گذاری عمومی برای بهبود کیفیت زندگی انسان‌هاست. در دنیای آکادمیک امروز، <strong>انجام پایان نامه جغرافیا و برنامه ریزی شهری</strong> نیازمند گذار از گزارش‌های توصیفی و آمارهای تکراری به سوی پژوهش‌های ساختارمند مبتنی بر داده‌های مکانی و چارچوب‌های نظری روزآمد است. کمیته‌های داوری در دانشکده‌های جغرافیا، اصالت پژوهش را در چگونگی توضیح «چرایی توزیع فضایی» پدیده‌ها و پیوند یافته‌ها با نظریه‌های معتبر برنامه‌ریزی ارزیابی می‌کنند. اگر برای مقاطع کارشناسی ارشد یا دکتری در جست‌وجوی مسیری مطمئن برای <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> هستید، این راهنمای جامع از سوی دپارتمان تخصصی جغرافیا و برنامه‌ریزی شهری گروه تز پژوه تدوین شده تا شما را در تمام مراحل، از گزینش موضوع تا جلسه دفاع، همراهی کند.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه جغرافیا و برنامه ریزی شهری فرآیندی تخصصی شامل شناسایی خلأ پژوهشی در ادبیات شهر ایرانی، انتخاب موضوع با داده مکانی و آماری در دسترس، تدوین پروپوزال بر پایه چارچوب نظری منسجم، تحلیل مکانی با GIS و سنجش از دور یا تحلیل آماری و کیفی، و تدوین فصول رساله طبق شیوه‌نامه‌های معتبر دانشگاهی است.
         </p>
 
         {renderCTA()}
 
         <h2>ارکان روش‌شناختی در انجام پایان نامه جغرافیا و برنامه ریزی شهری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایان‌نامه جغرافیا و برنامه‌ریزی شهری بر سه رکن اساسی تکیه دارد: تعریف شفاف دامنه مطالعاتی و مقیاس مکانی (محله، منطقه، شهر یا حوضه)، انتخاب داده معتبر (سرشماری، تصاویر ماهواره‌ای یا پرسشنامه) و اتخاذ روش تحلیلی متناسبی که بتواند چرایی توزیع فضایی پدیده را توضیح دهد و نه صرفاً نمایش دهد.
         </p>
         <p>
           تفاوت بنیادین پژوهش جغرافیا با بسیاری از رشته‌های همسایه در «مکانی‌بودن» استدلال آن نهفته است؛ محقق باید نشان دهد پدیده مورد مطالعه کجا، با چه توزیعی و در پیوند با چه عواملی شکل گرفته است. هیئت داوران در گام نخست بررسی می‌کنند که آیا نقشه‌ها و تحلیل‌های ارائه‌شده صرفاً تصویری زیبا از واقعیت هستند یا یک استدلال مکانی مستند را پیش می‌برند؛ به همین دلیل هر لایه اطلاعاتی در نرم‌افزار باید پاسخ‌گوی بخشی از پرسش پژوهش باشد.
         </p>
         <p>
-          در سال‌های اخیر، گرایش دانشکده‌های جغرافیا به سمت موضوعات میان‌رشته‌ای افزایش چشمگیری یافته است؛ تحلیل تاب‌آوری شهری در برابر زلزله و سیل، سنجش عدالت فضایی در دسترسی به خدمات سلامت و آموزش، پایش جزایر حرارتی شهری و پژوهش‌های حکمروانی شهری از پربسامدترین حوزه‌ها هستند. پژوهشگران برای گردآوری پیشینه معتبر و دسترسی به مقالات داوری‌شده خارجی غالباً از پایگاه‌های مرجعی مانند <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>ScienceDirect</a> و پایگاه‌های تخصصی منابع فارسی مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>نورمگز</a> بهره می‌برند تا ادبیات پژوهش خود را با استانداردهای روز دنیا غنا بخشند.
+          در سال‌های اخیر، گرایش دانشکده‌های جغرافیا به سمت موضوعات میان‌رشته‌ای افزایش چشمگیری یافته است؛ تحلیل تاب‌آوری شهری در برابر زلزله و سیل، سنجش عدالت فضایی در دسترسی به خدمات سلامت و آموزش، پایش جزایر حرارتی شهری و پژوهش‌های حکمروانی شهری از پربسامدترین حوزه‌ها هستند. پژوهشگران برای گردآوری پیشینه معتبر و دسترسی به مقالات داوری‌شده خارجی غالباً از پایگاه‌های مرجعی مانند <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>ScienceDirect</a> و پایگاه‌های تخصصی منابع فارسی مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>نورمگز</a> بهره می‌برند تا ادبیات پژوهش خود را با استانداردهای روز دنیا غنا بخشند.
         </p>
 
         <h2>قلمروها و گرایش‌های پژوهشی در انجام پایان نامه جغرافیا و برنامه ریزی شهری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> این رشته گستره وسیعی از برنامه‌ریزی شهری و منطقه‌ای، جغرافیای طبیعی (اقلیم‌شناسی و ژئومورفولوژی)، گردشگری، جغرافیای روستایی و فناوری‌های سنجش از دور و GIS را پوشش می‌دهد؛ هر گرایش، داده، ابزار و روش تحلیل ویژه خود را می‌طلبد.
         </p>
 
         <h3>۱. برنامه‌ریزی شهری و منطقه‌ای؛ از طرح جامع تا بازآفرینی</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پژوهش‌های این گرایش بر سیاست‌گذاری فضایی، کاربری ارضی، عدالت فضایی در دسترسی به خدمات، حکمروانی شهری و بازآفرینی بافت‌های فرسوده و ناکارآمد تمرکز دارند و معمولاً با تحلیل مکانی و داده‌های سرشماری و طرح‌های توسعه اجرا می‌شوند.
         </p>
         <p>
-          موضوعات پربسامد این حوزه شامل سنجش میزان تحقق اهداف طرح جامع، تحلیل شاخص‌های شهر ۱۵ دقیقه‌ای، سنجش عدالت فضایی در توزیع پارک‌ها و مراکز درمانی و ارزیابی طرح‌های نوسازی بافت فرسوده است. برای آشنایی با بُعد کالبدی و طراحی این موضوعات، مطالعه راهنمای <Link href="/services/architecture-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه معماری</Link> و برای شناخت بستر اجتماعی و فضایی شهر، راهنمای <Link href="/services/sociology-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه جامعه شناسی</Link> پیشنهاد می‌شود.
+          موضوعات پربسامد این حوزه شامل سنجش میزان تحقق اهداف طرح جامع، تحلیل شاخص‌های شهر ۱۵ دقیقه‌ای، سنجش عدالت فضایی در توزیع پارک‌ها و مراکز درمانی و ارزیابی طرح‌های نوسازی بافت فرسوده است. برای آشنایی با بُعد کالبدی و طراحی این موضوعات، مطالعه راهنمای <Link href="/services/architecture-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه معماری</Link> و برای شناخت بستر اجتماعی و فضایی شهر، راهنمای <Link href="/services/sociology-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه جامعه شناسی</Link> پیشنهاد می‌شود.
         </p>
 
         <h3>۲. جغرافیای طبیعی؛ اقلیم‌شناسی و ژئومورفولوژی</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> این گرایش به تحلیل سیلاب شهری، جزایر حرارتی، پایداری دامنه‌ها، فرسایش و تولید رسوب و مخاطرات طبیعی با مدل‌های مکانی و تصاویر ماهواره‌ای می‌پردازد و پیوند مستقیمی با مدیریت بحران و کاهش اثر بلایا دارد.
         </p>
         <p>
@@ -182,7 +182,7 @@ export default function GeographyUrbanPlanningThesisPage() {
         </p>
 
         <h3>۳. گردشگری و جغرافیای روستایی</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پژوهش‌های گردشگری بر ارزیابی ظرفیت پذیرش مقاصد، رضایت و انگیزه گردشگران و راهبردهای توسعه مقصد با مدل‌های SWOT و AHP و پژوهش‌های روستایی بر اشتغال، کشاورزی پایدار و کیفیت زندگی روستاییان تمرکز می‌کنند.
         </p>
         <p>
@@ -190,7 +190,7 @@ export default function GeographyUrbanPlanningThesisPage() {
         </p>
 
         <h3>۴. سنجش از دور و سیستم اطلاعات جغرافیایی (RS و GIS)</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> این گرایش با پردازش تصاویر ماهواره‌ای لندست و سنتینل و مدل‌سازی در ArcGIS و QGIS، رصد تغییرات کاربری ارضی، پایش جزایر حرارتی، تحلیل دسترسی فضایی و مدل‌سازی پدیده‌های شهری و طبیعی را ممکن می‌سازد.
         </p>
         <p>
@@ -198,18 +198,18 @@ export default function GeographyUrbanPlanningThesisPage() {
         </p>
 
         <h2>نقشه راه پنج‌گامی برای انجام پایان نامه جغرافیا و برنامه ریزی شهری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مسیر موفق پایان‌نامه جغرافیا و برنامه‌ریزی شهری شامل پنج گام کلیدی است: انتخاب موضوع بکر با داده در دسترس، نگارش پروپوزال منسجم، گردآوری و آماده‌سازی داده‌های مکانی و آماری، تحلیل و نگارش فصول، و آمادگی نظام‌مند برای جلسه دفاع.
         </p>
 
         <h3>گام اول: انتخاب موضوع بکر و سنجش دسترسی به داده</h3>
         <p>
-          پیش از هر چیز اطمینان حاصل کنید که داده موضوع (سرشماری، تصاویر ماهواره‌ای، نقشه‌های پایه یا امکان توزیع پرسشنامه) واقعاً در دسترس است؛ موضوع جذاب بدون داده، پروژه را در میانه راه متوقف می‌کند. راهنمای تخصصی <Link href="/services/topic-selection" style={{ color: "#0d6efd" }}>ارائه موضوع پایان‌نامه</Link> برای عبور از این مرحله تهیه شده است.
+          پیش از هر چیز اطمینان حاصل کنید که داده موضوع (سرشماری، تصاویر ماهواره‌ای، نقشه‌های پایه یا امکان توزیع پرسشنامه) واقعاً در دسترس است؛ موضوع جذاب بدون داده، پروژه را در میانه راه متوقف می‌کند. راهنمای تخصصی <Link href="/services/topic-selection" style={{ color: "var(--primary)" }}>ارائه موضوع پایان‌نامه</Link> برای عبور از این مرحله تهیه شده است.
         </p>
 
         <h3>گام دوم: نگارش پروپوزال منسجم و قابل دفاع</h3>
         <p>
-          پروپوزال جغرافیا باید پرسش‌های مکانی صریح، چارچوب نظری مشخص و دامنه مطالعاتی دقیق داشته باشد؛ ساختار پیشنهادی برای <Link href="/services/proposal" style={{ color: "#0d6efd" }}>انجام پروپوزال</Link> شامل بیان مسئله فضایی، نوآوری پژوهش، روش گردآوری و تحلیل داده و خروجی‌های مورد انتظار است.
+          پروپوزال جغرافیا باید پرسش‌های مکانی صریح، چارچوب نظری مشخص و دامنه مطالعاتی دقیق داشته باشد؛ ساختار پیشنهادی برای <Link href="/services/proposal" style={{ color: "var(--primary)" }}>انجام پروپوزال</Link> شامل بیان مسئله فضایی، نوآوری پژوهش، روش گردآوری و تحلیل داده و خروجی‌های مورد انتظار است.
         </p>
 
         <h3>گام سوم: گردآوری و آماده‌سازی داده‌های مکانی و آماری</h3>
@@ -219,22 +219,22 @@ export default function GeographyUrbanPlanningThesisPage() {
 
         <h3>گام چهارم: تحلیل و نگارش فصول پنج‌گانه رساله</h3>
         <p>
-          فصل تحلیل باید زنجیره «داده، روش، یافته و تفسیر نظری» را به‌صورت شفاف نشان دهد؛ راهنمای <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>تدوین فصول پایان‌نامه</Link> برای ساختاربندی این بخش ضروری است و امکان <Link href="/services/article-writing-acceptance" style={{ color: "#0d6efd" }}>استخراج و اکسپت مقاله</Link> از یافته‌های رساله نیز از همین مرحله فراهم می‌شود.
+          فصل تحلیل باید زنجیره «داده، روش، یافته و تفسیر نظری» را به‌صورت شفاف نشان دهد؛ راهنمای <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>تدوین فصول پایان‌نامه</Link> برای ساختاربندی این بخش ضروری است و امکان <Link href="/services/article-writing-acceptance" style={{ color: "var(--primary)" }}>استخراج و اکسپت مقاله</Link> از یافته‌های رساله نیز از همین مرحله فراهم می‌شود.
         </p>
 
         <h3>گام پنجم: آمادگی نظام‌مند برای جلسه دفاع</h3>
         <p>
-          شبیه‌سازی دفاع با تمرکز بر پرسش‌های پرتکرار داوران جغرافیا (دلیل انتخاب مقیاس مکانی، اعتبار داده‌ها و ارزیابی دقت مدل) اعتماد دانشجو را تضمین می‌کند؛ جزئیات کامل این مرحله در راهنمای <Link href="/services/training-consulting" style={{ color: "#0d6efd" }}>آموزش و مشاوره دفاع</Link> آمده است.
+          شبیه‌سازی دفاع با تمرکز بر پرسش‌های پرتکرار داوران جغرافیا (دلیل انتخاب مقیاس مکانی، اعتبار داده‌ها و ارزیابی دقت مدل) اعتماد دانشجو را تضمین می‌کند؛ جزئیات کامل این مرحله در راهنمای <Link href="/services/training-consulting" style={{ color: "var(--primary)" }}>آموزش و مشاوره دفاع</Link> آمده است.
         </p>
 
         <h2>جدول مقایسه روش‌های پژوهش در پایان‌نامه جغرافیا و برنامه ریزی شهری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انتخاب روش پژوهش تابع پرسش پژوهش است؛ برای الگوها و رصد تغییرات فضایی، تحلیل مکانی و سنجش از دور، برای نگرش‌ها و رفتارها، پیمایش آماری، برای تجربه زیسته ساکنان، روش کیفی و برای مسائل پیچیده چندبعدی، روش آمیخته مناسب‌ترین گزینه است.
         </p>
         <div style={{ overflowX: "auto", margin: "25px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", direction: "rtl" }}>
             <thead>
-              <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>رویکرد و روش پژوهش</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>ابزار و داده</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>قابلیت‌های اصلی</th>
@@ -282,7 +282,7 @@ export default function GeographyUrbanPlanningThesisPage() {
         )}
 
         <h2>پنج اشتباه رایج در انجام پایان نامه جغرافیا و برنامه ریزی شهری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> تکیه بر نقشه‌های توصیفی بدون استدلال مکانی، استفاده از داده‌های ناهم‌زمان و ناسازگار، غفلت از اعتبارسنجی مدل‌ها، انتخاب دامنه مطالعاتی بیش از حد گسترده و جدایی فصل نظری از تحلیل کاربردی، پنج تله رایج پایان‌نامه‌های این رشته هستند.
         </p>
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
@@ -306,23 +306,23 @@ export default function GeographyUrbanPlanningThesisPage() {
         <h2>پاسخ به سوالات پرتکرار دانشجویان در انجام پایان نامه جغرافیا و برنامه ریزی شهری</h2>
 
         <h3>بهترین موضوع برای پایان نامه جغرافیا و برنامه ریزی شهری چگونه انتخاب می‌شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موضوع ایده‌آل مسئله‌ای واقعی و محله‌محور یا منطقه‌محور را با یک نظریه منسجم (عدالت فضایی، حکمروانی شهری یا رشد کالبدی) بررسی کند، داده‌های مکانی و آماری آن در دسترس باشد و بستر حل یک مسئله واقعی شهری یا روستایی را فراهم سازد.
         </p>
         <p>
-          دانشجویان غالباً تمایل دارند عناوینی بسیار وسیع مانند «بررسی برنامه‌ریزی شهری در ایران» انتخاب کنند، در حالی که پژوهش موفق بر مقیاس مشخص و عمیق تمرکز دارد؛ برای مثال «تحلیل عدالت فضایی در توزیع خدمات سلامت مناطق شهر تهران با GIS». برای مقایسه دیدگاه‌ها و پیوندهای متقابل با رشته‌های مرتبط، مطالعه راهنماهای <Link href="/services/architecture-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه معماری</Link> و فصول رساله <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>دکتری</Link> توصیه می‌شود.
+          دانشجویان غالباً تمایل دارند عناوینی بسیار وسیع مانند «بررسی برنامه‌ریزی شهری در ایران» انتخاب کنند، در حالی که پژوهش موفق بر مقیاس مشخص و عمیق تمرکز دارد؛ برای مثال «تحلیل عدالت فضایی در توزیع خدمات سلامت مناطق شهر تهران با GIS». برای مقایسه دیدگاه‌ها و پیوندهای متقابل با رشته‌های مرتبط، مطالعه راهنماهای <Link href="/services/architecture-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه معماری</Link> و فصول رساله <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>دکتری</Link> توصیه می‌شود.
         </p>
 
         <h3>چگونه داده و ابزار مناسب (GIS، پرسشنامه یا تصاویر ماهواره‌ای) را انتخاب کنیم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انتخاب ابزار تابع پرسش پژوهش است؛ اگر به دنبال رصد تغییرات و الگوهای فضایی هستید سنجش از دور و GIS، اگر به دنبال نگرش و رفتار شهروندان هستید پرسشنامه و تحلیل آماری، و اگر در پی کشف تجربه زیسته ساکنان هستید مصاحبه کیفی مناسب‌ترین گزینه است.
         </p>
         <p>
-          پایگاه‌های داده معتبر داخلی مانند مرکز آمار ایران و سازمان‌های شهری برای داده‌های پایه، و منابع فارسی داوری‌شده در <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>نورمگز</a> برای پیشینه‌پژوهی کارآمد هستند؛ برای مقالات بین‌المللی نیز <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>ScienceDirect</a> منبع اصلی نشریات حوزه شهر و جغرافیاست.
+          پایگاه‌های داده معتبر داخلی مانند مرکز آمار ایران و سازمان‌های شهری برای داده‌های پایه، و منابع فارسی داوری‌شده در <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>نورمگز</a> برای پیشینه‌پژوهی کارآمد هستند؛ برای مقالات بین‌المللی نیز <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>ScienceDirect</a> منبع اصلی نشریات حوزه شهر و جغرافیاست.
         </p>
 
         <h3>دفاع پایان نامه جغرافیا و برنامه ریزی شهری چگونه با نمره عالی برگزار می‌شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ارائه اسلایدهای متمرکز با نقشه‌های خوانا و مقیاس‌دار، تسلط بر شاخص‌ها و مدل‌های به‌کاررفته، پرهیز از روخوانی متن و نمایش شفاف پیوند میان نظریه، داده و یافته‌های مکانی، داوران را در روز دفاع متقاعد می‌سازد.
         </p>
         <p>
@@ -367,8 +367,8 @@ export default function GeographyUrbanPlanningThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: دپارتمان جغرافیا و برنامه‌ریزی شهری گروه تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: دپارتمان جغرافیا و برنامه‌ریزی شهری گروه تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این راهنمای کاربردی توسط پژوهشگران و اساتید دپارتمان جغرافیا و برنامه‌ریزی شهری در گروه تخصصی تز پژوه تهیه شده است. این دپارتمان با بیش از ۱۶ سال تجربه مستمر در هدایت و مشاوره رساله‌های تحصیلات تکمیلی، متشکل از دانش‌آموختگان مقاطع کارشناسی ارشد و دکتری دانشگاه‌های برتر کشور است. تمرکز این تیم بر انطباق روش‌های تحلیل مکانی با داده‌های روز، استانداردسازی ارجاعات نقشه‌ای و ارتقای سطح کیفی پژوهش‌های شهری، منطقه‌ای و روستایی است تا دانشجویان عزیز به نتایج درخشان علمی و افتخارات دانشگاهی دست یابند.
           </p>

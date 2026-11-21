@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 import styles from '@/app/page.module.css';
-
 export const metadata: Metadata = {
   title: "خدمات تز پژوه",
   description: "لیست خدمات تخصصی گروه تز پژوه شامل ارائه موضوع، پروپوزال، فصول پایان نامه و آموزش.",
@@ -17,7 +16,6 @@ export default function ServicesPage() {
         <h1 className="text-gradient">خدمات تخصصی تز پژوه</h1>
         <p>ما تمامی نیازهای شما برای انجام یک پژوهش موفق را پوشش می‌دهیم.</p>
       </div>
-      
       <div className={styles.servicesGrid}>
         <Link href="/services/topic-selection" className={`glass ${styles.serviceItem}`}>
           <h2>ارائه موضوع پایان‌نامه</h2>

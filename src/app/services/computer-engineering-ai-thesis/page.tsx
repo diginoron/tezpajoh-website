@@ -19,7 +19,7 @@ const renderCTA = (
   <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
     <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
     <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
       دریافت مشاوره تخصصی و سفارش
     </a>
   </div>
@@ -127,7 +127,7 @@ export default function ComputerEngineeringAiThesisPage() {
 
       {/* ب) کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی؛ راهنمای جامع ارشد و دکتری (۱۴۰۵)
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -140,33 +140,33 @@ export default function ComputerEngineeringAiThesisPage() {
       {/* ج) کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          مهندسی کامپیوتر و هوش مصنوعی سریع‌ترین نرخ تحول علمی را در میان تمام رشته‌های دانشگاهی دارد؛ حوزه‌ای که در آن معماری‌های یادگیری عمیق، مدل‌های زبانی بزرگ، بینایی ماشین، امنیت سایبری، رایانش ابری و اینترنت اشیا هر چند ماه یک‌بار مرزهای دانش را جابه‌جا می‌کنند. در چنین فضایی، <strong>انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</strong> دیگر با بازنویسی متون تئوری یا اجرای یک کد آماده از مخازن عمومی به نتیجه نمی‌رسد؛ کمیته‌های داوری دانشگاه‌های برتر به دنبال نوآوری مشخص در معماری مدل، آزمایش‌های قابل بازتولید روی مجموعه داده‌های استاندارد و تحلیل دقیق معیارهای کارایی هستند. اگر در مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> کارشناسی ارشد یا رساله دکتری این رشته قرار دارید، این راهنمای جامع که حاصل بیش از ۱۶ سال تجربه عملیاتی دپارتمان کامپیوتر و هوش مصنوعی گروه تخصصی تز پژوه است، نقشه راه کامل از انتخاب موضوع تا دفاع عالی را پیش روی شما می‌گذارد.
+          مهندسی کامپیوتر و هوش مصنوعی سریع‌ترین نرخ تحول علمی را در میان تمام رشته‌های دانشگاهی دارد؛ حوزه‌ای که در آن معماری‌های یادگیری عمیق، مدل‌های زبانی بزرگ، بینایی ماشین، امنیت سایبری، رایانش ابری و اینترنت اشیا هر چند ماه یک‌بار مرزهای دانش را جابه‌جا می‌کنند. در چنین فضایی، <strong>انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</strong> دیگر با بازنویسی متون تئوری یا اجرای یک کد آماده از مخازن عمومی به نتیجه نمی‌رسد؛ کمیته‌های داوری دانشگاه‌های برتر به دنبال نوآوری مشخص در معماری مدل، آزمایش‌های قابل بازتولید روی مجموعه داده‌های استاندارد و تحلیل دقیق معیارهای کارایی هستند. اگر در مسیر <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> کارشناسی ارشد یا رساله دکتری این رشته قرار دارید، این راهنمای جامع که حاصل بیش از ۱۶ سال تجربه عملیاتی دپارتمان کامپیوتر و هوش مصنوعی گروه تخصصی تز پژوه است، نقشه راه کامل از انتخاب موضوع تا دفاع عالی را پیش روی شما می‌گذارد.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی فرآیندی پنج‌مرحله‌ای شامل کشف شکاف پژوهشی از مقالات روز، تدوین پروپوزال و انتخاب مجموعه داده بنچمارک، طراحی و کدنویسی معماری پیشنهادی (در پایتون، متلب یا شبیه‌سازهای شبکه)، ارزیابی تطبیقی و مطالعه حذفی، و در نهایت نگارش مستندات علمی و دفاع است.
         </p>
 
         {renderCTA()}
 
         <h2>ارکان علمی و فنی در انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ستون فقرات یک پایان‌نامه موفق در مهندسی کامپیوتر و هوش مصنوعی بر سه اصل استوار است: تعریف دقیق مسئله به زبان ریاضی، طراحی معماری یا پروتکل پیشنهادی با مزیت رقابتی روشن، و اثبات تجربی بهبود عملکرد روی داده‌های استاندارد در شرایط آزمایشی یکسان با مقالات مرجع.
         </p>
         <p>
           بررسی صدها جلسه دفاع در دانشکده‌های مهندسی کامپیوتر نشان می‌دهد داوران پیش از هر چیز به دنبال پاسخ یک سوال کلیدی هستند: «تفاوت دقیق روش پیشنهادی شما با مقاله پایه چیست و چرا این تغییر باعث بهبود خروجی شده است؟» در گرایش هوش مصنوعی و علم داده، این نوآوری می‌تواند در طراحی لایه‌های توجه (Attention Mechanisms)، ترکیب شبکه‌های عصبی گراف با مدل‌های ترنسفورمر، تعریف تابع زیان چندهدفه برای داده‌های نامتوازن یا فشرده‌سازی مدل برای اجرا روی لبه‌های شبکه (Edge AI) تعریف شود. در گرایش‌های نرم‌افزار، شبکه و معماری نیز نوآوری در زمان‌بندی هوشمند منابع ابری، تشخیص نفوذ بلادرنگ، بهبود تحمل‌پذیری خطا در سیستم‌های توزیع‌شده یا کاهش مصرف انرژی در اینترنت اشیا شکل می‌گیرد.
         </p>
         <p>
-          برخلاف دهه‌های گذشته که صرفاً گزارش یک عدد دقت بالا برای قبولی کافی بود، داوران امروز بر «تکرارپذیری آزمایش‌ها» (Reproducibility) و «تحلیل پیچیدگی محاسباتی» تمرکز دارند. پژوهشگر باید بتواند نشان دهد مدل پیشنهادی با چه تعداد پارامتر، چه میزان حافظه گرافیکی و در چه زمان استنتاجی به این دقت دست یافته است. برای رصد آخرین دستاوردها و مقالات مرجع این رشته، جست‌وجوی هدفمند در پایگاه‌های معتبری همچون <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>IEEE Xplore</a> و <a href="https://dl.acm.org/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>ACM Digital Library</a> نقطه شروع استاندارد هر پژوهشگر حرفه‌ای است.
+          برخلاف دهه‌های گذشته که صرفاً گزارش یک عدد دقت بالا برای قبولی کافی بود، داوران امروز بر «تکرارپذیری آزمایش‌ها» (Reproducibility) و «تحلیل پیچیدگی محاسباتی» تمرکز دارند. پژوهشگر باید بتواند نشان دهد مدل پیشنهادی با چه تعداد پارامتر، چه میزان حافظه گرافیکی و در چه زمان استنتاجی به این دقت دست یافته است. برای رصد آخرین دستاوردها و مقالات مرجع این رشته، جست‌وجوی هدفمند در پایگاه‌های معتبری همچون <a href="https://ieeexplore.ieee.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>IEEE Xplore</a> و <a href="https://dl.acm.org/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>ACM Digital Library</a> نقطه شروع استاندارد هر پژوهشگر حرفه‌ای است.
         </p>
 
         <h2>گرایش‌های تخصصی در انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> این رشته چهار قلمرو اصلی دارد: هوش مصنوعی و یادگیری ماشین (بینایی ماشین، پردازش زبان طبیعی و داده)، مهندسی نرم‌افزار و سیستم‌های ابری، شبکه‌های کامپیوتری و امنیت سایبری، و معماری سیستم‌ها و اینترنت اشیا؛ هر کدام ابزارها، بنچمارک‌ها و معیارهای ارزیابی ویژه خود را می‌طلبند.
         </p>
 
         <h3>۱. گرایش هوش مصنوعی، یادگیری ماشین و یادگیری عمیق</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پژوهش‌های این گرایش بر پردازش تصویر و بینایی ماشین، پردازش زبان طبیعی (NLP) و زبان فارسی، مدل‌های مولد و چندوجهی، یادگیری تقویتی عمیق، شبکه‌های عصبی گراف و هوش مصنوعی قابل تفسیر (XAI) در حوزه‌های پزشکی، مالی و صنعت تمرکز دارند.
         </p>
         <p>
@@ -174,7 +174,7 @@ export default function ComputerEngineeringAiThesisPage() {
         </p>
 
         <h3>۲. گرایش مهندسی نرم‌افزار و رایانش ابری و توزیع‌شده</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> در مهندسی نرم‌افزار، موضوعات پیشرو شامل پیش‌بینی نقص نرم‌افزاری با یادگیری عمیق، تولید و آزمون خودکار کد، مهاجرت به معماری میکروسرویس، زمان‌بندی هوشمند بار کاری در محیط‌های ابری و مه (Fog Computing) و قراردادهای هوشمند مبتنی بر بلاک‌چین است.
         </p>
         <p>
@@ -182,7 +182,7 @@ export default function ComputerEngineeringAiThesisPage() {
         </p>
 
         <h3>۳. گرایش شبکه‌های کامپیوتری، اینترنت اشیا (IoT) و امنیت سایبری</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> تمرکز این شاخه بر تخلیه محاسباتی (Task Offloading) در شبکه‌های لبه سیار، مسیریابی بهینه انرژی در اینترنت اشیا، شبکه‌های نرم‌افزارمحور (SDN)، سامانه‌های تشخیص نفوذ هوشمند (IDS)، یادگیری فدرال حافظ حریم خصوصی و امنیت شبکه‌های خودرویی (VANET) است.
         </p>
         <p>
@@ -190,37 +190,37 @@ export default function ComputerEngineeringAiThesisPage() {
         </p>
 
         <h2>مراحل گام‌به‌گام انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> نقشه راه استاندارد شامل پنج گام پیوسته است: استخراج شکاف پژوهشی و انتخاب مقاله پایه، نگارش پروپوزال و تثبیت مجموعه داده، پیاده‌سازی کد و آموزش مدل، ارزیابی مقایسه‌ای و مطالعه حذفی، و در نهایت نگارش فصول و آماده‌سازی دفاع.
         </p>
 
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام اول؛ کشف شکاف پژوهشی و انتخاب موضوع و مقاله پایه:</strong> بررسی مقالات دو سال اخیر ژورنال‌های Q1 و کنفرانس‌های تراز اول (مانند NeurIPS، CVPR، ACL و IEEE Transactions) برای یافتن محدودیت‌های حل‌نشده. پیش از قطعی کردن موضوع، باید در دسترس بودن دیتاست و امکان‌پذیری سخت‌افزاری اجرای کد بررسی شود. خدمات <Link href="/services/topic-selection" style={{ color: "#0d6efd", fontWeight: "bold" }}>ارائه موضوع پایان‌نامه</Link> تز پژوه در این مرحله سه موضوع بکر همراه با مقاله پایه و دیتاست تضمین‌شده به شما تحویل می‌دهد.
+            <strong>گام اول؛ کشف شکاف پژوهشی و انتخاب موضوع و مقاله پایه:</strong> بررسی مقالات دو سال اخیر ژورنال‌های Q1 و کنفرانس‌های تراز اول (مانند NeurIPS، CVPR، ACL و IEEE Transactions) برای یافتن محدودیت‌های حل‌نشده. پیش از قطعی کردن موضوع، باید در دسترس بودن دیتاست و امکان‌پذیری سخت‌افزاری اجرای کد بررسی شود. خدمات <Link href="/services/topic-selection" style={{ color: "var(--primary)", fontWeight: "bold" }}>ارائه موضوع پایان‌نامه</Link> تز پژوه در این مرحله سه موضوع بکر همراه با مقاله پایه و دیتاست تضمین‌شده به شما تحویل می‌دهد.
           </li>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام دوم؛ نگارش پروپوزال و فرمول‌بندی دقیق مسئله:</strong> در پروپوزال کامپیوتر و هوش مصنوعی، بیان مسئله باید به یک فرمول‌بندی روشن، معماری پیشنهادی اولیه، مجموعه داده‌های هدف و معیارهای ارزیابی کمی ختم شود. برای عبور سریع و بدون اصلاحیه از شورای تحصیلات تکمیلی، می‌توانید از تجربه تیم ما در <Link href="/services/proposal" style={{ color: "#0d6efd", fontWeight: "bold" }}>انجام پروپوزال</Link> بهره ببرید.
+            <strong>گام دوم؛ نگارش پروپوزال و فرمول‌بندی دقیق مسئله:</strong> در پروپوزال کامپیوتر و هوش مصنوعی، بیان مسئله باید به یک فرمول‌بندی روشن، معماری پیشنهادی اولیه، مجموعه داده‌های هدف و معیارهای ارزیابی کمی ختم شود. برای عبور سریع و بدون اصلاحیه از شورای تحصیلات تکمیلی، می‌توانید از تجربه تیم ما در <Link href="/services/proposal" style={{ color: "var(--primary)", fontWeight: "bold" }}>انجام پروپوزال</Link> بهره ببرید.
           </li>
           <li style={{ marginBottom: "16px" }}>
             <strong>گام سوم؛ پیش‌پردازش داده، طراحی معماری و کدنویسی ماژولار:</strong> پاک‌سازی داده، نرمال‌سازی، افزایش داده (Data Augmentation)، پیاده‌سازی مقاله پایه جهت صحت‌سنجی اولیه و سپس پیاده‌سازی معماری پیشنهادی در پایتون یا محیط شبیه‌سازی با ساختار کدنویسی تمیز، ماژولار و کامنت‌گذاری‌شده.
           </li>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام چهارم؛ ارزیابی تجربی، مطالعه حذفی و نگارش فصول:</strong> اجرای آزمایش‌ها با اعتبارسنجی متقاطع (k-Fold Cross-Validation)، استخراج جداول مقایسه‌ای، رسم نمودارهای همگرایی تابع زیان، ماتریس درهم‌ریختگی و منحنی ROC، و تدوین ساختارمند <Link href="/services/thesis-chapters" style={{ color: "#0d6efd", fontWeight: "bold" }}>فصول پایان‌نامه</Link> و استخراج دستاوردها در قالب <Link href="/services/article-writing-acceptance" style={{ color: "#0d6efd", fontWeight: "bold" }}>نگارش و اکسپت مقاله</Link>.
+            <strong>گام چهارم؛ ارزیابی تجربی، مطالعه حذفی و نگارش فصول:</strong> اجرای آزمایش‌ها با اعتبارسنجی متقاطع (k-Fold Cross-Validation)، استخراج جداول مقایسه‌ای، رسم نمودارهای همگرایی تابع زیان، ماتریس درهم‌ریختگی و منحنی ROC، و تدوین ساختارمند <Link href="/services/thesis-chapters" style={{ color: "var(--primary)", fontWeight: "bold" }}>فصول پایان‌نامه</Link> و استخراج دستاوردها در قالب <Link href="/services/article-writing-acceptance" style={{ color: "var(--primary)", fontWeight: "bold" }}>نگارش و اکسپت مقاله</Link>.
           </li>
           <li style={{ marginBottom: "16px" }}>
-            <strong>گام پنجم؛ مستندسازی کدها و شبیه‌سازی جلسه دفاع:</strong> تهیه راهنمای اجرای گام‌به‌گام کدها، ضبط ویدیوی آموزشی خط‌به‌خط اسکریپت‌ها، طراحی پاورپوینت علمی و برگزاری جلسه پیش‌دفاع در قالب خدمات <Link href="/services/training-consulting" style={{ color: "#0d6efd", fontWeight: "bold" }}>آموزش و مشاوره دفاع</Link> برای پاسخ مقتدرانه به سوالات داوران.
+            <strong>گام پنجم؛ مستندسازی کدها و شبیه‌سازی جلسه دفاع:</strong> تهیه راهنمای اجرای گام‌به‌گام کدها، ضبط ویدیوی آموزشی خط‌به‌خط اسکریپت‌ها، طراحی پاورپوینت علمی و برگزاری جلسه پیش‌دفاع در قالب خدمات <Link href="/services/training-consulting" style={{ color: "var(--primary)", fontWeight: "bold" }}>آموزش و مشاوره دفاع</Link> برای پاسخ مقتدرانه به سوالات داوران.
           </li>
         </ol>
 
         <h2>جدول مقایسه حوزه‌ها، ابزارها و معیارهای ارزیابی در پایان‌نامه کامپیوتر و هوش مصنوعی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انتخاب ابزار، مجموعه داده و شاخص ارزیابی باید کاملاً منطبق با گرایش و مسئله پژوهش باشد؛ جدول زیر استانداردهای مورد انتظار کمیته‌های داوری را در پنج حوزه پرتقاضا به تفکیک مقایسه می‌کند.
         </p>
 
         <div style={{ overflowX: "auto", margin: "30px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "right" }}>
             <thead>
-              <tr style={{ backgroundColor: "#0d6efd", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>حوزه تخصصی پژوهش</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>مسائل و کاربردهای محوری</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>ابزارها و فریم‌ورک‌های استاندارد</th>
@@ -268,7 +268,7 @@ export default function ComputerEngineeringAiThesisPage() {
         )}
 
         <h2>پنج اشتباه رایج در انجام پایان نامه مهندسی کامپیوتر و هوش مصنوعی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> نشت داده میان آموزش و آزمون، نبود مطالعه حذفی برای اثبات نقش اجزای مدل، مقایسه ناعادلانه با روش‌های قدیمی، انتخاب مجموعه داده‌های کوچک یا مصنوعی، و ناهماهنگی فرمول‌های فصل سوم با کد فصل چهارم، پنج عاملی هستند که در جلسه دفاع نمره دانشجو را تهدید می‌کنند.
         </p>
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
@@ -292,15 +292,15 @@ export default function ComputerEngineeringAiThesisPage() {
         <h2>پاسخ به پرسش‌های کلیدی دانشجویان مهندسی کامپیوتر و هوش مصنوعی</h2>
 
         <h3>بهترین موضوع برای پایان نامه مهندسی کامپیوتر و هوش مصنوعی چه ویژگی‌هایی دارد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موضوع ایده‌آل سه ویژگی همزمان دارد: استخراج‌شده از بخش کارهای آتی مقالات Q1 دو سال اخیر باشد، مجموعه داده عمومی و استاندارد آن از روز اول در دسترس باشد، و بار محاسباتی آموزش مدل آن با منابع پردازشی دانشجو هم‌خوانی داشته باشد.
         </p>
         <p>
-          بسیاری از دانشجویان موضوعاتی جذاب اما نیازمند صدها گیگابایت حافظه پردازنده گرافیکی یا داده‌های محرمانه سازمانی انتخاب می‌کنند و ماه‌ها در مرحله گردآوری داده متوقف می‌مانند. توصیه عملی ما این است که پیش از ثبت پروپوزال، بنچمارک‌های باز و کدهای مرجع را بررسی کنید تا مطمئن شوید زیرساخت آزمایشی موضوع شما کاملاً آماده است. همچنین مطالعه راهنمای <Link href="/blog/ai-thesis-methods" style={{ color: "#0d6efd" }}>انجام پایان نامه با هوش مصنوعی</Link> در وبلاگ تز پژوه دید وسیع‌تری درباره ابزارهای کمکی پژوهش به شما می‌دهد.
+          بسیاری از دانشجویان موضوعاتی جذاب اما نیازمند صدها گیگابایت حافظه پردازنده گرافیکی یا داده‌های محرمانه سازمانی انتخاب می‌کنند و ماه‌ها در مرحله گردآوری داده متوقف می‌مانند. توصیه عملی ما این است که پیش از ثبت پروپوزال، بنچمارک‌های باز و کدهای مرجع را بررسی کنید تا مطمئن شوید زیرساخت آزمایشی موضوع شما کاملاً آماده است. همچنین مطالعه راهنمای <Link href="/blog/ai-thesis-methods" style={{ color: "var(--primary)" }}>انجام پایان نامه با هوش مصنوعی</Link> در وبلاگ تز پژوه دید وسیع‌تری درباره ابزارهای کمکی پژوهش به شما می‌دهد.
         </p>
 
         <h3>چگونه بدون سیستم سخت‌افزاری گران‌قیمت مدل‌های یادگیری عمیق پایان‌نامه را آموزش دهیم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> با بهره‌گیری از بسترهای پردازش ابری مانند Google Colab، Kaggle Notebooks و سرورهای گرافیکی ابری در کنار تکنیک‌های بهینه‌سازی حافظه نظیر آموزش با دقت ترکیبی (Mixed Precision)، تجمیع گرادیان و تنظیم ظریف کم‌رتبه (LoRA) می‌توان مدل‌های سنگین را بدون سیستم شخصی گران‌قیمت اجرا کرد.
         </p>
         <p>
@@ -308,11 +308,11 @@ export default function ComputerEngineeringAiThesisPage() {
         </p>
 
         <h3>چطور در جلسه دفاع مهندسی کامپیوتر و هوش مصنوعی نمره عالی بگیریم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> تسلط بر منطق معماری پیشنهادی، توانایی توضیح علت انتخاب ابرپارامترها و تابع زیان، نمایش شفاف جدول مطالعه حذفی و مقایسه با مقالات روز، و آمادگی برای اجرای زنده کد یا نمایش خروجی‌ها، عوامل تضمین‌کننده کسب نمره عالی در جلسه دفاع هستند.
         </p>
         <p>
-          در جلسه دفاع، اساتید داور معمولاً سوالاتی از این دست می‌پرسند: «چرا این نرخ یادگیری و اندازه دسته (Batch Size) را انتخاب کردید؟»، «اگر داده ورودی نویز داشته باشد، مدل شما چه رفتاری نشان می‌دهد؟» یا «چگونه از بیش‌برازش (Overfitting) جلوگیری کرده‌اید؟». زمانی که شما نمودارهای آموزش و اعتبارسنجی، تحلیل حساسیت پارامترها و محدودیت‌های کار را صادقانه و مستند ارائه دهید، جلسه دفاع به یک گفت‌وگوی علمی حرفه‌ای تبدیل می‌شود. برای آشنایی بیشتر با الزامات هر مقطع، صفحات <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>انجام پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>انجام رساله دکتری</Link> و همچنین راهنمای مرتبط <Link href="/services/electrical-engineering-thesis" style={{ color: "#0d6efd" }}>انجام پایان نامه برق</Link> را مطالعه فرمایید.
+          در جلسه دفاع، اساتید داور معمولاً سوالاتی از این دست می‌پرسند: «چرا این نرخ یادگیری و اندازه دسته (Batch Size) را انتخاب کردید؟»، «اگر داده ورودی نویز داشته باشد، مدل شما چه رفتاری نشان می‌دهد؟» یا «چگونه از بیش‌برازش (Overfitting) جلوگیری کرده‌اید؟». زمانی که شما نمودارهای آموزش و اعتبارسنجی، تحلیل حساسیت پارامترها و محدودیت‌های کار را صادقانه و مستند ارائه دهید، جلسه دفاع به یک گفت‌وگوی علمی حرفه‌ای تبدیل می‌شود. برای آشنایی بیشتر با الزامات هر مقطع، صفحات <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>انجام پایان‌نامه کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>انجام رساله دکتری</Link> و همچنین راهنمای مرتبط <Link href="/services/electrical-engineering-thesis" style={{ color: "var(--primary)" }}>انجام پایان نامه برق</Link> را مطالعه فرمایید.
         </p>
 
         <h2>نتیجه‌گیری: از ایده و کدنویسی تا دفاع مقتدرانه و چاپ مقاله</h2>
@@ -353,8 +353,8 @@ export default function ComputerEngineeringAiThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: دپارتمان مهندسی کامپیوتر و هوش مصنوعی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: دپارتمان مهندسی کامپیوتر و هوش مصنوعی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این راهنمای تخصصی توسط دپارتمان مهندسی کامپیوتر و هوش مصنوعی گروه پژوهشی تز پژوه تدوین شده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و پژوهشگران دانشگاه‌های برتر کشور در گرایش‌های هوش مصنوعی، نرم‌افزار، شبکه و امنیت سایبری است. تز پژوه با تمرکز بر کدنویسی استاندارد، تکرارپذیری آزمایش‌ها و رعایت دقیق اصول آکادمیک، تاکنون راهنمای صدها دانشجوی کارشناسی ارشد و دکتری در موفقیت‌آمیزترین جلسات دفاع و چاپ مقالات معتبر بین‌المللی بوده است.
           </p>

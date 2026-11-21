@@ -14,7 +14,7 @@ export default function AboutPage() {
   return (
     <div className={`container ${styles.pillarPage}`}>
       <div className={styles.hero}>
-        <h1 className="text-gradient">درباره گروه تخصصی تز پژوه</h1>
+        <h1>درباره گروه تخصصی تز پژوه</h1>
         <p>۱۵ سال همراهی مستمر و موفق با دانشجویان تحصیلات تکمیلی در سراسر کشور.</p>
       </div>
 

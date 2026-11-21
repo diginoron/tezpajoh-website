@@ -19,7 +19,7 @@ const renderCTA = (
   <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
     <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
     <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+    <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
       دریافت مشاوره تخصصی و سفارش
     </a>
   </div>
@@ -127,7 +127,7 @@ export default function PersianLiteratureThesisPage() {
 
       {/* ب) کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه زبان و ادبیات فارسی؛ راهنمای جامع ارشد و دکتری (۱۴۰۵)
         </h1>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -140,41 +140,41 @@ export default function PersianLiteratureThesisPage() {
       {/* ج) کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          رشته زبان و ادبیات فارسی، حافظ میراث زبانی و هنری هزارساله ایران، امروزه بیش از هر زمان نیازمند پژوهش‌های نوین و روش‌مند است. در دنیای آکادمیک امروز، <strong>انجام پایان نامه زبان و ادبیات فارسی</strong> نیازمند گذار از شرح‌حال‌نویسی و نقل‌محوری صرف به سوی پژوهش‌های تحلیلی مبتنی بر چارچوب‌های نظری روزآمد و منابع دست اول است. کمیته‌های داوری در دانشکده‌های زبان و ادبیات فارسی، اصالت پژوهش را در چگونگی پیوند «متن ادبی» با «نظریه منسجم» و امانت‌داری در ارجاع به نسخه و منبع ارزیابی می‌کنند. اگر برای مقاطع کارشناسی ارشد یا دکتری در جست‌وجوی مسیری مطمئن برای <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> هستید، این راهنمای جامع از سوی دپارتمان تخصصی زبان و ادبیات فارسی گروه تز پژوه تدوین شده تا شما را در تمام مراحل، از گزینش موضوع تا جلسه دفاع، همراهی کند.
+          رشته زبان و ادبیات فارسی، حافظ میراث زبانی و هنری هزارساله ایران، امروزه بیش از هر زمان نیازمند پژوهش‌های نوین و روش‌مند است. در دنیای آکادمیک امروز، <strong>انجام پایان نامه زبان و ادبیات فارسی</strong> نیازمند گذار از شرح‌حال‌نویسی و نقل‌محوری صرف به سوی پژوهش‌های تحلیلی مبتنی بر چارچوب‌های نظری روزآمد و منابع دست اول است. کمیته‌های داوری در دانشکده‌های زبان و ادبیات فارسی، اصالت پژوهش را در چگونگی پیوند «متن ادبی» با «نظریه منسجم» و امانت‌داری در ارجاع به نسخه و منبع ارزیابی می‌کنند. اگر برای مقاطع کارشناسی ارشد یا دکتری در جست‌وجوی مسیری مطمئن برای <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> هستید، این راهنمای جامع از سوی دپارتمان تخصصی زبان و ادبیات فارسی گروه تز پژوه تدوین شده تا شما را در تمام مراحل، از گزینش موضوع تا جلسه دفاع، همراهی کند.
         </p>
 
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه زبان و ادبیات فارسی فرآیندی تخصصی شامل شناسایی خلأ پژوهشی در ادبیات پژوهش، انتخاب موضوعی مشخص و بکر با منابع دست اول در دسترس، تدوین پروپوزال بر پایه چارچوب نظری منسجم، تصحیح یا تحلیل متن بر اساس روش‌شناسی معتبر، و تدوین فصول رساله طبق شیوه‌نامه‌های دانشگاهی است.
         </p>
 
         {renderCTA()}
 
         <h2>ارکان روش‌شناختی در انجام پایان نامه زبان و ادبیات فارسی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایان‌نامه زبان و ادبیات فارسی بر سه رکن اساسی تکیه دارد: تعریف شفاف متن یا پیکره مورد مطالعه (متنی مشخص، دوران معین یا سراینده‌ای ویژه)، انتخاب چارچوب نظری متناسبی که ابزار تحلیل فراهم می‌کند و اتکا به منابع دست اول معتبر به‌جای برداشت‌های واسطه‌ای و دومی.
         </p>
         <p>
           تفاوت بنیادین پژوهش ادبی موفق با متون ضعیف در «نظریه‌محوری» استدلال آن نهفته است؛ محقق باید نشان دهد از کدام منظر و با چه ابزار مفهومی به متن نگریسته است. هیئت داوران در گام نخست بررسی می‌کنند که آیا تحلیل‌های ارائه‌شده صرفاً ذوق‌گویی و تعریف و تمجید هستند یا یک استدلال علمی مستند را پیش می‌برند؛ به همین دلیل هر بخش از تحلیل باید پاسخ‌گوی بخشی از پرسش پژوهش و متصل به چارچوب نظری فصل دوم باشد.
         </p>
         <p>
-          در سال‌های اخیر، گرایش دانشکده‌های زبان و ادبیات فارسی به سمت موضوعات میان‌رشته‌ای و رویکردهای نو افزایش چشمگیری یافته است؛ روایت‌شناسی داستان‌های معاصر، تحلیل گفتمان متون تعلیمی، زیبایی‌شناسی دریافت در شعر سپید، جامعه‌شناسی ادبیات و مطالعات فولکلور و ادبیات عامیانه از پربسامدترین حوزه‌ها هستند. پژوهشگران برای گردآوری پیشینه معتبر و دسترسی به مقالات داوری‌شده غالباً از پایگاه‌های مرجعی مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>نورمگز</a> و <a href="https://www.ensani.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>پایگاه اطلاعات علوم انسانی (پژوهشگاه علوم انسانی)</a> بهره می‌برند تا ادبیات پژوهش خود را با استانداردهای روز غنا بخشند.
+          در سال‌های اخیر، گرایش دانشکده‌های زبان و ادبیات فارسی به سمت موضوعات میان‌رشته‌ای و رویکردهای نو افزایش چشمگیری یافته است؛ روایت‌شناسی داستان‌های معاصر، تحلیل گفتمان متون تعلیمی، زیبایی‌شناسی دریافت در شعر سپید، جامعه‌شناسی ادبیات و مطالعات فولکلور و ادبیات عامیانه از پربسامدترین حوزه‌ها هستند. پژوهشگران برای گردآوری پیشینه معتبر و دسترسی به مقالات داوری‌شده غالباً از پایگاه‌های مرجعی مانند <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>نورمگز</a> و <a href="https://www.ensani.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>پایگاه اطلاعات علوم انسانی (پژوهشگاه علوم انسانی)</a> بهره می‌برند تا ادبیات پژوهش خود را با استانداردهای روز غنا بخشند.
         </p>
 
         <h2>قلمروها و گرایش‌های پژوهشی در انجام پایان نامه زبان و ادبیات فارسی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> این رشته گستره وسیعی از ادبیات کهن (شعر و نثر کهن و تصحیح متون)، ادبیات معاصر (شعر و داستان)، فولکلور و ادبیات عامیانه و زبان‌شناسی و تاریخ زبان فارسی را پوشش می‌دهد؛ هر گرایش، منابع، ابزار و روش تحلیل ویژه خود را می‌طلبد.
         </p>
 
         <h3>۱. ادبیات کهن؛ شعر و نثر کهن و تصحیح متون</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پژوهش‌های این گرایش بر تحلیل آثار شاعران و نویسندگان دوره‌های کهن، تصحیح انتقادی نسخه‌های خطی منتشرنشده، بازنویسی و مقابله چاپ‌های ناقص و تحلیل درون‌متنی و برون‌متنی آثار تمرکز دارند و به تسلط بر زبان فارسی میانه و عربی و نسخه‌شناسی نیاز دارند.
         </p>
         <p>
-          موضوعات پربسامد این حوزه شامل تصحیح منظومه‌ها و رساله‌های منثور بدون چاپ، تحلیل جریان‌های فکری در متون تعلیمی، بررسی اقتباس‌ها و دوباره‌سرایی‌های کهن و بازخوانی آثار مغفول شاعران درگاهی و درباری است. برای آشنایی با رویکردهای تحلیلی هنری و پیوند میان‌رشته‌ای، مطالعه راهنمای <Link href="/services/art-research-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه پژوهش هنر</Link> پیشنهاد می‌شود؛ نکته کلیدی موفقیت در این گرایش، ارائه فهرست‌وار و مستند تفاوت نسخه‌ها و پرهیز از اتکا به چاپ‌های ناقص کتاب‌فروشی‌هاست.
+          موضوعات پربسامد این حوزه شامل تصحیح منظومه‌ها و رساله‌های منثور بدون چاپ، تحلیل جریان‌های فکری در متون تعلیمی، بررسی اقتباس‌ها و دوباره‌سرایی‌های کهن و بازخوانی آثار مغفول شاعران درگاهی و درباری است. برای آشنایی با رویکردهای تحلیلی هنری و پیوند میان‌رشته‌ای، مطالعه راهنمای <Link href="/services/art-research-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه پژوهش هنر</Link> پیشنهاد می‌شود؛ نکته کلیدی موفقیت در این گرایش، ارائه فهرست‌وار و مستند تفاوت نسخه‌ها و پرهیز از اتکا به چاپ‌های ناقص کتاب‌فروشی‌هاست.
         </p>
 
         <h3>۲. ادبیات معاصر؛ شعر و داستان</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پژوهش‌های این گرایش بر تحلیل جریان‌های شعری (نیمایی، سپید و موج نو)، روایت‌شناسی داستان‌های کوتاه و بلند، زیبایی‌شناسی دریافت، تحلیل مضامین اجتماعی و سیاسی ادبیات تعهد و بررسی آثار نویسندگان و شاعران معاصر تمرکز دارند.
         </p>
         <p>
@@ -182,7 +182,7 @@ export default function PersianLiteratureThesisPage() {
         </p>
 
         <h3>۳. فولکلور و ادبیات عامیانه</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پژوهش‌های فولکلور بر گردآوری و تحلیل متل، لطایف، ترانه‌های محلی، باورها و آیین‌های عامیانه از منظر مردم‌شناسی و ادبیات تطبیقی تمرکز دارند و ثبت میدانی به‌همراه ارجاع دقیق به گویشوران، اصل اعتبار پژوهش است.
         </p>
         <p>
@@ -190,7 +190,7 @@ export default function PersianLiteratureThesisPage() {
         </p>
 
         <h3>۴. زبان‌شناسی و تاریخ زبان فارسی</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> این گرایش با رویکردهای نظم نو، تحلیل شعر منثور، بررسی تحول آوایی و نحوی زبان فارسی از کهن تا نو و مطالعات گویشی، ساختار زبان شعر و نثر را به‌صورت علمی و مستند بررسی می‌کند.
         </p>
         <p>
@@ -198,18 +198,18 @@ export default function PersianLiteratureThesisPage() {
         </p>
 
         <h2>نقشه راه پنج‌گامی انجام پایان نامه زبان و ادبیات فارسی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مسیر موفق از پنج گام عبور می‌کند: انتخاب موضوع بکر و محدود، تدوین پروپوزال با چارچوب نظری مشخص، گردآوری منابع دست اول و نسخه‌شناسی، نگارش و تحلیل فصول رساله و در نهایت آمادگی نظام‌مند برای دفاع.
         </p>
 
         <h3>گام اول: انتخاب موضوع بکر و محدود</h3>
         <p>
-          انتخاب موضوع نخستین و تعیین‌کننده‌ترین تصمیم پژوهش است؛ موضوع باید خلأ واقعی ادبیات پژوهش را هدف بگیرد و دامنه‌ای محدود و قابل مدیریت داشته باشد. راهنمای تخصصی <Link href="/services/topic-selection" style={{ color: "#0d6efd" }}>ارائه موضوع پایان‌نامه</Link> برای یافتن موضوعات مستخرج از پژوهش‌های روز و غیرتکراری، نقطه شروع مطمئنی است.
+          انتخاب موضوع نخستین و تعیین‌کننده‌ترین تصمیم پژوهش است؛ موضوع باید خلأ واقعی ادبیات پژوهش را هدف بگیرد و دامنه‌ای محدود و قابل مدیریت داشته باشد. راهنمای تخصصی <Link href="/services/topic-selection" style={{ color: "var(--primary)" }}>ارائه موضوع پایان‌نامه</Link> برای یافتن موضوعات مستخرج از پژوهش‌های روز و غیرتکراری، نقطه شروع مطمئنی است.
         </p>
 
         <h3>گام دوم: تدوین پروپوزال استاندارد</h3>
         <p>
-          پروپوزال نقشه راه رساله است؛ بیان مسئله دقیق، پرسش‌های مشخص، ضرورت پژوهش و معرفی چارچوب نظری، ستون‌های آن هستند. برای آشنایی با ساختار و معیارهای تصویب در گروه‌های زبان و ادبیات فارسی، راهنمای <Link href="/services/proposal" style={{ color: "#0d6efd" }}>انجام پروپوزال</Link> را مطالعه کنید.
+          پروپوزال نقشه راه رساله است؛ بیان مسئله دقیق، پرسش‌های مشخص، ضرورت پژوهش و معرفی چارچوب نظری، ستون‌های آن هستند. برای آشنایی با ساختار و معیارهای تصویب در گروه‌های زبان و ادبیات فارسی، راهنمای <Link href="/services/proposal" style={{ color: "var(--primary)" }}>انجام پروپوزال</Link> را مطالعه کنید.
         </p>
 
         <h3>گام سوم: گردآوری منابع دست اول و نسخه‌شناسی</h3>
@@ -219,22 +219,22 @@ export default function PersianLiteratureThesisPage() {
 
         <h3>گام چهارم: تحلیل و نگارش فصول پنج‌گانه رساله</h3>
         <p>
-          فصل تحلیل باید زنجیره «متن، نظریه، یافته و تفسیر» را به‌صورت شفاف نشان دهد؛ راهنمای <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>تدوین فصول پایان‌نامه</Link> برای ساختاربندی این بخش ضروری است و امکان <Link href="/services/article-writing-acceptance" style={{ color: "#0d6efd" }}>استخراج و اکسپت مقاله</Link> از یافته‌های رساله نیز از همین مرحله فراهم می‌شود.
+          فصل تحلیل باید زنجیره «متن، نظریه، یافته و تفسیر» را به‌صورت شفاف نشان دهد؛ راهنمای <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>تدوین فصول پایان‌نامه</Link> برای ساختاربندی این بخش ضروری است و امکان <Link href="/services/article-writing-acceptance" style={{ color: "var(--primary)" }}>استخراج و اکسپت مقاله</Link> از یافته‌های رساله نیز از همین مرحله فراهم می‌شود.
         </p>
 
         <h3>گام پنجم: آمادگی نظام‌مند برای جلسه دفاع</h3>
         <p>
-          شبیه‌سازی دفاع با تمرکز بر پرسش‌های پرتکرار داوران ادبیات فارسی (دلیل انتخاب چارچوب نظری، اعتبار نسخه و چاپ اساس و انطباق تحلیل با پرسش پژوهش) اعتماد دانشجو را تضمین می‌کند؛ جزئیات کامل این مرحله در راهنمای <Link href="/services/training-consulting" style={{ color: "#0d6efd" }}>آموزش و مشاوره دفاع</Link> آمده است.
+          شبیه‌سازی دفاع با تمرکز بر پرسش‌های پرتکرار داوران ادبیات فارسی (دلیل انتخاب چارچوب نظری، اعتبار نسخه و چاپ اساس و انطباق تحلیل با پرسش پژوهش) اعتماد دانشجو را تضمین می‌کند؛ جزئیات کامل این مرحله در راهنمای <Link href="/services/training-consulting" style={{ color: "var(--primary)" }}>آموزش و مشاوره دفاع</Link> آمده است.
         </p>
 
         <h2>جدول مقایسه روش‌های پژوهش در پایان‌نامه زبان و ادبیات فارسی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انتخاب روش پژوهش تابع پرسش پژوهش است؛ برای بازآفرینی متن بی‌بدهی، تصحیح انتقادی، برای ساختار و رویدادهای داستان، روایت‌شناسی، برای معنا و تصویرسازی شعر، نقد ادبی نظریه‌مند، برای مناسبات قدرت و جامعه، تحلیل گفتمان و برای سنجش سبک و تحول زبان، سبک‌سنجی آماری مناسب‌ترین گزینه است.
         </p>
         <div style={{ overflowX: "auto", margin: "25px 0" }}>
           <table style={{ width: "100%", borderCollapse: "collapse", direction: "rtl" }}>
             <thead>
-              <tr style={{ backgroundColor: "#1a1a2e", color: "#fff" }}>
+              <tr style={{ backgroundColor: "var(--navy-800)", color: "#fff" }}>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>رویکرد و روش پژوهش</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>منابع و ابزار</th>
                 <th style={{ padding: "15px", border: "1px solid #ddd" }}>قابلیت‌های اصلی</th>
@@ -282,7 +282,7 @@ export default function PersianLiteratureThesisPage() {
         )}
 
         <h2>پنج اشتباه رایج در انجام پایان نامه زبان و ادبیات فارسی</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انتخاب موضوع وسیع و تکراری، نقل‌محوری بدون چارچوب نظری، اتکا به چاپ‌های ناقص به‌جای نسخه و چاپ معتبر، غفلت از شیوه‌نامه ارجاع‌دهی دانشگاه و جدایی فصل نظری از تحلیل کاربردی، پنج تله رایج پایان‌نامه‌های این رشته هستند.
         </p>
         <ol style={{ paddingRight: "25px", marginBottom: "30px" }}>
@@ -306,23 +306,23 @@ export default function PersianLiteratureThesisPage() {
         <h2>پاسخ به سوالات پرتکرار دانشجویان در انجام پایان نامه زبان و ادبیات فارسی</h2>
 
         <h3>چطور موضوع پایان نامه ادبیات فارسی را انتخاب کنیم که تکراری نباشد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موضوع ایده‌آل پرسشی مشخص و محدود را از متن یا پیکره‌ای معین می‌پرسد، با یک چارچوب نظری روزآمد تحلیل می‌شود و منابع دست اول آن در دسترس است؛ پیش از نهایی‌سازی، جست‌وجو در پایگاه‌های گاهنامه و دانشنامه‌های تخصصی ضروری است.
         </p>
         <p>
-          دانشجویان غالباً تمایل دارند عناوینی بسیار وسیع مانند «بررسی عرفان در شعر فارسی» انتخاب کنند، در حالی که پژوهش موفق بر متن و نظریه مشخص تمرکز دارد؛ برای مثال «تحلیل روایی داستان‌های کوتاه یک نویسنده با الگوی گرِماس». برای مقایسه دیدگاه‌ها و پیوندهای متقابل با رشته‌های مرتبط، مطالعه راهنماهای <Link href="/services/sociology-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه جامعه شناسی</Link> و فصول رساله <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>دکتری</Link> توصیه می‌شود.
+          دانشجویان غالباً تمایل دارند عناوینی بسیار وسیع مانند «بررسی عرفان در شعر فارسی» انتخاب کنند، در حالی که پژوهش موفق بر متن و نظریه مشخص تمرکز دارد؛ برای مثال «تحلیل روایی داستان‌های کوتاه یک نویسنده با الگوی گرِماس». برای مقایسه دیدگاه‌ها و پیوندهای متقابل با رشته‌های مرتبط، مطالعه راهنماهای <Link href="/services/sociology-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه جامعه شناسی</Link> و فصول رساله <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>کارشناسی ارشد</Link> و <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>دکتری</Link> توصیه می‌شود.
         </p>
 
         <h3>از کجا نسخه خطی و منابع دست اول برای رساله پیدا کنیم؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پایگاه‌های کتابخانه‌های بزرگ و مرکز بازنمایی میراث فرهنگی برای نسخه‌های خطی، و پایگاه‌های نورمگز و پژوهشگاه علوم انسانی برای مقالات داوری‌شده، نخستین مقصد پیشینه‌پژوهی هستند.
         </p>
         <p>
-          برای دسترسی به متن کامل مقالات فارسی داوری‌شده، <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>نورمگز</a> و <a href="https://www.ensani.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>پایگاه اطلاعات علوم انسانی</a> منابع اصلی هستند؛ در تصحیح متون نیز درخواست عکس نسخه از کتابخانه نگهدارنده و ثبت مشخصات کامل نسخه (مؤلف، مصنف، سنت، مکتب، نگارش و مورخ نسخه) اصل اعتبار کار است.
+          برای دسترسی به متن کامل مقالات فارسی داوری‌شده، <a href="https://www.noormags.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>نورمگز</a> و <a href="https://www.ensani.ir/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>پایگاه اطلاعات علوم انسانی</a> منابع اصلی هستند؛ در تصحیح متون نیز درخواست عکس نسخه از کتابخانه نگهدارنده و ثبت مشخصات کامل نسخه (مؤلف، مصنف، سنت، مکتب، نگارش و مورخ نسخه) اصل اعتبار کار است.
         </p>
 
         <h3>دفاع پایان نامه زبان و ادبیات فارسی چگونه با نمره عالی برگزار می‌شود؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ارائه اسلایدهای متمرکز با گزیده‌های متن و جدول‌های تحلیلی خوانا، تسلط بر چارچوب نظری به‌کاررفته، پرهیز از روخوانی متن و نمایش شفاف پیوند میان نظریه، متن و یافته‌ها، داوران را در روز دفاع متقاعد می‌سازد.
         </p>
         <p>
@@ -367,8 +367,8 @@ export default function PersianLiteratureThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: دپارتمان زبان و ادبیات فارسی گروه تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: دپارتمان زبان و ادبیات فارسی گروه تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این راهنمای کاربردی توسط پژوهشگران و اساتید دپارتمان زبان و ادبیات فارسی در گروه تخصصی تز پژوه تهیه شده است. این دپارتمان با بیش از ۱۶ سال تجربه مستمر در هدایت و مشاوره رساله‌های تحصیلات تکمیلی، متشکل از دانش‌آموختگان مقاطع کارشناسی ارشد و دکتری دانشگاه‌های برتر کشور است. تمرکز این تیم بر انطباق رویکردهای نظری روز با متون کهن و معاصر، استانداردسازی تصحیح و ارجاع‌دهی متون و ارتقای سطح کیفی پژوهش‌های ادبی است تا دانشجویان عزیز به نتایج درخشان علمی و افتخارات دانشگاهی دست یابند.
           </p>

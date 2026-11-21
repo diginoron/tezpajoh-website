@@ -13,8 +13,8 @@ export default function GlobalCTA() {
 
   return (
     <div className="container" style={{ marginBottom: '40px' }}>
-      <CTA 
-        title="نیاز به راهنمایی بیشتر دارید؟" 
+      <CTA
+        title="برای کدام بخش پژوهش به کمک نیاز دارید؟"
         text="همین حالا با کارشناسان ما تماس بگیرید و از مشاوره رایگان بهره‌مند شوید."
       />
     </div>

@@ -111,7 +111,7 @@ export default function ArchitectureThesisPage() {
     <div style={{ textAlign: "center", margin: "40px 0", padding: "30px", background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)", borderRadius: "12px", border: "1px solid #dee2e6", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
       <h3 style={{ marginBottom: "20px", color: "#2c3e50", fontSize: "1.5rem" }}>{heading}</h3>
       <p style={{ marginBottom: "25px", color: "#6c757d", fontSize: "1.1rem" }}>{description}</p>
-      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "#0d6efd", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
+      <a href="https://www.tezpajoh.ir/contact/" className="btn btn-primary btn-lg" style={{ padding: "0.9rem 2.5rem", fontSize: "1.15rem", borderRadius: "30px", backgroundColor: "var(--primary)", color: "#fff", textDecoration: "none", display: "inline-block", fontWeight: "bold", transition: "all 0.3s ease" }}>
         دریافت مشاوره تخصصی و سفارش
       </a>
     </div>
@@ -131,7 +131,7 @@ export default function ArchitectureThesisPage() {
 
       {/* کانتینر هدر */}
       <div className="page-header container" style={{ background: "none", paddingTop: "2rem", paddingBottom: "2rem", direction: "rtl" }}>
-        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "#1a1a2e", marginBottom: "15px", lineHeight: "1.4" }}>
+        <h1 style={{ fontSize: "2.5rem", fontWeight: "800", color: "var(--navy-800)", marginBottom: "15px", lineHeight: "1.4" }}>
           انجام پایان نامه معماری؛ راهنمای جامع از موضوع تا دفاع
         </h1>
         <div style={{ display: "flex", gap: "20px", color: "#777", fontSize: "0.95rem", alignItems: "center" }}>
@@ -144,7 +144,7 @@ export default function ArchitectureThesisPage() {
       {/* کانتینر محتوای اصلی */}
       <div className="page-content container" style={{ direction: "rtl", textAlign: "justify", lineHeight: "1.9", fontSize: "1.1rem", color: "#333", paddingBottom: "4rem", maxWidth: "900px", margin: "0 auto" }}>
         <p>
-          پایان‌نامه معماری برخلاف اغلب رشته‌های دانشگاهی، یک متن مکتوب به‌تنهایی نیست؛ ترکیبی از پژوهش مکتوب و پروژه طراحی است که باید هم‌زمان، هماهنگ و حول یک موضوع واحد پیش برود. همین ماهیت دوگانه است که پایان‌نامه معماری را هم جذاب‌تر و هم دشوارتر می‌کند: دانشجو باید هم‌زمان پژوهشگر باشد و طراح، و هم فصل‌های رساله را بنویسد و هم پلان، رندر و ماکت تحویل دهد. در این راهنمای جامع، تمام مراحل <a href="https://www.tezpajoh.ir/" style={{ color: "#0d6efd", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> معماری را از انتخاب موضوع و پروپوزال تا شیت‌بندی، ماکت و جلسه دفاع گام‌به‌گام مرور می‌کنیم و نشان می‌دهیم چگونه با روش پژوهش معتبر و طرحی قابل دفاع، این مسیر را بدون اتلاف وقت به پایان برسانید.
+          پایان‌نامه معماری برخلاف اغلب رشته‌های دانشگاهی، یک متن مکتوب به‌تنهایی نیست؛ ترکیبی از پژوهش مکتوب و پروژه طراحی است که باید هم‌زمان، هماهنگ و حول یک موضوع واحد پیش برود. همین ماهیت دوگانه است که پایان‌نامه معماری را هم جذاب‌تر و هم دشوارتر می‌کند: دانشجو باید هم‌زمان پژوهشگر باشد و طراح، و هم فصل‌های رساله را بنویسد و هم پلان، رندر و ماکت تحویل دهد. در این راهنمای جامع، تمام مراحل <a href="https://www.tezpajoh.ir/" style={{ color: "var(--primary)", fontWeight: "bold", textDecoration: "none" }}>انجام پایان نامه</a> معماری را از انتخاب موضوع و پروپوزال تا شیت‌بندی، ماکت و جلسه دفاع گام‌به‌گام مرور می‌کنیم و نشان می‌دهیم چگونه با روش پژوهش معتبر و طرحی قابل دفاع، این مسیر را بدون اتلاف وقت به پایان برسانید.
         </p>
 
         {renderCTA(
@@ -153,18 +153,18 @@ export default function ArchitectureThesisPage() {
         )}
 
         <h2>انجام پایان نامه معماری چیست؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> انجام پایان نامه معماری یعنی اجرای کامل دو بخش وابسته به هم: پروژه طراحی معماری (طرح نهایی) و رساله پژوهشی مکتوب که مبانی نظری، تحلیل نمونه‌ها و استدلال طراحی را مستند می‌کند؛ از انتخاب موضوع و تصویب پروپوزال تا شیت‌بندی، ماکت و دفاع نهایی.
         </p>
         <p>
           در اغلب دانشکده‌های معماری ایران، پایان‌نامه کارشناسی ارشد از یک «پروژه طراحی نهایی» و یک «رساله یا گزارش پژوهشی» تشکیل می‌شود و هر دو باید حول یک موضوع واحد بچرخند. برای مثال، اگر رساله شما درباره بازآفرینی بافت تاریخی باشد، پروژه طراحی باید طرحی — مانند باغ موزه یا مجموعه فرهنگی — در همان بافت و بر همان مبانی باشد. همین الزامِ انسجام است که پایان‌نامه معماری را از یک ترمین درس طراحی جدا می‌کند و آن را به یک پژوهش واقعی تبدیل می‌سازد.
         </p>
         <p>
-          در مقطع دکتری، وزن سمت پژوهشی سنگین‌تر است: رساله دکتری معماری باید نوآوری علمی مشخصی تولید کند و خروجی آن معمولاً باید قابل استخراج به مقاله معتبر باشد؛ بخش پژوهشی رساله دکتری با خدمت <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>رساله دکتری</Link> تز پژوه در تمام مراحل پشتیبانی می‌شود.
+          در مقطع دکتری، وزن سمت پژوهشی سنگین‌تر است: رساله دکتری معماری باید نوآوری علمی مشخصی تولید کند و خروجی آن معمولاً باید قابل استخراج به مقاله معتبر باشد؛ بخش پژوهشی رساله دکتری با خدمت <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>رساله دکتری</Link> تز پژوه در تمام مراحل پشتیبانی می‌شود.
         </p>
 
         <h2>چرا پایان‌نامه معماری متفاوت‌ترین پروژه دانشگاهی است؟</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> چون هم‌زمان دو قضاوت متفاوت را تحمل می‌کند: استدلال پژوهشی داوران درباره رساله و کیفیت طراحی درباره پروژه. بار زمانی طراحی (نقشه، رندر، ماکت) و پیوند بین‌رشته‌ای موضوعات، مدیریت زمان را به مهارت اصلی دانشجوی معماری تبدیل می‌کند.
         </p>
         <ul>
@@ -175,52 +175,52 @@ export default function ArchitectureThesisPage() {
         </ul>
 
         <h2>گام‌به‌گام؛ مراحل انجام پایان نامه معماری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> مسیر استاندارد پنج گام دارد: انتخاب موضوع و تعریف مسئله، تصویب پروپوزال، تدوین فصل‌های پژوهشی، اجرای پروژه طراحی همراه با ارائه دیداری و در نهایت آمادگی دفاع. زمان هر گام به نیاز داده میدانی و سرعت بازخورد استاد وابسته است.
         </p>
 
         <h3>گام ۱: انتخاب موضوع و تعریف مسئله پژوهشی</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موضوع خوب با یک مسئله واقعی شروع می‌شود نه با یک عنوان زیبا؛ منابع داوری‌شده روز، دسترسی به نمونه موردی و امکان تبدیل موضوع به طرح طراحی، سه معیار گزینش است. فهرست موضوعات پیشنهادی تز پژوه از مقالات روز دنیا استخراج می‌شود.
         </p>
         <p>
-          پیش از هر چیز بپرسید: «مسئله‌ای که طرح من قرار است حل کند چیست؟» موضوعاتی مانند معماری پایدار و انرژی، بازآفرینی بافت‌های فرسوده، مسکن گروهی و فضاهای آموزشی، هم مسئله واقعی دارند و هم ظرفیت طراحی. اگر هنوز موضوع قطعی ندارید، خدمت <Link href="/services/topic-selection" style={{ color: "#0d6efd" }}>ارائه موضوع پایان‌نامه</Link> تز پژوه موضوعات غیرتکراری را بر اساس مقالات ۲۰۲۶ به شما پیشنهاد می‌دهد.
+          پیش از هر چیز بپرسید: «مسئله‌ای که طرح من قرار است حل کند چیست؟» موضوعاتی مانند معماری پایدار و انرژی، بازآفرینی بافت‌های فرسوده، مسکن گروهی و فضاهای آموزشی، هم مسئله واقعی دارند و هم ظرفیت طراحی. اگر هنوز موضوع قطعی ندارید، خدمت <Link href="/services/topic-selection" style={{ color: "var(--primary)" }}>ارائه موضوع پایان‌نامه</Link> تز پژوه موضوعات غیرتکراری را بر اساس مقالات ۲۰۲۶ به شما پیشنهاد می‌دهد.
         </p>
 
         <h3>گام ۲: نگارش و تصویب پروپوزال</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> پروپوزال معماری باید بیان مسئله، سوالات پژوهشی، مبانی نظری، روش تحقیق و پیش‌فرض‌های طراحی را پوشش دهد؛ پروپوزال قوی، سرفصل هر دو بخش رساله و پروژه طراحی را از ابتدا هماهنگ می‌کند و ریسک بازگشت از داوری را حذف می‌کند.
         </p>
         <p>
-          اشتباه رایج، نوشتن پروپوزال صرفاً برای «تأیید شدن» است؛ در حالی که این سند، قرارداد شما با داوران است و در جلسه دفاع به آن ارجاع داده می‌شود. نمونه ساختار استاندارد و معیارهای تصویب در خدمت <Link href="/services/proposal" style={{ color: "#0d6efd" }}>انجام پروپوزال</Link> تز پژوه توضیح داده شده است.
+          اشتباه رایج، نوشتن پروپوزال صرفاً برای «تأیید شدن» است؛ در حالی که این سند، قرارداد شما با داوران است و در جلسه دفاع به آن ارجاع داده می‌شود. نمونه ساختار استاندارد و معیارهای تصویب در خدمت <Link href="/services/proposal" style={{ color: "var(--primary)" }}>انجام پروپوزال</Link> تز پژوه توضیح داده شده است.
         </p>
 
         <h3>گام ۳: تدوین فصل‌های پژوهشی</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> فصل‌های معمول رساله معماری: کلیات، مبانی نظری و پیشینه، تحلیل نمونه‌های موردی و تحلیل نهایی و جمع‌بندی. ستون فقرات رساله، فصل تحلیل نمونه‌هاست؛ داوران دقیقاً می‌سنجند که این تحلیل چگونه به استدلال طراحی شما منجر شده است.
         </p>
         <p>
-          در فصل پیشینه و تحلیل نمونه‌ها فقط به منابع داوری‌شده اتکا کنید؛ پایگاه‌هایی مانند <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>ScienceDirect</a> مقالات داوری معتبری درباره رفتار-محیط، معماری پایدار و فناوری‌های ساختمان ارائه می‌دهند. ساختاربندی و نگارش فصل‌به‌فصل در خدمت <Link href="/services/thesis-chapters" style={{ color: "#0d6efd" }}>تدوین فصول پایان‌نامه</Link> تز پژوه پشتیبانی می‌شود.
+          در فصل پیشینه و تحلیل نمونه‌ها فقط به منابع داوری‌شده اتکا کنید؛ پایگاه‌هایی مانند <a href="https://www.sciencedirect.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>ScienceDirect</a> مقالات داوری معتبری درباره رفتار-محیط، معماری پایدار و فناوری‌های ساختمان ارائه می‌دهند. ساختاربندی و نگارش فصل‌به‌فصل در خدمت <Link href="/services/thesis-chapters" style={{ color: "var(--primary)" }}>تدوین فصول پایان‌نامه</Link> تز پژوه پشتیبانی می‌شود.
         </p>
 
         <h3>گام ۴: اجرای پروژه طراحی و ارائه دیداری</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> طرح نهایی باید پاسخ معماریِ همان مسئله پژوهشی باشد: کانسپت مستخرج از رساله، برنامه فیزیکی مبتنی بر ضوابط، پلان و برش‌های کلیدی، رندر و شیت‌بندی استاندارد. کیفیت ارائه به‌اندازه کیفیت طراحی در نمره نهایی مؤثر است.
         </p>
         <p>
-          قبل از شروع طراحی، ضوابط را استخراج کنید: طرح تفصیلی و دستور طرح شهرداری، ضوابط اقلیمی و الزامات نظام مهندسی. برای غنی‌تر شدن استدلال طرح، مرور پروژه‌های نمونه جهانی در پلتفرمی مانند <a href="https://www.archdaily.com/" target="_blank" rel="noopener noreferrer" style={{ color: "#0d6efd" }}>ArchDaily</a> و تحلیل منطق فرم آن‌ها بسیار کمک‌کننده است؛ اما کپی‌برداری مستقیم فرم، در جلسه دفاع سریع شناسایی می‌شود.
+          قبل از شروع طراحی، ضوابط را استخراج کنید: طرح تفصیلی و دستور طرح شهرداری، ضوابط اقلیمی و الزامات نظام مهندسی. برای غنی‌تر شدن استدلال طرح، مرور پروژه‌های نمونه جهانی در پلتفرمی مانند <a href="https://www.archdaily.com/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--primary)" }}>ArchDaily</a> و تحلیل منطق فرم آن‌ها بسیار کمک‌کننده است؛ اما کپی‌برداری مستقیم فرم، در جلسه دفاع سریع شناسایی می‌شود.
         </p>
 
         <h3>گام ۵: آمادگی جلسه دفاع</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> دفاع معماری ترکیبی از ارائه پژوهش و ارائه طرح است؛ پوستر شاخص، پلان‌های کلیدی و ماکت یا مدل سه‌بعدی را آماده و ارائه خود را حداقل دو بار شبیه‌سازی کنید. پرسش‌های داوران معمولاً بر پیوند طرح با فصل‌های پژوهشی متمرکز است.
         </p>
         <p>
-          برای این جلسه فقط محتوا کافی نیست، ارائه باید تمرین شده باشد؛ شبیه‌سازی کامل جلسه با پرسش و پاسخ واقعی در خدمت <Link href="/services/training-consulting" style={{ color: "#0d6efd" }}>آموزش و مشاوره دفاع</Link> تز پژوه برگزار می‌شود تا در روز اصلی با اعتماد کامل حاضر شوید.
+          برای این جلسه فقط محتوا کافی نیست، ارائه باید تمرین شده باشد؛ شبیه‌سازی کامل جلسه با پرسش و پاسخ واقعی در خدمت <Link href="/services/training-consulting" style={{ color: "var(--primary)" }}>آموزش و مشاوره دفاع</Link> تز پژوه برگزار می‌شود تا در روز اصلی با اعتماد کامل حاضر شوید.
         </p>
 
         <h2>مقایسه روش‌های پژوهش رایج در پایان‌نامه معماری</h2>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> چهار روش رایج: مطالعه موردی، بررسی تطبیقی، پیمایش و رفتارشناسی محیطی و شبیه‌سازی. انتخاب روش باید از سوال پژوهشی بیرون بیاید نه از ساده‌بودن ابزار؛ در موضوعات نو، ترکیب دو روش (پژوهش ترکیبی) کیفیت نتیجه را بالاتر می‌برد.
         </p>
         <div style={{ overflowX: "auto" }}>
@@ -285,15 +285,15 @@ export default function ArchitectureThesisPage() {
         <h2>پاسخ به پرسش‌های رایج دانشجویان</h2>
 
         <h3>بهترین موضوع پایان نامه معماری چیست؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> موضوعی که مسئله واقعی، منابع داوری‌شده روز و قابلیت تبدیل به طرح طراحی داشته باشد؛ مانند معماری پایدار و انرژی، بازآفرینی بافت‌های شهری، مسکن و فضاهای آموزشی و درمانی. بهترین موضوع، موضوعی است که با علاقه و دسترسی میدانی شما هم بخواند.
         </p>
         <p>
-          برای رساله دکتری، موضوع باید نوآوری علمی روشن‌تری داشته باشد و تفاوت آن با پژوهش‌های قبلی مستند شود؛ راهنمای ساختار و الزامات این مقطع در صفحه <Link href="/phd-thesis" style={{ color: "#0d6efd" }}>رساله دکتری</Link> آمده است.
+          برای رساله دکتری، موضوع باید نوآوری علمی روشن‌تری داشته باشد و تفاوت آن با پژوهش‌های قبلی مستند شود؛ راهنمای ساختار و الزامات این مقطع در صفحه <Link href="/phd-thesis" style={{ color: "var(--primary)" }}>رساله دکتری</Link> آمده است.
         </p>
 
         <h3>نرم‌افزارهای لازم برای پایان‌نامه معماری کدام‌ها هستند؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> بسته موضوع متفاوت است: AutoCAD و SketchUp برای پایه، Rhino و Grasshopper برای فرم‌یابی پارامتریک، Revit (BIM) برای مستندسازی فنی و 3ds Max، V-Ray یا Lumion برای رندر. برای موضوعات پایداری و انرژی، افزونه‌های تحلیل انرژی نیز لازم می‌شوند.
         </p>
         <p>
@@ -301,11 +301,11 @@ export default function ArchitectureThesisPage() {
         </p>
 
         <h3>انجام پایان نامه معماری چقدر زمان و هزینه می‌برد؟</h3>
-        <p style={{ fontWeight: "500", backgroundColor: "#f8f9fa", padding: "15px", borderRight: "4px solid #0d6efd", margin: "20px 0" }}>
+        <p style={{ fontWeight: "500", backgroundColor: "var(--primary-soft)", padding: "15px", borderRight: "4px solid var(--primary)", margin: "20px 0" }}>
           <strong>پاسخ کوتاه:</strong> ارشد معمولاً ۴ تا ۷ ماه و رساله دکتری ۱۰ تا ۱۸ ماه زمان می‌برد؛ پروژه طراحی و بررسی میدانی، دو عامل اصلی زمان‌بر هستند. هزینه تابع مقطع، حجم طرح طراحی و نیاز به تحلیل میدانی است؛ پس از جلسه مشاوره رایگان، پیشنهاد شفاف دریافت می‌کنید.
         </p>
         <p>
-          بزرگ‌ترین عامل تاخیر، موکول‌کردن پروژه طراحی به ماه‌های آخر است؛ با زمان‌بندی موازی (پژوهش و طراحی هم‌زمان) این ریسک حذف می‌شود. برنامه زمان‌بندی مرحله‌به‌مرحله در مقاله <Link href="/blog/thesis-checklist-1405" style={{ color: "#0d6efd" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> وبلاگ ما به تفصیل آمده و راهنمای عمومی مقطع ارشد نیز در صفحه <Link href="/masters-thesis" style={{ color: "#0d6efd" }}>پایان‌نامه ارشد</Link> موجود است.
+          بزرگ‌ترین عامل تاخیر، موکول‌کردن پروژه طراحی به ماه‌های آخر است؛ با زمان‌بندی موازی (پژوهش و طراحی هم‌زمان) این ریسک حذف می‌شود. برنامه زمان‌بندی مرحله‌به‌مرحله در مقاله <Link href="/blog/thesis-checklist-1405" style={{ color: "var(--primary)" }}>چک‌لیست مراحل انجام پایان‌نامه</Link> وبلاگ ما به تفصیل آمده و راهنمای عمومی مقطع ارشد نیز در صفحه <Link href="/masters-thesis" style={{ color: "var(--primary)" }}>پایان‌نامه ارشد</Link> موجود است.
         </p>
 
         {renderCTA(
@@ -351,8 +351,8 @@ export default function ArchitectureThesisPage() {
         </p>
 
         {/* درباره نویسنده */}
-        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid #0d6efd", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
-          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "#1a1a2e" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
+        <div style={{ marginTop: "50px", padding: "25px", backgroundColor: "#fdfdfd", borderTop: "3px solid var(--primary)", borderRadius: "8px", display: "flex", flexDirection: "column", gap: "15px" }}>
+          <h4 style={{ margin: "0", fontSize: "1.3rem", color: "var(--navy-800)" }}>درباره نویسنده: گروه تخصصی تز پژوه</h4>
           <p style={{ margin: "0", color: "#555", fontSize: "1rem", lineHeight: "1.7" }}>
             این مقاله توسط دپارتمان تحقیق و توسعه گروه تخصصی تز پژوه به رشته تحریر درآمده است. این مجموعه با بیش از ۱۶ سال سابقه مستمر تحقیقاتی، متشکل از نخبگان، فارغ‌التحصیلان ممتاز و اساتید دانشگاه‌های برتر کشور است. تز پژوه با تمرکز بر رعایت دقیق اصول آکادمیک، بهینه‌سازی فرآیندهای پژوهشی و استفاده از به‌روزترین متدهای علمی، تاکنون راهنمای صدها دانشجو در موفقیت‌آمیزترین جلسات دفاع مقاطع ارشد و دکتری بوده است.
           </p>

@@ -56,14 +56,14 @@ export default async function BlogIndex({
   return (
     <div className={`container`} style={{ padding: '60px 0', minHeight: '80vh' }}>
       <div className={styles.sectionHeader}>
-        <h1 className="text-gradient">موسسه انجام پایان نامه ارشد و دکتری تز پژوه</h1>
+        <h1 style={{ color: 'var(--navy-800)' }}>موسسه انجام پایان نامه ارشد و دکتری تز پژوه</h1>
         <p>آخرین مقالات، راهنماها و نکات طلایی برای موفقیت در پژوهش.</p>
       </div>
 
       <div className={styles.blogGrid} style={{ marginBottom: '50px' }}>
         {currentArticles.map((article) => (
           <Link key={article.id} href={article.link} className={`glass ${styles.blogCard}`}>
-            <h2>{article.title}</h2>
+            <h2 style={{ color: 'var(--navy-800)' }}>{article.title}</h2>
             <p style={{ color: 'var(--text-muted)', marginTop: '10px' }}>{article.desc}</p>
             <span className={styles.readMore} style={{ marginTop: '20px' }}>مطالعه مقاله</span>
           </Link>
@@ -113,7 +113,6 @@ export default async function BlogIndex({
               </Link>
             );
           })}
-
           {/* دکمه صفحه بعد */}
           {currentPage < totalPages ? (
             <Link 
