@@ -38,6 +38,10 @@ export default function MastersThesisPillar() {
           <h2>مراحل صفر تا صد انجام پایان‌نامه ارشد در تز پژوه</h2>
           <p>ما در تز پژوه، کل فرآیند را به فازهای کاملاً مشخص و زمان‌بندی شده تقسیم کرده‌ایم تا دانشجو دچار سردرگمی نشود:</p>
 
+          <div style={{ textAlign: 'center', margin: '30px 0' }}>
+            <img src="/images/masters-thesis-steps.jpg" alt="مراحل انجام پایان‌نامه ارشد" style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px' }} />
+          </div>
+
           <div className={styles.featureBox}>
             <ul style={{ margin: 0, padding: '0 20px' }}>
               <li><strong>فاز اول: انتخاب موضوع (Topic Selection)</strong> - استخراج ۳ الی ۵ موضوع جذاب و به‌روز از مقالات Q1 و Q2 چاپ شده در سال‌های 2025 و 2026 در ژورنال‌های معتبر (مانند ساینس دایرکت و اسپرینگر). موضوعات به همراه مقالات بیس برای بررسی توسط استاد راهنما ارسال می‌شوند.</li>
