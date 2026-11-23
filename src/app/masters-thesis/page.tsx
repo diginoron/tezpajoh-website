@@ -39,7 +39,7 @@ export default function MastersThesisPillar() {
           <p>ما در تز پژوه، کل فرآیند را به فازهای کاملاً مشخص و زمان‌بندی شده تقسیم کرده‌ایم تا دانشجو دچار سردرگمی نشود:</p>
 
           <div style={{ textAlign: 'center', margin: '30px 0' }}>
-            <img src="/images/masters-thesis-steps.jpg" alt="مراحل انجام پایان‌نامه ارشد" style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px' }} />
+            <img src="/images/masters-thesis-steps.jpg" alt="مراحل صفر تا صد انجام پایان‌نامه ارشد در تز پژوه: از انتخاب موضوع تا دفاع" width={608} height={453} loading="lazy" style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px' }} />
           </div>
 
           <div className={styles.featureBox}>
